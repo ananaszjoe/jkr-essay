@@ -62,5 +62,55 @@
     "accessedOn": "2026-09-04",
     "url": "https://www.jkrowling.com/opinions/j-k-rowling-writes-about-her-reasons-for-speaking-out-on-sex-and-gender-issues/",
     "type": "original-essay"
+  },
+  {
+    "id": "source-pinknews-rowling-like-2018",
+    "title": "JK Rowling reps blame 'middle-aged moment' for liking tweet calling trans women 'men in dresses'",
+    "authors": ["Nick Duffy"],
+    "publisher": "PinkNews",
+    "publishedOn": "2018-03-22",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.thepinknews.com/2018/03/22/jk-rowling-reps-blame-middle-aged-moment-for-liking-tweet-calling-trans-women-men-in-dresses/",
+    "type": "news"
+  },
+  {
+    "id": "source-pinknews-rowling-following-2019",
+    "title": "JK Rowling under fire for following a 'proud transphobe' on Twitter",
+    "authors": ["Emma Powys Maurice"],
+    "publisher": "PinkNews",
+    "publishedOn": "2019-06-25",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.thepinknews.com/2019/06/25/jk-rowling-under-fire-following-transphobe-twitter/",
+    "type": "news"
+  },
+  {
+    "id": "source-guardian-rowling-forstater-2019",
+    "title": "JK Rowling in row over court ruling on transgender issues",
+    "authors": ["Alison Flood"],
+    "publisher": "The Guardian",
+    "publishedOn": "2019-12-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.theguardian.com/books/2019/dec/19/jk-rowling-trans-row-court-ruling-twitter-maya-forstater",
+    "type": "news"
+  },
+  {
+    "id": "source-morning-star-berns-obituary-2019",
+    "title": "A feminist with a vivid love of life, gone too soon",
+    "authors": ["Deborah Lavin", "Susan Chynoweth"],
+    "publisher": "Morning Star",
+    "publishedOn": "2019-09-20",
+    "accessedOn": "2026-09-04",
+    "url": "https://morningstaronline.co.uk/article/f/feminist-vivid-love-life-gone-too-soon",
+    "type": "news"
+  },
+  {
+    "id": "source-afterellen-berns-2019",
+    "title": "Celebrating Magdalen Berns, a Lesbian Feminist Warrior",
+    "authors": ["Les Nation"],
+    "publisher": "AfterEllen",
+    "publishedOn": "2019-09-13",
+    "accessedOn": "2026-09-04",
+    "url": "https://afterellen.com/celebrating-magdalen-berns-a-lesbian-feminist-warrior/",
+    "type": "news"
   }
 ]

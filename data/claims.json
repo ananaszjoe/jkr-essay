@@ -328,6 +328,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "gender specialists"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she read material by gender specialists, but she did not identify the specialists or works in this passage.",
+      "analysis": "The essay establishes that Rowling made this first-person statement. Without names, titles, dates, or reading records, neither the authors' expertise nor Rowling's reading of their work can be independently checked.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling lists gender specialists among the people whose books, blogs, or articles she says she read."}],
+      "limitations": "The source material and specialists are not identified.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -339,6 +351,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "intersex people"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she read material by intersex people, but she did not identify the authors or works.",
+      "analysis": "The essay is evidence that Rowling made this autobiographical statement, not independent evidence of the reading itself. The absence of identifiable authors, titles, or dates prevents verification.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling includes intersex people among the authors whose material she says she read."}],
+      "limitations": "No particular source or author is named.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -350,6 +374,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "psychologists"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports reading material by psychologists but supplies no identifiable bibliography.",
+      "analysis": "Her essay confirms the statement was made. It does not name psychologists or works, so the qualifications of the authors and whether Rowling read them cannot be independently established.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling lists psychologists among the authors she says she read."}],
+      "limitations": "No authors, titles, or reading dates are provided.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -361,6 +397,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "safeguarding experts"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports reading safeguarding experts but does not identify them or their work.",
+      "analysis": "The claim concerns private reading activity. Rowling's essay is direct testimony that she did it, but the lack of names, titles, and dates leaves no independent verification path.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling lists safeguarding experts among the authors she says she read."}],
+      "limitations": "No identifiable expert or publication is supplied.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -372,6 +420,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "social workers"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she read material by social workers, but the material is not identified.",
+      "analysis": "The essay documents Rowling's first-person account. It offers no names or publications against which the underlying reading activity could be checked.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling includes social workers among the authors whose material she says she read."}],
+      "limitations": "The assertion rests solely on Rowling's account.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -383,6 +443,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "doctors"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she read material by doctors, but she provides no names or works in this passage.",
+      "analysis": "The statement is a private reading claim supported only by Rowling's own account. Without an identifiable bibliography, it cannot be independently verified.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “My interest in trans issues”", "note": "Rowling lists doctors among the authors she says she read."}],
+      "limitations": "No doctors, publications, or dates are identified.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -394,6 +466,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "crime series", "research"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling identifies her contemporary crime series as one reason for her research, but that creative motivation is known only from her account.",
+      "analysis": "It is publicly verifiable that Rowling writes a contemporary crime series under the Robert Galbraith name. The claimed connection between that work and her research into transgender issues concerns her private creative process, however, and cannot be independently demonstrated from publication history alone.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “On one level”", "note": "Rowling explicitly connects part of her interest to writing her crime series."}],
+      "limitations": "The existence of the series is checkable; the reason for an author's private research is not independently verifiable.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -405,6 +489,18 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "other",
+    "checkability": "partly-checkable",
+    "tags": ["crime series", "female detective", "authorial intent"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The crime series has a contemporary female detective, but whether these issues would affect or interest the fictional character is an authorial premise rather than a testable fact.",
+      "analysis": "Rowling's essay supplies the author's own explanation of the character and intended relevance of the topic. A fictional character's prospective interests and experiences are determined by the author and cannot be independently fact-checked in the ordinary sense.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “On one level”", "note": "Rowling states that her fictional female detective is of an age to be interested in and affected by the issues."}],
+      "limitations": "This is a statement of authorial conception about a fictional character.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -416,6 +512,22 @@
       "paragraphIds": [
         "p004"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["Twitter", "accusations", "threats", "trans activists"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Public reporting documents accusations directed at Rowling before the Forstater controversy, but the claim of threats during that earlier period is not independently substantiated by the available evidence.",
+      "analysis": "Contemporaneous coverage from March 2018 records viral messages accusing Rowling of liking a transphobic tweet, and June 2019 coverage documents renewed criticism over accounts she followed. This supports the accusation component and the timing before December 2019. Rowling's essay additionally reports threats, but it does not reproduce or identify them, and the available contemporary reports reviewed here document criticism rather than threats. The compound claim is therefore only partly established.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-like-2018", "stance": "supports", "locator": "Published 22 March 2018", "note": "Contemporaneous coverage reproduces multiple accusations directed at Rowling after the Twitter like."},
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "supports", "locator": "Published 25 June 2019", "note": "Coverage records further public accusations before the Forstater controversy."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "contextualizes", "locator": "Paragraph beginning “All the time I've been researching”", "note": "Rowling herself reports both accusations and threats but does not identify the alleged threats in this passage."}
+      ],
+      "limitations": "Deleted posts, private messages, and unarchived replies may not be recoverable; absence from the reviewed public record does not prove that no threats occurred.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -427,6 +539,21 @@
       "paragraphIds": [
         "p004"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Twitter", "like", "March 2018", "controversy"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "A March 2018 Twitter like prompted viral criticism and public scrutiny of Rowling's position on transgender issues.",
+      "analysis": "Contemporaneous reporting documents that Rowling's account liked a tweet referring to trans women as “men in dresses,” that critical responses went viral, and that her spokesperson described the like as accidental. Later reporting continued to identify this incident as the earliest widely reported controversy over her position. This supports Rowling's description of the initial controversy beginning with a like, without establishing whether the click itself was intentional.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-like-2018", "stance": "supports", "locator": "Published 22 March 2018", "note": "The contemporary report documents the like, the viral criticism, and the spokesperson's claim that it was accidental."},
+        {"sourceId": "source-guardian-rowling-forstater-2019", "stance": "contextualizes", "locator": "Published 19 December 2019", "note": "The Guardian's Forstater coverage notes that Rowling had previously been criticised for the 2018 like."}
+      ],
+      "limitations": "The public record establishes the like and resulting controversy, but not Rowling's intent when clicking it.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -438,6 +565,18 @@
       "paragraphIds": [
         "p004"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "Twitter", "screenshots", "research"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she saved screenshots for later research, but this private activity cannot be independently verified from the material identified in the essay.",
+      "analysis": "The essay is direct testimony that Rowling screenshot gender-related comments while researching the subject. It does not publish the screenshots, identify a collection, or provide dates and records that would allow an independent check. The claim is therefore documented as her account, not established independently.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “All the time I've been researching”", "note": "Rowling states that she began screenshotting comments she wanted to revisit later."}],
+      "limitations": "Private files could verify the activity, but none are identified or available in the cited public record.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -449,6 +588,21 @@
       "paragraphIds": [
         "p004"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "Twitter", "like", "intent"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling and her spokesperson both described the like as accidental, but the intention behind a single click cannot be independently established.",
+      "analysis": "Contemporaneous reporting records that Rowling's representative denied that she intentionally liked the tweet. Rowling later gave a more specific account, saying she meant to take a screenshot and clicked like absent-mindedly. Those accounts are consistent, but both ultimately derive from Rowling's side; the public record confirms the like, not her state of mind at the moment it occurred.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-like-2018", "stance": "supports", "locator": "Published 22 March 2018", "note": "Rowling's spokesperson said at the time that the like was not intentional."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “All the time I've been researching”", "note": "Rowling says she clicked like absent-mindedly while intending to save a screenshot."}
+      ],
+      "limitations": "Consistent first-party explanations do not independently prove intent, and no external record can show what Rowling meant to press.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -460,6 +614,22 @@
       "paragraphIds": [
         "p004"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "Twitter", "harassment", "criticism"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Contemporaneous reports document sustained public criticism after the like, but they do not establish the duration or fully verify Rowling's characterization of it as persistent harassment.",
+      "analysis": "The March 2018 report records that criticism of Rowling's like spread widely and reproduces multiple hostile or accusatory responses. A June 2019 report documents renewed criticism connected to accounts she followed. This shows recurring adverse attention over time. However, the available reporting does not provide a complete archive or a defined measure of persistence, and whether particular speech amounts to harassment requires context. The evidence supports the underlying pattern only in part.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-like-2018", "stance": "supports", "locator": "Published 22 March 2018", "note": "The report documents viral criticism immediately following the like."},
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "contextualizes", "locator": "Published 25 June 2019", "note": "Later coverage documents another wave of criticism tied to Rowling's Twitter activity."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “All the time I've been researching”", "note": "Rowling characterizes what followed the like as persistent low-level harassment."}
+      ],
+      "limitations": "The reviewed reports sample public reactions rather than preserving all replies, direct messages, deleted posts, or their frequency.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -471,6 +641,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Magdalen Berns", "Twitter", "follow"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporaneous reporting documented that Rowling's Twitter account followed Magdalen Berns by June 2019.",
+      "analysis": "PinkNews reported the follow on 25 June 2019, linked to a screenshot posted two days earlier, and sought comment from Rowling's representatives. The response did not dispute the follow, instead saying that Rowling followed a wide range of people she found interesting or thought-provoking. This independently supports the event described in the essay.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "supports", "locator": "Lines reporting the 23 June 2019 screenshot and representatives' response", "note": "Contemporaneous coverage documents the follow and records a response from Rowling's representatives."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “Months later”", "note": "Rowling says she was detected following Berns."}
+      ],
+      "limitations": "The evidence establishes that the account followed Berns, but not the precise moment the follow began.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -482,6 +667,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "feminism", "activism"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporaneous profiles and memorials consistently identify Berns as a feminist activist and speaker.",
+      "analysis": "A posthumous profile written by people who knew Berns describes her work on women's issues, campaigning with feminist groups, and prominence as a feminist speaker. A lesbian publication's memorial likewise identifies her politics as feminist. These descriptions, together with her documented activism, support the claim.",
+      "evidence": [
+        {"sourceId": "source-morning-star-berns-obituary-2019", "stance": "supports", "locator": "Biographical section following the diagnosis", "note": "The obituary describes Berns's activism on women's issues and calls her a prominent feminist speaker."},
+        {"sourceId": "source-afterellen-berns-2019", "stance": "supports", "locator": "Title and opening paragraphs", "note": "The memorial identifies Berns as a lesbian feminist and discusses her feminist politics."}
+      ],
+      "limitations": "Political identity is partly self-defined, but the description is consistent across contemporary accounts of Berns's public work.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -493,6 +693,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "lesbian", "sexual orientation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporary accounts identify Berns as a lesbian and document her advocacy focused on lesbian rights.",
+      "analysis": "The Morning Star obituary describes Berns's defense of lesbians' same-sex orientation, while AfterEllen's memorial explicitly identifies her as a lesbian and discusses her role in lesbian advocacy. The sources are aligned with her public self-presentation and support Rowling's description.",
+      "evidence": [
+        {"sourceId": "source-afterellen-berns-2019", "stance": "supports", "locator": "Title and paragraphs describing her advocacy", "note": "The lesbian-focused publication explicitly identifies Berns as a lesbian feminist."},
+        {"sourceId": "source-morning-star-berns-obituary-2019", "stance": "supports", "locator": "Paragraph describing her university activism", "note": "The obituary documents Berns's advocacy for lesbians' right to assert their sexuality."}
+      ],
+      "limitations": "The conclusion relies on contemporary biographical descriptions and Berns's public advocacy rather than a separately published first-person declaration cited here.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -504,6 +719,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "glioblastoma", "brain tumour", "cancer"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporary accounts report that Berns had glioblastoma, an aggressive form of brain cancer.",
+      "analysis": "The Morning Star obituary reports a diagnosis of terminal brain cancer. AfterEllen identifies the diagnosis more specifically as glioblastoma and reproduces an August 2019 health update stating that the tumour had progressed despite treatment and that Berns was moving to palliative care. This supports Rowling's description of an aggressive brain tumour.",
+      "evidence": [
+        {"sourceId": "source-afterellen-berns-2019", "stance": "supports", "locator": "Health update reproduced in the article", "note": "The article identifies Berns's diagnosis as glioblastoma and reports progression to palliative care."},
+        {"sourceId": "source-morning-star-berns-obituary-2019", "stance": "supports", "locator": "Biographical paragraph reporting her diagnosis", "note": "The obituary states that Berns was diagnosed with terminal brain cancer."}
+      ],
+      "limitations": "The reviewed evidence is biographical reporting rather than a medical record, but the specific diagnosis is consistently reported.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -515,6 +745,22 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "terminal illness", "Twitter", "timeline"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Berns had terminal brain cancer when Rowling's follow was publicly documented in June 2019 and died less than three months later.",
+      "analysis": "Rowling's follow was publicly documented by 23 June 2019. Berns's obituary says she had been diagnosed with terminal brain cancer not long after graduating in 2016, and contemporary reporting records her death on 13 September 2019. Although “dying” is not a precise clinical stage, the established terminal diagnosis and short interval to her death support the ordinary meaning of the claim.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "supports", "locator": "Screenshot reported as posted 23 June 2019", "note": "This establishes that Rowling was following Berns by late June 2019."},
+        {"sourceId": "source-morning-star-berns-obituary-2019", "stance": "supports", "locator": "Published obituary for Magdalen Berns (1983–2019)", "note": "The obituary reports that Berns had terminal brain cancer."},
+        {"sourceId": "source-afterellen-berns-2019", "stance": "supports", "locator": "Update dated 13 September 2019", "note": "The article reports Berns's death and identifies her glioblastoma diagnosis."}
+      ],
+      "limitations": "“Dying” is informal and does not specify a prognosis or care stage as of the exact follow date.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -526,6 +772,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "Magdalen Berns", "Twitter", "intent", "private contact"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says her purpose in following Berns was to contact her directly, but this private motive is not independently verifiable.",
+      "analysis": "The public record confirms that Rowling followed Berns, but contemporaneous reporting did not establish why. At the time, Rowling's representative offered only a general statement that she followed people she found interesting or thought-provoking. Rowling's later essay supplies a specific purpose, but no dated message or corroborating account is identified.",
+      "evidence": [
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “Months later”", "note": "Rowling states that she followed Berns because she wanted to contact her directly."},
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "contextualizes", "locator": "Representatives' response near the end of the report", "note": "The contemporaneous response confirms neither this specific purpose nor a private contact."}
+      ],
+      "limitations": "A person's private motive cannot be inferred from the follow itself; no contemporaneous message or independent confirmation is cited.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -537,6 +798,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "event",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "Magdalen Berns", "private contact"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that she contacted Berns, but no public message or independent confirmation identified in this review verifies the private exchange.",
+      "analysis": "The essay explicitly says that Rowling succeeded in contacting Berns. Because the alleged contact was direct and apparently private, absence from the public timeline is unsurprising. Still, the claim currently rests on Rowling's testimony alone: the reviewed sources confirm the follow and Berns's circumstances but not that a message reached her.",
+      "evidence": [
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “Months later”", "note": "Rowling states that she succeeded in contacting Berns directly."},
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "neutral", "locator": "Published 25 June 2019", "note": "Contemporaneous coverage confirms the follow but contains no evidence of the claimed private contact."}
+      ],
+      "limitations": "Private correspondence or confirmation from Berns or her representatives would be needed for independent verification.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
