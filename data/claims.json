@@ -1312,6 +1312,21 @@
       "paragraphIds": [
         "p008"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "Twitter", "mental health", "motivation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she reduced her Twitter use because it was harming her mental health, but that private motivation and effect cannot be independently measured.",
+      "analysis": "Public reporting verifies the long breaks in Rowling's Twitter activity. Her reason for taking them, however, is a retrospective account of her own mental state. No contemporaneous statement or clinical evidence is needed for her to describe her experience, but none is identified that would independently verify the causal claim.",
+      "evidence": [
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I'd stepped back”", "note": "Rowling says Twitter was doing nothing good for her mental health."},
+        {"sourceId": "source-sky-rowling-twitter-return-2019", "stance": "contextualizes", "locator": "Report of a six-month break", "note": "The report confirms the break but not Rowling's private reason for it."}
+      ],
+      "limitations": "The observable posting gap does not independently establish its motivation or mental-health effects.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1323,6 +1338,21 @@
       "paragraphIds": [
         "p008"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "The Ickabog", "Twitter", "COVID-19", "children's book"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Rowling publicly used Twitter while releasing The Ickabog free for children in lockdown; the public timeline supports the stated purpose, though motive remains self-reported.",
+      "analysis": "On 26 May 2020 Rowling announced that The Ickabog would be serialized online in 34 free daily instalments for children during lockdown and invited children to submit illustrations. This matches her account that she returned to share a free children's book. The launch and Twitter activity are public; whether this was her sole or decisive reason for returning is known only from her account, and reporting notes other tweets around the same period.",
+      "evidence": [
+        {"sourceId": "source-guardian-ickabog-2020", "stance": "supports", "locator": "Announcement and description of free daily instalments", "note": "Contemporaneous reporting documents the free lockdown publication and Rowling's social-media invitation for children's illustrations."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I'd stepped back”", "note": "Rowling says she returned because she wanted to share a free children's book during the pandemic."}
+      ],
+      "limitations": "The events and timing are public, but an author's private motivation cannot be fully established from posting history.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1334,6 +1364,21 @@
       "paragraphIds": [
         "p008"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "Twitter", "transgender issues", "criticism", "hostility"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "A renewed wave of criticism over transgender issues is well documented after Rowling resumed posting, but “hostile” is subjective and the public record is incomplete.",
+      "analysis": "Contemporaneous coverage documents extensive online criticism after Rowling's 6 June 2020 tweets, including accusations of transphobia and prominent public rebuttals. This occurred after her May promotion of The Ickabog and supports the sequence. However, criticism and hostility are not interchangeable, and the reporting does not archive all replies or substantiate every kind of abuse described in the essay.",
+      "evidence": [
+        {"sourceId": "source-time-rowling-radcliffe-2020", "stance": "supports", "locator": "Coverage of reactions to the 6 June 2020 tweets", "note": "Time documents widespread online criticism and public responses concerning transgender issues."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I'd stepped back”", "note": "Rowling characterizes the returning responses as activists swarming her timeline and using misogynistic slurs."}
+      ],
+      "limitations": "The evidence establishes renewed criticism, but the degree of hostility and full volume of responses cannot be measured from sampled reporting.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1345,6 +1390,21 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "other",
+    "checkability": "checkable",
+    "tags": ["TERF", "acronym", "definition"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "TERF is an acronym for trans-exclusionary radical feminist.",
+      "analysis": "Standard dictionary definitions and the account of the term's earliest credited user agree on the expansion. Capitalization and whether the final word is singular, plural, or the abstract noun “feminism” vary with grammatical context, but Rowling's definition is standard.",
+      "evidence": [
+        {"sourceId": "source-cambridge-terf-definition", "stance": "supports", "locator": "Dictionary definition", "note": "Cambridge defines TERF as an abbreviation of trans-exclusionary radical feminist."},
+        {"sourceId": "source-smythe-terf-origin-2018", "stance": "supports", "locator": "Opening account of the acronym", "note": "Viv Smythe gives the same expansion when discussing its 2008 use."}
+      ],
+      "limitations": "Some sources use “transgender-exclusionary” or “feminism,” but these are minor variants rather than a different core expansion.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1356,6 +1416,21 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "historical",
+    "checkability": "checkable",
+    "tags": ["TERF", "etymology", "Viv Smythe", "trans activists"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unsupported",
+      "summary": "The earliest surviving use is credited to Viv Smythe, a cisgender trans-inclusive feminist blogger—not to a trans activist.",
+      "analysis": "Smythe traces the acronym to her 2008 feminist blog post and identifies herself as a cisgender heterosexual woman. She acknowledges that trans women activists strongly influenced the discussion and that other contributors may be overlooked, but that is different from evidence that trans activists coined the term. Later scholarship likewise attributes the coinage to trans-inclusive radical feminists rather than specifically to trans activists.",
+      "evidence": [
+        {"sourceId": "source-smythe-terf-origin-2018", "stance": "contradicts", "locator": "Account of the 2008 posts and author's identity", "note": "The credited coiner identifies herself as cisgender and describes the term as shorthand created in a feminist discussion."},
+        {"sourceId": "source-amery-gender-critical-2025", "stance": "contradicts", "locator": "Section ‘Sex, gender and the gender critical movement’", "note": "The scholarly account says trans-inclusive radical feminists coined the term around 2008."}
+      ],
+      "limitations": "Smythe cautions that she may only be the first person whose online use survives, so absolute coinage cannot be proved; the available evidence nevertheless does not support Rowling's attribution.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1367,6 +1442,21 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": ["TERF", "radical feminism", "usage", "gender-critical movement"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Researchers document that TERF is now applied beyond radical feminists, although Rowling's quantitative wording cannot be measured precisely.",
+      "analysis": "Scholarship on contemporary usage says the term increasingly refers to transphobia or transphobic individuals generally and describes the UK gender-critical movement as a coalition including radical feminists, liberal feminists, social conservatives, and people with no prior feminist involvement. That supports Rowling's point that some people receiving the label are not radical feminists. No population or sample is defined, however, so “many women” is not independently quantifiable.",
+      "evidence": [
+        {"sourceId": "source-amery-gender-critical-2025", "stance": "supports", "locator": "Description of the movement's broad coalition", "note": "The study says contemporary UK gender-critical activism extends beyond radical feminists to liberal feminists, conservatives, and non-feminist actors."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph defining TERF", "note": "Rowling says the label is applied to a broad group, most of whom have never been radical feminists."}
+      ],
+      "limitations": "Evidence supports broadened usage, but not Rowling's implied proportion or a women-only count.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1378,6 +1468,18 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "event",
+    "checkability": "not-verifiable",
+    "tags": ["TERF", "mothers", "gay children", "homophobic bullying", "transition"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling gives no identifiable mother, statement, or incident through which this example can be independently checked.",
+      "analysis": "The example combines several details: a mother, a gay child, concern about transition as an escape from homophobic bullying, and use of the TERF label. No person, date, platform, quotation, or source is supplied, and no matching attributable case was identified in this review.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph defining TERF and listing examples", "note": "The essay presents this as one example of a person called a TERF."}],
+      "limitations": "Without an identifiable case, neither the label nor the mother's stated reasoning can be verified.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1389,6 +1491,21 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["TERF", "Marks & Spencer", "changing rooms", "criticism"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "A public 2019 dispute confirms that women objected to M&S's inclusive fitting-room policy, but the reviewed record does not show that the specific objectors were called TERFs.",
+      "analysis": "The Independent documented feminist campaigner Jean Hatchet's objection to the policy and hundreds of responses both supporting and opposing her. The report does not reproduce a response applying the word TERF to Hatchet or another identified M&S objector. Thus the policy controversy is verifiable, while the label attributed in Rowling's example is not.",
+      "evidence": [
+        {"sourceId": "source-independent-ms-fitting-rooms-2019", "stance": "contextualizes", "locator": "Report of Jean Hatchet's complaint and responses", "note": "The article confirms the objection and ensuing debate but does not document the TERF label."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph defining TERF and listing examples", "note": "Rowling presents an M&S objector as an example of someone called a TERF."}
+      ],
+      "limitations": "Deleted or unembedded social-media replies may have contained the label, but no attributable example was located.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1400,6 +1517,18 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Marks & Spencer", "changing rooms", "gender identity", "policy"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "M&S confirmed in 2019 that customers could choose the fitting room in which they felt comfortable according to their gender identity.",
+      "analysis": "During a public dispute in November 2019, M&S told The Independent that its inclusive policy allowed customers to choose a fitting room with respect to how they identified. The retailer also said transgender customers were encouraged to use whichever changing room they felt comfortable in. Individual lockable cubicles and staff intervention for inappropriate conduct were part of the stated arrangements.",
+      "evidence": [{"sourceId": "source-independent-ms-fitting-rooms-2019", "stance": "supports", "locator": "M&S statements in the report", "note": "The retailer confirms that fitting-room choice followed customers' gender identity and comfort."}],
+      "limitations": "Rowling's phrase “any man who says they identify as a woman” is her characterization; the documented policy refers to transgender customers and includes privacy safeguards.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1411,6 +1540,21 @@
       "paragraphIds": [
         "p009"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": ["radical feminism", "trans men", "gender-critical feminism", "birth sex"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "misleading-context",
+      "summary": "This describes a gender-critical radical-feminist position, but radical feminism is divided on trans inclusion and cannot accurately be treated as a single view.",
+      "analysis": "Research on gender-critical feminism reports that trans men may be regarded as female ‘wayward sisters’ because sex assigned at birth is treated as determinative. That supports the existence of the position Rowling describes. But the term TERF itself arose to distinguish trans-exclusionary radical feminists from trans-inclusive radical feminists, demonstrating that radical feminism is not uniform. Saying radical feminists generally include trans men on this basis erases that central division and also describes inclusion contrary to trans men's own gender identity.",
+      "evidence": [
+        {"sourceId": "source-amery-gender-critical-2025", "stance": "contextualizes", "locator": "Discussion of trans men as ‘wayward sisters’", "note": "The article documents this position within gender-critical thought while distinguishing it from feminism generally."},
+        {"sourceId": "source-smythe-terf-origin-2018", "stance": "contradicts", "locator": "Explanation of trans-inclusive and trans-exclusionary radical-feminist factions", "note": "The origin account explicitly says feminism is not monolithic and explains that the acronym distinguished rival radical-feminist positions."}
+      ],
+      "limitations": "No representative survey establishes what most radical feminists believe; positions vary by movement, period, and individual.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1422,6 +1566,21 @@
       "paragraphIds": [
         "p010"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["self-censorship", "gender-critical beliefs", "TERF", "transphobia", "free speech"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Surveys confirm that some people avoid discussing gender identity for fear of others' reactions, but they do not isolate accusations of transphobia or TERFism as the cause.",
+      "analysis": "Representative UK surveys reported by King's College London found that 34% of students had held back views on gender identity because of what others might think, with comparable self-censorship in the public. Respondents also cited avoiding arguments, ridicule, and safety concerns. This establishes a chilling effect around the subject. It does not show whether those people held gender-critical views or whether anticipated labels such as transphobe or TERF specifically caused their silence.",
+      "evidence": [
+        {"sourceId": "source-kcl-free-speech-2022", "stance": "supports", "locator": "Section on motivations for holding back opinions", "note": "Representative surveys document self-censorship on gender identity and fear of social reactions."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “But accusations of TERFery”", "note": "Rowling attributes people's silence to anticipated accusations of transphobia and TERFism."}
+      ],
+      "limitations": "The survey postdates the essay and measures gender-identity discussion generally, not this precise political position or causal mechanism.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1433,6 +1592,21 @@
       "paragraphIds": [
         "p010"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["institutions", "organisations", "gender-critical beliefs", "transphobia", "self-censorship"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling identifies no institution or decision that can be checked to establish this claimed motive for organisational silence.",
+      "analysis": "Research finds that some students perceive institutions as less tolerant of controversial viewpoints and that invitations to controversial speakers may be avoided. That is contextual evidence of institutional caution, not proof that institutions or organisations suppressed gender-critical positions because they anticipated being called transphobic. Rowling's causal generalization lacks named cases, decision records, or a defined population.",
+      "evidence": [
+        {"sourceId": "source-kcl-free-speech-2022", "stance": "contextualizes", "locator": "Findings on speaker invitations and institutional tolerance", "note": "The surveys document perceptions of inhibited speech but do not establish Rowling's specific institutional claim."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “But accusations of TERFery”", "note": "Rowling says institutions and organisations she admired were intimidated by such accusations."}
+      ],
+      "limitations": "No named institution, suppressed statement, internal record, or representative study of organisational motives is supplied.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1444,6 +1618,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Volant Charitable Trust", "Scotland", "social deprivation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling founded the Volant Charitable Trust, whose stated purpose is funding Scottish organisations and projects that alleviate social deprivation.",
+      "analysis": "The trust's official site says Rowling established it in 2000 and describes it as a grant-making trust primarily supporting Scotland-based charitable organisations and projects that alleviate social deprivation. This directly matches the claim.",
+      "evidence": [{"sourceId": "source-volant-about", "stance": "supports", "locator": "Origins and funding criteria", "note": "The trust identifies Rowling as its founder and states its Scottish social-deprivation remit."}],
+      "limitations": "This verifies the trust's declared remit, not the outcomes of every grant.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1455,6 +1641,21 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["Volant Charitable Trust", "women", "children", "young people"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The Volant Trust explicitly gives particular emphasis to women, children, and young people at risk.",
+      "analysis": "The trust's official description says it was established to alleviate social deprivation with particular emphasis on women, children, and young people at risk. Its funding criteria similarly require a strong focus on women and children in Scotland affected by hardship or disadvantage.",
+      "evidence": [
+        {"sourceId": "source-volant-about", "stance": "supports", "locator": "Purpose statement", "note": "The trust names women, children, and young people as its particular focus."},
+        {"sourceId": "source-volant-what-we-fund", "stance": "supports", "locator": "Programme criteria", "note": "The funding programme requires a strong focus on women and children facing hardship or disadvantage."}
+      ],
+      "limitations": "The official wording also includes young people, which the extracted claim omits.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1466,6 +1667,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Volant Charitable Trust", "women prisoners", "families", "grants"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The trust's published funding programme expressly covers support services for women prisoners and their families.",
+      "analysis": "Volant's official list of project areas includes support services for women prisoners and their families within its programme for women. This directly supports Rowling's description of the trust's work at the programme level.",
+      "evidence": [{"sourceId": "source-volant-what-we-fund", "stance": "supports", "locator": "Women project areas", "note": "The trust lists support services for women prisoners and their families among the projects it funds."}],
+      "limitations": "The page describes funding scope but does not identify a particular historical grant or amount.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1477,6 +1690,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Volant Charitable Trust", "domestic violence", "survivors", "grants"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The trust's official funding programme includes projects serving victims of domestic violence.",
+      "analysis": "Volant lists victims of domestic violence among the women served by its covered project areas. That official programme description supports the claim that the trust funds work for domestic-abuse survivors.",
+      "evidence": [{"sourceId": "source-volant-what-we-fund", "stance": "supports", "locator": "Women project areas", "note": "Victims of domestic violence are expressly included in the trust's funding scope."}],
+      "limitations": "The programme page does not provide a dated grant list or quantify support.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1488,6 +1713,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Volant Charitable Trust", "sexual abuse", "rape", "survivors", "grants"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The trust's official funding programme expressly covers projects for victims of sexual abuse and rape.",
+      "analysis": "Volant identifies victims of sexual abuse and rape among the beneficiaries in its women-focused project areas. This is direct institutional evidence for the claimed support.",
+      "evidence": [{"sourceId": "source-volant-what-we-fund", "stance": "supports", "locator": "Women project areas", "note": "The trust lists victims of sexual abuse and rape within the projects it funds."}],
+      "limitations": "The page establishes programme scope rather than naming a specific historical recipient or grant amount.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1499,6 +1736,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "multiple sclerosis", "University of Edinburgh", "medical research", "donation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The University of Edinburgh documents major donations from Rowling that established and expanded MS research facilities and projects.",
+      "analysis": "A 2019 University of Edinburgh release records Rowling's £15.3 million donation for facilities and research at the Anne Rowling Regenerative Neurology Clinic. It also states that the clinic was created following an earlier 2010 donation and focuses on multiple sclerosis and related neurological conditions. The funding claim is firmly established.",
+      "evidence": [{"sourceId": "source-edinburgh-rowling-ms-donation-2019", "stance": "supports", "locator": "University news release issued 11 September 2019", "note": "The university documents the £15.3 million gift, the earlier donation, and support for MS research projects."}],
+      "limitations": "The donations also support research and care relating to neurological conditions beyond MS.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1510,6 +1759,18 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": ["multiple sclerosis", "sex differences", "incidence", "disease course"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Research documents substantial sex differences in MS incidence and some differences in activity, progression, and prognosis.",
+      "analysis": "A peer-reviewed review finds a strong female predominance in MS and reports that sex can affect incidence, disease activity, clinical course, MRI measures, and prognosis. Some findings are more robust than others—for example, certain progression differences remain uncertain—but Rowling's broad statement that the disease behaves differently in males and females is supported.",
+      "evidence": [{"sourceId": "source-ms-sex-bias-review-2022", "stance": "supports", "locator": "Abstract and review of incidence, activity, progression, and prognosis", "note": "The review summarizes established and possible sex-related differences across multiple dimensions of MS."}],
+      "limitations": "Sex differences are population-level patterns, vary by MS subtype and life stage, and do not determine an individual patient's course.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1521,6 +1782,21 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "legal",
+    "checkability": "partly-checkable",
+    "tags": ["trans activism", "Gender Recognition Act", "legal gender", "legal sex", "self-determination"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Trans-rights campaigners sought changes to the process and scope of legal gender recognition, but the proposals did not generally redefine sex across equality law.",
+      "analysis": "The UK government consulted in 2018 on reforming how trans people obtain legal recognition of an acquired gender, and Stonewall later confirmed campaigning for a demedicalized self-determination system. This supports the claim insofar as activists sought changes affecting a person's legal gender—and, under the Gender Recognition Act, aspects of legal sex status. However, the consultation explicitly said it proposed no amendments to the Equality Act 2010 and framed reform as improving an existing recognition process, not replacing the legal concept of sex wholesale.",
+      "evidence": [
+        {"sourceId": "source-stonewall-gra-statement-2020", "stance": "supports", "locator": "Statement supporting demedicalized self-determination", "note": "Stonewall confirms that trans people and allies campaigned for substantive GRA reform."},
+        {"sourceId": "source-uk-gra-consultation-2018", "stance": "contextualizes", "locator": "Consultation description", "note": "The government describes reform of legal gender recognition while explicitly excluding amendments to the Equality Act."}
+      ],
+      "limitations": "“Trans activism” encompasses diverse actors and proposals; legal gender recognition, legal sex status, and the definition of sex in equality law are related but distinct.",
+      "updatedOn": "2026-09-04"
     }
   },
   {

@@ -151,5 +151,125 @@
     "accessedOn": "2026-09-04",
     "url": "https://news.sky.com/story/jk-rowlings-cryptic-tweet-sparks-rumours-of-new-harry-potter-film-11803667",
     "type": "news"
+  },
+  {
+    "id": "source-guardian-ickabog-2020",
+    "title": "JK Rowling announces new children's book, The Ickabog, to be published free online",
+    "authors": ["Alison Flood"],
+    "publisher": "The Guardian",
+    "publishedOn": "2020-05-26",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.theguardian.com/books/2020/may/26/jk-rowling-announces-new-childrens-book-the-ickabog-to-be-published-free-online",
+    "type": "news"
+  },
+  {
+    "id": "source-time-rowling-radcliffe-2020",
+    "title": "‘Transgender Women are Women.’ Daniel Radcliffe Speaks Out Against J.K. Rowling's Controversial Comments About Transgender People",
+    "authors": ["Madeleine Carlisle"],
+    "publisher": "Time",
+    "publishedOn": "2020-06-09",
+    "accessedOn": "2026-09-04",
+    "url": "https://time.com/5850542/daniel-radcliffe-harry-potter-j-k-rowling-transgender/",
+    "type": "news"
+  },
+  {
+    "id": "source-cambridge-terf-definition",
+    "title": "TERF — English meaning",
+    "publisher": "Cambridge Dictionary",
+    "accessedOn": "2026-09-04",
+    "url": "https://dictionary.cambridge.org/dictionary/english/terf",
+    "type": "other"
+  },
+  {
+    "id": "source-smythe-terf-origin-2018",
+    "title": "I'm credited with having coined the word ‘Terf’. Here's how it happened",
+    "authors": ["Viv Smythe"],
+    "publisher": "The Guardian",
+    "publishedOn": "2018-11-29",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.theguardian.com/commentisfree/2018/nov/29/im-credited-with-having-coined-the-acronym-terf-heres-how-it-happened",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-amery-gender-critical-2025",
+    "title": "‘Gender critical’ feminism as biopolitical project",
+    "authors": ["Fran Amery"],
+    "publisher": "Sexualities",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1177/13634607241257397",
+    "type": "research"
+  },
+  {
+    "id": "source-independent-ms-fitting-rooms-2019",
+    "title": "Marks & Spencer customer ‘outraged’ over gender-inclusive fitting rooms",
+    "authors": ["Olivia Petter"],
+    "publisher": "The Independent",
+    "publishedOn": "2019-11-01",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.the-independent.com/life-style/marks-spencer-changing-rooms-gender-women-men-a9180391.html",
+    "type": "news"
+  },
+  {
+    "id": "source-kcl-free-speech-2022",
+    "title": "Free speech in universities: new data reveals student and public perceptions",
+    "publisher": "King's College London",
+    "publishedOn": "2022-09-29",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.kcl.ac.uk/news/free-speech-in-universities-new-data-reveals-student-and-public-perceptions",
+    "type": "research"
+  },
+  {
+    "id": "source-volant-about",
+    "title": "About Us",
+    "publisher": "Volant Charitable Trust",
+    "accessedOn": "2026-09-04",
+    "url": "https://volanttrust.org/about-us/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-volant-what-we-fund",
+    "title": "What We Fund",
+    "publisher": "Volant Charitable Trust",
+    "accessedOn": "2026-09-04",
+    "url": "https://volanttrust.org/what-we-fund/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-edinburgh-rowling-ms-donation-2019",
+    "title": "J.K. Rowling donates further £15m to multiple sclerosis research",
+    "publisher": "University of Edinburgh",
+    "publishedOn": "2019-09-12",
+    "accessedOn": "2026-09-04",
+    "url": "https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/j.k._rowling_donates_further_ps15m_to_multiple_sclerosis_research_12.09.2019.pdf",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-ms-sex-bias-review-2022",
+    "title": "Sex bias in multiple sclerosis and neuromyelitis optica spectrum disorders: How it influences clinical course, MRI parameters and prognosis",
+    "publisher": "Frontiers in Neurology",
+    "publishedOn": "2022-08-10",
+    "accessedOn": "2026-09-04",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9396644/",
+    "type": "research"
+  },
+  {
+    "id": "source-uk-gra-consultation-2018",
+    "title": "Reform of the Gender Recognition Act 2004",
+    "authors": ["Government Equalities Office"],
+    "publisher": "GOV.UK",
+    "publishedOn": "2018-07-03",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.gov.uk/government/consultations/reform-of-the-gender-recognition-act-2004",
+    "type": "government-data"
+  },
+  {
+    "id": "source-stonewall-gra-statement-2020",
+    "title": "Stonewall statement on Gender Recognition Act reform",
+    "authors": ["Nancy Kelley"],
+    "publisher": "Stonewall",
+    "publishedOn": "2020-09-22",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.stonewall.org.uk/news/stonewall-statement-gender-recognition-act-reform",
+    "type": "primary-document"
   }
 ]
