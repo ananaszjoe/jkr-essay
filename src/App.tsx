@@ -15,14 +15,19 @@ import {
 } from "@xyflow/react";
 import claimsData from "../data/claims.json";
 import essayData from "../data/essay-index.json";
+import sourcesData from "../data/sources.json";
 import taxonomyData from "../data/taxonomy.json";
-import type { Claim, EssayIndex, Taxonomy, Verdict } from "./data/types";
+import type { Claim, EssayIndex, Source, Taxonomy, Verdict } from "./data/types";
 
 const claims = claimsData as Claim[];
 const essayIndex = essayData as EssayIndex;
+const sources = sourcesData as Source[];
 const taxonomy = taxonomyData as Taxonomy;
 const initialThemeId = taxonomy.themes[0]?.id ?? null;
 const initialSectionId = taxonomy.sections.find((section) => section.themeId === initialThemeId)?.id ?? null;
+const defaultNodeId = initialSectionId ?? initialThemeId ?? "essay";
+const initialNodeId = nodeIdFromHash() ?? defaultNodeId;
+const initialExpandedPath = expandedPathForNode(initialNodeId);
 
 type GraphNodeData = {
   kind: "essay" | "theme" | "section" | "claim";
@@ -85,13 +90,15 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
 
 function App() {
   const [expandedPath, setExpandedPath] = useState<{ themeId: string | null; sectionId: string | null }>({
-    themeId: initialThemeId,
-    sectionId: initialSectionId
+    themeId: initialExpandedPath.themeId,
+    sectionId: initialExpandedPath.sectionId
   });
   const activeTheme = expandedPath.themeId;
   const activeSection = expandedPath.sectionId;
-  const [currentNodeId, setCurrentNodeId] = useState(initialSectionId ?? initialThemeId ?? "essay");
-  const [selectedClaimId, setSelectedClaimId] = useState<string | null>(null);
+  const [currentNodeId, setCurrentNodeId] = useState(initialNodeId);
+  const [selectedClaimId, setSelectedClaimId] = useState<string | null>(
+    claims.some((claim) => claim.id === initialNodeId) ? initialNodeId : null
+  );
   const [query, setQuery] = useState("");
   const [showAbout, setShowAbout] = useState(false);
   const [showTakeMeBack, setShowTakeMeBack] = useState(false);
@@ -171,6 +178,27 @@ function App() {
   const openClaim = useCallback((claim: Claim) => {
     selectNode(claim.id);
   }, [selectNode]);
+
+  useEffect(() => {
+    const expectedHash = `#${encodeURIComponent(currentNodeId)}`;
+    if (window.location.hash !== expectedHash) {
+      window.history.pushState(null, "", expectedHash);
+    }
+  }, [currentNodeId]);
+
+  useEffect(() => {
+    const selectHashNode = () => {
+      const nodeId = nodeIdFromHash();
+      if (nodeId && nodeId !== currentNodeId) selectNode(nodeId);
+    };
+
+    window.addEventListener("hashchange", selectHashNode);
+    window.addEventListener("popstate", selectHashNode);
+    return () => {
+      window.removeEventListener("hashchange", selectHashNode);
+      window.removeEventListener("popstate", selectHashNode);
+    };
+  }, [currentNodeId, selectNode]);
 
   const childrenForNode = useCallback((nodeId: string): string[] => {
     if (nodeId === "essay") return taxonomy.themes.map((theme) => theme.id);
@@ -340,7 +368,7 @@ function App() {
     return { nodes: nextNodes, edges: nextEdges };
   }, [activeSection, activeTheme, currentNodeId, openClaim, openSection, openTheme, sections, selectNode, selectedClaim, selectedClaimId]);
 
-  const focusCurrentNode = useCallback(() => {
+  const focusCurrentNode = useCallback((duration = 350) => {
     if (!flowRef.current) return;
     const node = nodes.find((candidate) => candidate.id === currentNodeId);
     if (!node) return;
@@ -386,7 +414,7 @@ function App() {
       const flow = flowRef.current;
       void flow?.setCenter(centerX, centerY, {
         zoom,
-        duration: 350
+        duration
       }).then(() => {
         if (node.data.kind !== "claim") return;
         window.requestAnimationFrame(() => {
@@ -420,7 +448,7 @@ function App() {
               x: viewport.x + deltaX,
               y: viewport.y + deltaY,
               zoom: viewport.zoom
-            }, { duration: 150 });
+            }, { duration: duration === 0 ? 0 : 150 });
           }
         });
       });
@@ -498,7 +526,10 @@ function App() {
           nodes={nodes}
           edges={edges}
           nodeTypes={nodeTypes}
-          onInit={(instance) => { flowRef.current = instance; }}
+          onInit={(instance) => {
+            flowRef.current = instance;
+            focusCurrentNode(0);
+          }}
           minZoom={0.18}
           maxZoom={1.7}
           defaultViewport={{ x: 80, y: 340, zoom: 0.72 }}
@@ -535,7 +566,7 @@ function App() {
           <button
             className={`take-me-back ${selectedClaim ? "has-panel" : ""}`}
             type="button"
-            onClick={focusCurrentNode}
+            onClick={() => focusCurrentNode()}
           >
             Take me back
           </button>
@@ -543,7 +574,7 @@ function App() {
       </section>
 
       {selectedClaim && (
-        <ClaimPanel claim={selectedClaim} onClose={() => setSelectedClaimId(null)} />
+        <ClaimPanel claim={selectedClaim} onClose={() => selectNode(selectedClaim.sectionId)} />
       )}
 
       {showAbout && (
@@ -554,19 +585,74 @@ function App() {
 }
 
 function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
+  const [showShare, setShowShare] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const shareInputRef = useRef<HTMLInputElement>(null);
   const section = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
   const theme = taxonomy.themes.find((candidate) => candidate.id === section?.themeId);
+  const shareUrl = urlForNode(claim.id);
   const paragraphs = claim.reference.paragraphIds
     .map((id) => essayIndex.paragraphs.find((paragraph) => paragraph.id === id))
     .filter((paragraph): paragraph is EssayIndex["paragraphs"][number] => Boolean(paragraph));
+  const evidence = claim.factCheck?.evidence?.map((item) => ({
+    ...item,
+    source: sources.find((source) => source.id === item.sourceId)
+  })) ?? [];
+
+  useEffect(() => {
+    setShowShare(false);
+    setCopied(false);
+  }, [claim.id]);
+
+  const copyShareUrl = async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+    } catch {
+      shareInputRef.current?.select();
+      document.execCommand("copy");
+    }
+    setCopied(true);
+  };
 
   return (
     <aside className="claim-panel" aria-label={`Claim ${claim.number} details`}>
       <div className="panel-grab" aria-hidden="true" />
       <div className="panel-heading">
         <span>Claim {String(claim.number).padStart(3, "0")}</span>
-        <button type="button" onClick={onClose} aria-label="Close claim details">×</button>
+        <div className="panel-actions">
+          <button
+            type="button"
+            onClick={() => {
+              setShowShare((visible) => !visible);
+              setCopied(false);
+            }}
+            aria-label="Share this claim"
+            aria-expanded={showShare}
+          >
+            <ShareIcon />
+          </button>
+          <button type="button" onClick={onClose} aria-label="Close claim details">×</button>
+        </div>
       </div>
+      {showShare && (
+        <div className="share-box">
+          <label htmlFor={`share-url-${claim.id}`}>Share this claim</label>
+          <div className="share-field">
+            <input
+              ref={shareInputRef}
+              id={`share-url-${claim.id}`}
+              type="text"
+              value={shareUrl}
+              readOnly
+              onFocus={(event) => event.currentTarget.select()}
+            />
+            <button type="button" onClick={copyShareUrl} aria-live="polite">
+              <CopyIcon />
+              {copied ? "Copied" : "Copy URL"}
+            </button>
+          </div>
+        </div>
+      )}
       <h1>{claim.statement}</h1>
       <p className="panel-section">{theme?.title} / {section?.title}</p>
 
@@ -585,9 +671,15 @@ function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
         <h2>Fact-check</h2>
         {claim.factCheck ? (
           <>
-            <span className="status-pill">{claim.factCheck.verdict ?? claim.factCheck.status}</span>
+            <span className="status-pill">{claim.factCheck.verdict ? verdictLabel(claim.factCheck.verdict) : claim.factCheck.status}</span>
             {claim.factCheck.summary && <p>{claim.factCheck.summary}</p>}
             {claim.factCheck.analysis && <p>{claim.factCheck.analysis}</p>}
+            {claim.factCheck.limitations && (
+              <div className="limitations">
+                <h3>Limitations</h3>
+                <p>{claim.factCheck.limitations}</p>
+              </div>
+            )}
           </>
         ) : (
           <div className="empty-state">
@@ -596,8 +688,63 @@ function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
           </div>
         )}
       </section>
+
+      {evidence.length > 0 && (
+        <section>
+          <h2>Sources</h2>
+          <div className="source-list">
+            {evidence.map((item, index) => (
+              <article className="source-card" key={`${item.sourceId}-${index}`}>
+                <div className="source-card__heading">
+                  <span className={`evidence-stance evidence-stance--${item.stance}`}>{item.stance}</span>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                </div>
+                {item.source ? (
+                  <>
+                    <a href={item.source.url} target="_blank" rel="noreferrer">{item.source.title} ↗</a>
+                    <p className="source-byline">{formatSourceByline(item.source)}</p>
+                  </>
+                ) : (
+                  <strong>{item.sourceId}</strong>
+                )}
+                {item.locator && <p className="source-locator">{item.locator}</p>}
+                <p className="source-note">{item.note}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
     </aside>
   );
+}
+
+function ShareIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="18" cy="5" r="2.5" />
+      <circle cx="6" cy="12" r="2.5" />
+      <circle cx="18" cy="19" r="2.5" />
+      <path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5" />
+    </svg>
+  );
+}
+
+function CopyIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="8" y="8" width="11" height="11" rx="2" />
+      <path d="M16 8V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h1" />
+    </svg>
+  );
+}
+
+function formatSourceByline(source: Source): string {
+  const parts = [
+    source.authors?.join(", "),
+    source.publisher,
+    source.publishedOn ? new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }).format(new Date(`${source.publishedOn}T00:00:00Z`)) : undefined
+  ];
+  return parts.filter(Boolean).join(" · ");
 }
 
 function AboutDialog({ onClose }: { onClose: () => void }) {
@@ -612,6 +759,36 @@ function AboutDialog({ onClose }: { onClose: () => void }) {
       </section>
     </div>
   );
+}
+
+function nodeIdFromHash(): string | null {
+  if (typeof window === "undefined" || !window.location.hash) return null;
+  let nodeId: string;
+  try {
+    nodeId = decodeURIComponent(window.location.hash.slice(1));
+  } catch {
+    return null;
+  }
+
+  if (nodeId === "essay") return nodeId;
+  if (taxonomy.themes.some((theme) => theme.id === nodeId)) return nodeId;
+  if (taxonomy.sections.some((section) => section.id === nodeId)) return nodeId;
+  if (claims.some((claim) => claim.id === nodeId)) return nodeId;
+  return null;
+}
+
+function urlForNode(nodeId: string): string {
+  const url = new URL(window.location.href);
+  url.hash = encodeURIComponent(nodeId);
+  return url.toString();
+}
+
+function expandedPathForNode(nodeId: string): { themeId: string | null; sectionId: string | null } {
+  const claim = claims.find((candidate) => candidate.id === nodeId);
+  const section = taxonomy.sections.find((candidate) => candidate.id === (claim?.sectionId ?? nodeId));
+  if (section) return { themeId: section.themeId, sectionId: section.id };
+  if (taxonomy.themes.some((theme) => theme.id === nodeId)) return { themeId: nodeId, sectionId: null };
+  return { themeId: null, sectionId: null };
 }
 
 function pathForNode(nodeId: string): string[] {
