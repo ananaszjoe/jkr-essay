@@ -21,13 +21,17 @@ import type { Claim, EssayIndex, Taxonomy } from "./data/types";
 const claims = claimsData as Claim[];
 const essayIndex = essayData as EssayIndex;
 const taxonomy = taxonomyData as Taxonomy;
+const initialThemeId = taxonomy.themes[0]?.id ?? null;
+const initialSectionId = taxonomy.sections.find((section) => section.themeId === initialThemeId)?.id ?? null;
 
 type GraphNodeData = {
-  kind: "essay" | "theme" | "section" | "claim" | "reference" | "research" | "verdict" | "media";
+  kind: "essay" | "theme" | "section" | "claim" | "factcheck";
   eyebrow: string;
   title: string;
   meta?: string;
   active?: boolean;
+  selected?: boolean;
+  ancestor?: boolean;
   onOpen?: () => void;
 };
 
@@ -46,16 +50,23 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
   );
 
   return (
-    <div className={`graph-card graph-card--${data.kind} ${data.active ? "is-active" : ""}`}>
+    <div className={`graph-card graph-card--${data.kind} ${data.active ? "is-expanded" : ""} ${data.selected ? "is-selected" : ""} ${data.ancestor ? "is-ancestor" : ""}`}>
       {data.kind !== "essay" && <Handle type="target" position={Position.Left} />}
       {interactive ? (
-        <button className="nodrag nopan" type="button" onClick={data.onOpen} aria-label={`Open ${data.eyebrow}: ${data.title}`}>
+        <button
+          className="nodrag nopan"
+          type="button"
+          onClick={data.onOpen}
+          aria-label={`Open ${data.eyebrow}: ${data.title}`}
+          aria-current={data.selected ? "true" : undefined}
+          aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight Enter Escape Backspace"
+        >
           {content}
         </button>
       ) : (
         <div className="graph-card__content">{content}</div>
       )}
-      {!(["reference", "research", "verdict", "media"] as string[]).includes(data.kind) && (
+      {data.kind !== "factcheck" && (
         <Handle type="source" position={Position.Right} />
       )}
     </div>
@@ -63,8 +74,13 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
 }
 
 function App() {
-  const [activeTheme, setActiveTheme] = useState<string | null>(null);
-  const [activeSection, setActiveSection] = useState<string | null>(null);
+  const [expandedPath, setExpandedPath] = useState<{ themeId: string | null; sectionId: string | null }>({
+    themeId: initialThemeId,
+    sectionId: initialSectionId
+  });
+  const activeTheme = expandedPath.themeId;
+  const activeSection = expandedPath.sectionId;
+  const [currentNodeId, setCurrentNodeId] = useState(initialSectionId ?? initialThemeId ?? "essay");
   const [selectedClaimId, setSelectedClaimId] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [showAbout, setShowAbout] = useState(false);
@@ -86,32 +102,131 @@ function App() {
     return claims.filter((claim) => claim.statement.toLocaleLowerCase().includes(needle)).slice(0, 8);
   }, [query]);
 
+  const selectNode = useCallback((nodeId: string) => {
+    setCurrentNodeId(nodeId);
+
+    if (nodeId === "essay") {
+      setSelectedClaimId(null);
+      return;
+    }
+
+    const theme = taxonomy.themes.find((candidate) => candidate.id === nodeId);
+    if (theme) {
+      setExpandedPath((current) => {
+        if (current.themeId === theme.id) return current;
+        const firstSection = taxonomy.sections.find((section) => section.themeId === theme.id);
+        return { themeId: theme.id, sectionId: firstSection?.id ?? null };
+      });
+      setSelectedClaimId(null);
+      return;
+    }
+
+    const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
+    if (section) {
+      setExpandedPath({ themeId: section.themeId, sectionId: section.id });
+      setSelectedClaimId(null);
+      return;
+    }
+
+    const claimId = nodeId.endsWith("-factcheck") ? nodeId.slice(0, -"-factcheck".length) : nodeId;
+    const claim = claims.find((candidate) => candidate.id === claimId);
+    if (!claim) return;
+    const claimSection = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
+    if (!claimSection) return;
+    setExpandedPath({ themeId: claimSection.themeId, sectionId: claimSection.id });
+    setSelectedClaimId(claim.id);
+    setQuery("");
+  }, []);
+
   const openTheme = useCallback((themeId: string) => {
-    setActiveTheme((current) => (current === themeId ? null : themeId));
-    setActiveSection(null);
+    const firstSection = taxonomy.sections.find((section) => section.themeId === themeId);
+    setExpandedPath((current) => current.themeId === themeId
+      ? { themeId: null, sectionId: null }
+      : { themeId, sectionId: firstSection?.id ?? null });
+    setCurrentNodeId(themeId);
     setSelectedClaimId(null);
   }, []);
 
   const openSection = useCallback((sectionId: string) => {
     const section = taxonomy.sections.find((candidate) => candidate.id === sectionId);
     if (!section) return;
-    setActiveTheme(section.themeId);
-    setActiveSection((current) => (current === sectionId ? null : sectionId));
+    setExpandedPath((current) => ({
+      themeId: section.themeId,
+      sectionId: current.sectionId === sectionId ? null : sectionId
+    }));
+    setCurrentNodeId(sectionId);
     setSelectedClaimId(null);
   }, []);
 
   const openClaim = useCallback((claim: Claim) => {
-    const section = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
-    if (!section) return;
-    setActiveTheme(section.themeId);
-    setActiveSection(section.id);
-    setSelectedClaimId(claim.id);
-    setQuery("");
+    selectNode(claim.id);
+  }, [selectNode]);
+
+  const childrenForNode = useCallback((nodeId: string): string[] => {
+    if (nodeId === "essay") return taxonomy.themes.map((theme) => theme.id);
+    const theme = taxonomy.themes.find((candidate) => candidate.id === nodeId);
+    if (theme) return taxonomy.sections.filter((section) => section.themeId === theme.id).map((section) => section.id);
+    const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
+    if (section) return claims.filter((claim) => claim.sectionId === section.id).map((claim) => claim.id);
+    if (claims.some((claim) => claim.id === nodeId)) return [`${nodeId}-factcheck`];
+    return [];
   }, []);
+
+  const parentForNode = useCallback((nodeId: string): string | null => {
+    if (nodeId === "essay") return null;
+    if (nodeId.endsWith("-factcheck")) return nodeId.slice(0, -"-factcheck".length);
+    const claim = claims.find((candidate) => candidate.id === nodeId);
+    if (claim) return claim.sectionId;
+    const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
+    if (section) return section.themeId;
+    if (taxonomy.themes.some((theme) => theme.id === nodeId)) return "essay";
+    return null;
+  }, []);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (showAbout) return;
+      const target = event.target as HTMLElement | null;
+      const isGraphControl = Boolean(target?.closest(".graph-card"));
+      if (target?.matches("input, textarea, select, [contenteditable='true']")) return;
+      if (!isGraphControl && target?.closest("button, a")) return;
+
+      const parentId = parentForNode(currentNodeId);
+      const siblings = parentId ? childrenForNode(parentId) : ["essay"];
+      const siblingIndex = siblings.indexOf(currentNodeId);
+      let destination: string | null = null;
+
+      if (event.key === "ArrowUp" && siblingIndex !== -1) {
+        destination = siblings[(siblingIndex - 1 + siblings.length) % siblings.length];
+      } else if (event.key === "ArrowDown" && siblingIndex !== -1) {
+        destination = siblings[(siblingIndex + 1) % siblings.length];
+      } else if (["ArrowLeft", "Escape", "Backspace"].includes(event.key)) {
+        destination = parentId;
+      } else if (["ArrowRight", "Enter"].includes(event.key)) {
+        destination = childrenForNode(currentNodeId)[0] ?? null;
+      } else {
+        return;
+      }
+
+      if (!destination) return;
+      event.preventDefault();
+      event.stopPropagation();
+      selectNode(destination);
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [childrenForNode, currentNodeId, parentForNode, selectNode, showAbout]);
 
   const { nodes, edges } = useMemo(() => {
     const nextNodes: GraphNode[] = [];
     const nextEdges: Edge[] = [];
+    const selectedPath = new Set(pathForNode(currentNodeId));
+    const selectionFor = (nodeId: string) => ({
+      selected: nodeId === currentNodeId,
+      ancestor: nodeId !== currentNodeId && selectedPath.has(nodeId)
+    });
+    const pathIsHighlighted = (source: string, target: string) => selectedPath.has(source) && selectedPath.has(target);
     const themeSpacing = 170;
     const firstThemeY = -((taxonomy.themes.length - 1) * themeSpacing) / 2;
 
@@ -125,7 +240,9 @@ function App() {
         kind: "essay",
         eyebrow: "June 2020 essay",
         title: "J.K. Rowling Writes about Her Reasons for Speaking out on Sex and Gender Issues",
-        meta: `${claims.length} extracted claims`
+        meta: `${claims.length} extracted claims`,
+        ...selectionFor("essay"),
+        onOpen: () => selectNode("essay")
       }
     });
 
@@ -145,10 +262,11 @@ function App() {
           title: theme.title,
           meta: `${themeSections.length} sections · ${themeClaims} claims`,
           active: activeTheme === theme.id,
+          ...selectionFor(theme.id),
           onOpen: () => openTheme(theme.id)
         }
       });
-      nextEdges.push(makeEdge(`essay-${theme.id}`, "essay", theme.id, "theme"));
+      nextEdges.push(makeEdge(`essay-${theme.id}`, "essay", theme.id, "theme", pathIsHighlighted("essay", theme.id)));
     });
 
     const expandedTheme = taxonomy.themes.find((theme) => theme.id === activeTheme);
@@ -173,10 +291,11 @@ function App() {
             title: section.title,
             meta: `${section.claims.length} claims · ${activeSection === section.id ? "collapse" : "expand"}`,
             active: activeSection === section.id,
+            ...selectionFor(section.id),
             onOpen: () => openSection(section.id)
           }
         });
-        nextEdges.push(makeEdge(`${expandedTheme.id}-${section.id}`, expandedTheme.id, section.id, "section"));
+        nextEdges.push(makeEdge(`${expandedTheme.id}-${section.id}`, expandedTheme.id, section.id, "section", pathIsHighlighted(expandedTheme.id, section.id)));
       });
     }
 
@@ -201,10 +320,11 @@ function App() {
             title: claim.statement,
             meta: selectedClaimId === claim.id ? "details open" : "open details",
             active: selectedClaimId === claim.id,
+            ...selectionFor(claim.id),
             onOpen: () => openClaim(claim)
           }
         });
-        nextEdges.push(makeEdge(`${expandedSection.id}-${claim.id}`, expandedSection.id, claim.id, "claim"));
+        nextEdges.push(makeEdge(`${expandedSection.id}-${claim.id}`, expandedSection.id, claim.id, "claim", pathIsHighlighted(expandedSection.id, claim.id)));
       });
     }
 
@@ -212,95 +332,47 @@ function App() {
       const claimNode = nextNodes.find((node) => node.id === selectedClaim.id);
       const baseY = claimNode?.position.y ?? 0;
       const paragraphLabel = selectedClaim.reference.paragraphIds.join(", ").toUpperCase();
-      const details: Array<{ id: string; y: number; data: GraphNodeData }> = [
-        {
-          id: `${selectedClaim.id}-reference`,
-          y: baseY - 132,
-          data: {
-            kind: "reference",
-            eyebrow: "Essay reference",
-            title: paragraphLabel,
-            meta: expandedSection?.title
-          }
-        },
-        {
-          id: `${selectedClaim.id}-research`,
-          y: baseY,
-          data: {
-            kind: "research",
-            eyebrow: "Fact-check",
-            title: selectedClaim.factCheck?.summary ?? "Research not started",
-            meta: selectedClaim.factCheck?.evidence?.length
-              ? `${selectedClaim.factCheck.evidence.length} evidence items`
-              : "No evidence added yet"
-          }
-        },
-        {
-          id: `${selectedClaim.id}-verdict`,
-          y: baseY + 132,
-          data: {
-            kind: "verdict",
-            eyebrow: "Result",
-            title: selectedClaim.factCheck?.verdict ?? "Pending",
-            meta: selectedClaim.factCheck?.status ?? "Not assessed"
-          }
+      const evidenceCount = selectedClaim.factCheck?.evidence?.length ?? 0;
+      const factCheckNodeId = `${selectedClaim.id}-factcheck`;
+      nextNodes.push({
+        id: factCheckNodeId,
+        type: "graphCard",
+        position: { x: 1510, y: baseY },
+        width: 280,
+        height: 86,
+        data: {
+          kind: "factcheck",
+          eyebrow: "Fact-check record",
+          title: selectedClaim.factCheck?.verdict ?? "Pending assessment",
+          meta: `${paragraphLabel} · ${evidenceCount ? `${evidenceCount} evidence items` : "no evidence yet"}`,
+          ...selectionFor(factCheckNodeId),
+          onOpen: () => selectNode(factCheckNodeId)
         }
-      ];
-
-      if (selectedClaim.mediaIds?.length) {
-        details.push({
-          id: `${selectedClaim.id}-media`,
-          y: baseY + 264,
-          data: {
-            kind: "media",
-            eyebrow: "Related media",
-            title: `${selectedClaim.mediaIds.length} items`
-          }
-        });
-      }
-
-      for (const detail of details) {
-        nextNodes.push({
-          id: detail.id,
-          type: "graphCard",
-          position: { x: 1510, y: detail.y },
-          width: 260,
-          height: 86,
-          data: detail.data
-        });
-        nextEdges.push(makeEdge(`${selectedClaim.id}-${detail.id}`, selectedClaim.id, detail.id, "detail"));
-      }
+      });
+      nextEdges.push(makeEdge(`${selectedClaim.id}-${factCheckNodeId}`, selectedClaim.id, factCheckNodeId, "detail", pathIsHighlighted(selectedClaim.id, factCheckNodeId)));
     }
 
     return { nodes: nextNodes, edges: nextEdges };
-  }, [activeSection, activeTheme, openClaim, openSection, openTheme, sections, selectedClaim, selectedClaimId]);
+  }, [activeSection, activeTheme, currentNodeId, openClaim, openSection, openTheme, sections, selectNode, selectedClaim, selectedClaimId]);
 
   useEffect(() => {
-    if (!selectedClaimId || !flowRef.current) return;
-    const node = nodes.find((candidate) => candidate.id === selectedClaimId);
+    if (!flowRef.current) return;
+    const node = nodes.find((candidate) => candidate.id === currentNodeId);
     if (!node) return;
+    const view = {
+      essay: { offset: 200, zoom: 0.72 },
+      theme: { offset: 250, zoom: 0.76 },
+      section: { offset: 280, zoom: 0.68 },
+      claim: { offset: 320, zoom: 0.8 },
+      factcheck: { offset: -100, zoom: 0.8 }
+    }[node.data.kind];
     window.setTimeout(() => {
-      flowRef.current?.setCenter(node.position.x + 320, node.position.y + 70, {
-        zoom: 0.8,
-        duration: 500
+      flowRef.current?.setCenter(node.position.x + view.offset, node.position.y + (node.height ?? 86) / 2, {
+        zoom: view.zoom,
+        duration: 350
       });
     }, 30);
-  }, [nodes, selectedClaimId]);
-
-  useEffect(() => {
-    if (selectedClaimId || !flowRef.current) return;
-    const branchId = activeSection ?? activeTheme;
-    if (!branchId) return;
-    const node = nodes.find((candidate) => candidate.id === branchId);
-    if (!node) return;
-    const horizontalOffset = activeSection ? 280 : 250;
-    window.setTimeout(() => {
-      flowRef.current?.setCenter(node.position.x + horizontalOffset, node.position.y + 43, {
-        zoom: activeSection ? 0.68 : 0.76,
-        duration: 450
-      });
-    }, 30);
-  }, [activeSection, activeTheme, nodes, selectedClaimId]);
+  }, [currentNodeId, nodes]);
 
   return (
     <main className="app-shell">
@@ -361,7 +433,7 @@ function App() {
 
         <div className="graph-hint">
           <span aria-hidden="true">↔</span>
-          Pan to explore · pinch or scroll to zoom
+          Pan · zoom · arrow keys navigate
         </div>
       </section>
 
@@ -437,15 +509,33 @@ function AboutDialog({ onClose }: { onClose: () => void }) {
   );
 }
 
-function makeEdge(id: string, source: string, target: string, kind: "theme" | "section" | "claim" | "detail"): Edge {
-  const color = kind === "detail" ? "#3457d5" : kind === "claim" ? "#89765f" : kind === "section" ? "#8879ae" : "#b6aa98";
+function pathForNode(nodeId: string): string[] {
+  if (nodeId === "essay") return ["essay"];
+  const factCheckClaimId = nodeId.endsWith("-factcheck") ? nodeId.slice(0, -"-factcheck".length) : null;
+  const claim = claims.find((candidate) => candidate.id === (factCheckClaimId ?? nodeId));
+  if (claim) {
+    const section = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
+    return ["essay", section?.themeId, section?.id, claim.id, factCheckClaimId ? nodeId : undefined]
+      .filter((id): id is string => Boolean(id));
+  }
+  const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
+  if (section) return ["essay", section.themeId, section.id];
+  if (taxonomy.themes.some((theme) => theme.id === nodeId)) return ["essay", nodeId];
+  return [];
+}
+
+function makeEdge(id: string, source: string, target: string, kind: "theme" | "section" | "claim" | "detail", highlighted = false): Edge {
+  const defaultColor = kind === "detail" ? "#3457d5" : kind === "claim" ? "#89765f" : kind === "section" ? "#8879ae" : "#b6aa98";
+  const color = highlighted ? "#3457d5" : defaultColor;
   return {
     id,
     source,
     target,
     type: "smoothstep",
-    animated: kind === "detail",
-    style: { stroke: color, strokeWidth: kind === "detail" ? 1.8 : 1.2 },
+    animated: highlighted,
+    className: highlighted ? "path-edge is-highlighted" : "path-edge",
+    zIndex: highlighted ? 10 : 0,
+    style: { stroke: color, strokeWidth: highlighted ? 3 : kind === "detail" ? 1.8 : 1.2 },
     markerEnd: { type: MarkerType.ArrowClosed, color, width: 14, height: 14 }
   };
 }
