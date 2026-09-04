@@ -28,6 +28,8 @@ const initialSectionId = taxonomy.sections.find((section) => section.themeId ===
 const defaultNodeId = initialSectionId ?? initialThemeId ?? "essay";
 const initialNodeId = nodeIdFromHash() ?? defaultNodeId;
 const initialExpandedPath = expandedPathForNode(initialNodeId);
+const GLANCED_STORAGE_KEY = "jkr-exploration-glanced";
+const READ_STORAGE_KEY = "jkr-exploration-read";
 
 type GraphNodeData = {
   kind: "essay" | "theme" | "section" | "claim";
@@ -65,7 +67,7 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
   );
 
   return (
-    <div className={`graph-card graph-card--${data.kind} ${data.active ? "is-expanded" : ""} ${data.selected ? "is-selected" : ""} ${data.ancestor ? "is-ancestor" : ""}`}>
+    <div className={`graph-card graph-card--${data.kind} ${data.verdict ? `graph-card--verdict-${data.verdict}` : ""} ${data.active ? "is-expanded" : ""} ${data.selected ? "is-selected" : ""} ${data.ancestor ? "is-ancestor" : ""}`}>
       {data.kind !== "essay" && <Handle type="target" position={Position.Left} />}
       {interactive ? (
         <button
@@ -102,7 +104,11 @@ function App() {
   const [query, setQuery] = useState("");
   const [showAbout, setShowAbout] = useState(false);
   const [showTakeMeBack, setShowTakeMeBack] = useState(false);
+  const [glancedClaimIds, setGlancedClaimIds] = useState<Set<string>>(() => readStoredClaimIds(GLANCED_STORAGE_KEY));
+  const [readClaimIds, setReadClaimIds] = useState<Set<string>>(() => readStoredClaimIds(READ_STORAGE_KEY));
   const flowRef = useRef<ReactFlowInstance<GraphNode, Edge> | null>(null);
+  const glancedPercentage = explorationPercentage(glancedClaimIds.size);
+  const readPercentage = explorationPercentage(readClaimIds.size);
 
   const sections = useMemo(() => taxonomy.sections.map((section) => ({
     ...section,
@@ -178,6 +184,14 @@ function App() {
   const openClaim = useCallback((claim: Claim) => {
     selectNode(claim.id);
   }, [selectNode]);
+
+  const markClaimGlanced = useCallback((claimId: string) => {
+    setGlancedClaimIds((current) => addStoredClaimId(current, claimId, GLANCED_STORAGE_KEY));
+  }, []);
+
+  const markClaimRead = useCallback((claimId: string) => {
+    setReadClaimIds((current) => addStoredClaimId(current, claimId, READ_STORAGE_KEY));
+  }, []);
 
   useEffect(() => {
     const expectedHash = `#${encodeURIComponent(currentNodeId)}`;
@@ -494,6 +508,15 @@ function App() {
   return (
     <main className="app-shell">
       <header className="topbar">
+        {(glancedClaimIds.size > 0 || readClaimIds.size > 0) && (
+          <div
+            className="exploration-stats"
+            aria-label={`${glancedPercentage} of claims glanced over, ${readPercentage} of claims read through`}
+          >
+            <span>glanced over: <strong>{glancedPercentage}</strong></span>
+            <span>read through: <strong>{readPercentage}</strong></span>
+          </div>
+        )}
         <div className="search-wrap">
           <label htmlFor="claim-search">Search all claims</label>
           <input
@@ -574,7 +597,13 @@ function App() {
       </section>
 
       {selectedClaim && (
-        <ClaimPanel claim={selectedClaim} onClose={() => selectNode(selectedClaim.sectionId)} />
+        <ClaimPanel
+          key={selectedClaim.id}
+          claim={selectedClaim}
+          onClose={() => selectNode(selectedClaim.sectionId)}
+          onGlanced={markClaimGlanced}
+          onRead={markClaimRead}
+        />
       )}
 
       {showAbout && (
@@ -584,9 +613,20 @@ function App() {
   );
 }
 
-function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
+function ClaimPanel({
+  claim,
+  onClose,
+  onGlanced,
+  onRead
+}: {
+  claim: Claim;
+  onClose: () => void;
+  onGlanced: (claimId: string) => void;
+  onRead: (claimId: string) => void;
+}) {
   const [showShare, setShowShare] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [activeTimeMs, setActiveTimeMs] = useState(0);
   const shareInputRef = useRef<HTMLInputElement>(null);
   const section = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
   const theme = taxonomy.themes.find((candidate) => candidate.id === section?.themeId);
@@ -598,11 +638,43 @@ function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
     ...item,
     source: sources.find((source) => source.id === item.sourceId)
   })) ?? [];
+  const characterCount = [
+    claim.statement,
+    theme?.title,
+    section?.title,
+    ...paragraphs.map((paragraph) => paragraph.summary),
+    claim.factCheck?.summary
+  ].filter(Boolean).join(" ").length;
+  const estimatedReadingTimeMs = Math.max(3000, (characterCount / 20) * 1000);
+  const completedAtMs = 1000 + estimatedReadingTimeMs;
+  const readingLabelStartsAtMs = 3000 + ((completedAtMs - 3000) / 2);
+  const progress = Math.min(100, Math.max(0, ((activeTimeMs - 1000) / estimatedReadingTimeMs) * 100));
+  const isGlanced = activeTimeMs >= 1000;
+  const isComplete = activeTimeMs >= completedAtMs;
+  const progressLabel = isComplete
+    ? "You've likely read it"
+    : activeTimeMs >= readingLabelStartsAtMs
+      ? "You're reading it… Right?"
+      : activeTimeMs >= 3000
+        ? "You're reading it"
+        : "You glanced over";
 
   useEffect(() => {
-    setShowShare(false);
-    setCopied(false);
-  }, [claim.id]);
+    const timer = window.setInterval(() => {
+      if (document.visibilityState === "visible") {
+        setActiveTimeMs((current) => Math.min(completedAtMs, current + 100));
+      }
+    }, 100);
+    return () => window.clearInterval(timer);
+  }, [completedAtMs]);
+
+  useEffect(() => {
+    if (isGlanced) onGlanced(claim.id);
+  }, [claim.id, isGlanced, onGlanced]);
+
+  useEffect(() => {
+    if (isComplete) onRead(claim.id);
+  }, [claim.id, isComplete, onRead]);
 
   const copyShareUrl = async () => {
     try {
@@ -616,6 +688,19 @@ function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
 
   return (
     <aside className="claim-panel" aria-label={`Claim ${claim.number} details`}>
+      <div className={`reading-progress ${isGlanced ? "is-visible" : ""}`}>
+        <div
+          className="reading-progress__bar"
+          role="progressbar"
+          aria-label="Estimated reading progress"
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={Math.round(progress)}
+        >
+          <span style={{ width: `${progress}%` }} />
+        </div>
+        <span className="reading-progress__label">{progressLabel}</span>
+      </div>
       <div className="panel-grab" aria-hidden="true" />
       <div className="panel-heading">
         <span>Claim {String(claim.number).padStart(3, "0")}</span>
@@ -671,7 +756,13 @@ function ClaimPanel({ claim, onClose }: { claim: Claim; onClose: () => void }) {
         <h2>Fact-check</h2>
         {claim.factCheck ? (
           <>
-            <span className="status-pill">{claim.factCheck.verdict ? verdictLabel(claim.factCheck.verdict) : claim.factCheck.status}</span>
+            {claim.factCheck.verdict ? (
+              <span className={`verdict-chip verdict-chip--${claim.factCheck.verdict}`}>
+                {verdictLabel(claim.factCheck.verdict)}
+              </span>
+            ) : (
+              <span className="status-pill">{claim.factCheck.status}</span>
+            )}
             {claim.factCheck.summary && <p>{claim.factCheck.summary}</p>}
             {claim.factCheck.analysis && <p>{claim.factCheck.analysis}</p>}
             {claim.factCheck.limitations && (
@@ -781,6 +872,33 @@ function urlForNode(nodeId: string): string {
   const url = new URL(window.location.href);
   url.hash = encodeURIComponent(nodeId);
   return url.toString();
+}
+
+function readStoredClaimIds(key: string): Set<string> {
+  try {
+    const stored = JSON.parse(window.localStorage.getItem(key) ?? "[]");
+    if (!Array.isArray(stored)) return new Set();
+    return new Set(stored.filter((id): id is string => typeof id === "string"));
+  } catch {
+    return new Set();
+  }
+}
+
+function addStoredClaimId(current: Set<string>, claimId: string, key: string): Set<string> {
+  if (current.has(claimId)) return current;
+  const next = new Set(current).add(claimId);
+  try {
+    window.localStorage.setItem(key, JSON.stringify([...next]));
+  } catch {
+    // Tracking still works for this page load when browser storage is unavailable.
+  }
+  return next;
+}
+
+function explorationPercentage(count: number): string {
+  const percentage = Math.min(100, (count / claims.length) * 100);
+  if (percentage === 0 || percentage === 100) return `${percentage.toFixed(0)}%`;
+  return `${percentage.toFixed(1)}%`;
 }
 
 function expandedPathForNode(nodeId: string): { themeId: string | null; sectionId: string | null } {
