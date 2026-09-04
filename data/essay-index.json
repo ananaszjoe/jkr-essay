@@ -1,0 +1,363 @@
+{
+  "essay": {
+    "title": "J.K. Rowling Writes about Her Reasons for Speaking out on Sex and Gender Issues",
+    "author": "J.K. Rowling",
+    "publishedOn": "2020-06-10",
+    "url": "https://www.jkrowling.com/opinions/j-k-rowling-writes-about-her-reasons-for-speaking-out-on-sex-and-gender-issues/"
+  },
+  "indexedOn": "2026-09-04",
+  "paragraphs": [
+    {
+      "id": "p001",
+      "number": 1,
+      "selector": ".entry-content > p:nth-of-type(1)",
+      "summary": "Rowling introduces the essay as an explanation of her position on a contentious issue.",
+      "wordCount": 39,
+      "contentHash": "0f5fda547c03c3d9888a6a1bf1b10ba610109a8f43cd10951746d17e21a85780"
+    },
+    {
+      "id": "p002",
+      "number": 2,
+      "selector": ".entry-content > p:nth-of-type(2)",
+      "summary": "She recounts supporting Maya Forstater and summarizes Forstater's employment tribunal case.",
+      "wordCount": 61,
+      "contentHash": "fbf1ce55fb95478796eac927ee75b3c38483baeb0fd5f1c70345a128c5a644fa"
+    },
+    {
+      "id": "p003",
+      "number": 3,
+      "selector": ".entry-content > p:nth-of-type(3)",
+      "summary": "She describes when and why she began researching gender identity and the kinds of people and material she consulted.",
+      "wordCount": 111,
+      "contentHash": "1b3cb0f95f9aff47e90f1c6c636d03b09d9273faf2bb3d303305384cb71df2d0"
+    },
+    {
+      "id": "p004",
+      "number": 4,
+      "selector": ".entry-content > p:nth-of-type(4)",
+      "summary": "She says an accidental Twitter like led to ongoing accusations and harassment.",
+      "wordCount": 85,
+      "contentHash": "29b33cf8295032615434631aa727e5c416c1117bf9180c8610f1137742ffc29a"
+    },
+    {
+      "id": "p005",
+      "number": 5,
+      "selector": ".entry-content > p:nth-of-type(5)",
+      "summary": "She recounts following and contacting Magdalen Berns and says the resulting social-media abuse increased.",
+      "wordCount": 92,
+      "contentHash": "c791980389ef51aa3f9a4f8b7c084e6353e7f8f9aa9b4650091076747b94dd9a"
+    },
+    {
+      "id": "p006",
+      "number": 6,
+      "selector": ".entry-content > p:nth-of-type(6)",
+      "summary": "She says she anticipated threats and abuse when she publicly supported Forstater.",
+      "wordCount": 77,
+      "contentHash": "3c9b62a0ee23f6f10849a0fd302f94804448d0d8528ce45fce8993d927cc632d"
+    },
+    {
+      "id": "p007",
+      "number": 7,
+      "selector": ".entry-content > p:nth-of-type(7)",
+      "summary": "She describes receiving mostly supportive correspondence raising concerns about policy, medicine, safeguarding, and rights.",
+      "wordCount": 113,
+      "contentHash": "a4987d14fe6e8715214de0bcbe20fc4732c4204e684458aba58f1ca72453f726"
+    },
+    {
+      "id": "p008",
+      "number": 8,
+      "selector": ".entry-content > p:nth-of-type(8)",
+      "summary": "She explains her withdrawal from and return to Twitter and the hostile responses she says followed.",
+      "wordCount": 91,
+      "contentHash": "4ecc39c12abb9600631db7567d51b4cb4d822558cfb39a8fb0faa68f7c89532d"
+    },
+    {
+      "id": "p009",
+      "number": 9,
+      "selector": ".entry-content > p:nth-of-type(9)",
+      "summary": "She defines TERF and gives examples intended to show the label's broad application.",
+      "wordCount": 124,
+      "contentHash": "b3950100c100ea4b613e2156cf7ea20f52b711db23c113b4a5842f59ce091c78"
+    },
+    {
+      "id": "p010",
+      "number": 10,
+      "selector": ".entry-content > p:nth-of-type(10)",
+      "summary": "She argues that fear of being called transphobic or a TERF has intimidated people and institutions.",
+      "wordCount": 82,
+      "contentHash": "69a1e74af2a25476127aeda79a37c86afab3857980a59702b41c9e2ee452c625"
+    },
+    {
+      "id": "p011",
+      "number": 11,
+      "selector": ".entry-content > p:nth-of-type(11)",
+      "summary": "She poses the question of why she has chosen to speak publicly.",
+      "wordCount": 20,
+      "contentHash": "adc2ff70b9215b8c0642c0dd5689d4c4ecc54fac3d8e5b7945ce0c5d4d3a71c5"
+    },
+    {
+      "id": "p012",
+      "number": 12,
+      "selector": ".entry-content > p:nth-of-type(12)",
+      "summary": "She introduces five reasons for her concern about trans activism.",
+      "wordCount": 20,
+      "contentHash": "6efac1471f7d9cf2a5a4f13e42d715b18541afac44af6a3c0aee902cd0a8f3f1"
+    },
+    {
+      "id": "p013",
+      "number": 13,
+      "selector": ".entry-content > p:nth-of-type(13)",
+      "summary": "Her first reason concerns her philanthropy, medical research funding, and the legal treatment of sex and gender.",
+      "wordCount": 108,
+      "contentHash": "cd19975e96399ed2fd933e309ee43465c1babfca2641eb28ce5216cdbc373ac6"
+    },
+    {
+      "id": "p014",
+      "number": 14,
+      "selector": ".entry-content > p:nth-of-type(14)",
+      "summary": "Her second reason concerns her experience with education, children's charity work, and safeguarding.",
+      "wordCount": 43,
+      "contentHash": "2a6335961410fcf9e456bb53870437021e9b8cea9daa4ce2cd6dd6c8654490f3"
+    },
+    {
+      "id": "p015",
+      "number": 15,
+      "selector": ".entry-content > p:nth-of-type(15)",
+      "summary": "Her third reason is her interest in freedom of speech.",
+      "wordCount": 23,
+      "contentHash": "54d23a723f0f4d62b94190bcb80fce8caedcfc37b80fc5d2b5c470c3f946010f"
+    },
+    {
+      "id": "p016",
+      "number": 16,
+      "selector": ".entry-content > p:nth-of-type(16)",
+      "summary": "Her fourth reason concerns increasing transition and detransition among young women and possible links with homophobia.",
+      "wordCount": 84,
+      "contentHash": "85ee14f8f1d53985c7260eecf668b644e71a54e5d42f55581554feaf4afdd0aa"
+    },
+    {
+      "id": "p017",
+      "number": 17,
+      "selector": ".entry-content > p:nth-of-type(17)",
+      "summary": "She claims the sex ratio of transition referrals reversed and cites a large increase in UK referrals of girls and autistic overrepresentation.",
+      "wordCount": 61,
+      "contentHash": "a649317c9f5155d7d2b15a755e20daa82e98a358d318022b7061641aeb89d9b0"
+    },
+    {
+      "id": "p018",
+      "number": 18,
+      "selector": ".entry-content > p:nth-of-type(18)",
+      "summary": "She introduces Lisa Littman's research into adolescent transgender identification in the United States.",
+      "wordCount": 27,
+      "contentHash": "5b5cfd8747b92d44694955bac65275e94ca3662180d66243532dd24c048f3bb7"
+    },
+    {
+      "id": "p019",
+      "number": 19,
+      "selector": ".entry-content > p:nth-of-type(19)",
+      "summary": "She quotes Littman describing parent reports of clustered transgender identification and possible peer influence.",
+      "wordCount": 41,
+      "contentHash": "1a588d77477d873fb83341a00387cfd14d316d763ab6e38ee47e506ad3b606f5"
+    },
+    {
+      "id": "p020",
+      "number": 20,
+      "selector": ".entry-content > p:nth-of-type(20)",
+      "summary": "She summarizes Littman's account of social-media influence and rapid-onset gender dysphoria.",
+      "wordCount": 32,
+      "contentHash": "6814a60085c4c620368cca2693750e85e1ffa93ef62458fe4705411c22d56ef6"
+    },
+    {
+      "id": "p021",
+      "number": 21,
+      "selector": ".entry-content > p:nth-of-type(21)",
+      "summary": "She describes criticism, re-review, republication, and alleged professional consequences surrounding Littman's paper.",
+      "wordCount": 95,
+      "contentHash": "2118dccded98c65578bd8e0c8b48009e9d4596294b8790161132b8d591464b59"
+    },
+    {
+      "id": "p022",
+      "number": 22,
+      "selector": ".entry-content > p:nth-of-type(22)",
+      "summary": "She describes suicide-related arguments about youth transition and quotes psychiatrist Marcus Evans disputing their evidentiary basis.",
+      "wordCount": 82,
+      "contentHash": "e0f85244d4ce678155c94c93d132016446aa64c9051fbea4f95c23e88927d2d9"
+    },
+    {
+      "id": "p023",
+      "number": 23,
+      "selector": ".entry-content > p:nth-of-type(23)",
+      "summary": "She connects accounts by young trans men with her own adolescent OCD and her father's preference for a son.",
+      "wordCount": 109,
+      "contentHash": "0b3c8299226a8ed5c0800f38156e9c3f8bd97a4f2ef7fdcfe012144de5cac6cd"
+    },
+    {
+      "id": "p024",
+      "number": 24,
+      "selector": ".entry-content > p:nth-of-type(24)",
+      "summary": "She reflects on feeling mentally detached from sex in youth and cites Colette and Simone de Beauvoir.",
+      "wordCount": 73,
+      "contentHash": "af9f9f0b9dbfdb91e1e93e5c04762a35bba79b2e68a37a22cba59ba70c5f5ad2"
+    },
+    {
+      "id": "p025",
+      "number": 25,
+      "selector": ".entry-content > p:nth-of-type(25)",
+      "summary": "She describes books and music as coping mechanisms for mental-health struggles and discomfort with expectations of femininity.",
+      "wordCount": 123,
+      "contentHash": "f34ee78798b86056476e97d2f9e36e77c90eb1f61b5dd87b9d8fefe692899b92"
+    },
+    {
+      "id": "p026",
+      "number": 26,
+      "selector": ".entry-content > p:nth-of-type(26)",
+      "summary": "She discusses transition outcomes, desistance estimates, transgender acquaintances, historical assessments, and Gender Recognition Certificates.",
+      "wordCount": 201,
+      "contentHash": "1180cd90db97f81a5c5ccaf460e6c873b6a4b477414637355a1ee5a0ad5b04ef"
+    },
+    {
+      "id": "p027",
+      "number": 27,
+      "selector": ".entry-content > p:nth-of-type(27)",
+      "summary": "She argues that misogyny and harms affecting girls have worsened, citing pornography, Trump, incels, and violent rhetoric.",
+      "wordCount": 142,
+      "contentHash": "18749b3df9fa98578aa3ac4ad8d3b0078681008aa646952562a3a7cb9dc5d928"
+    },
+    {
+      "id": "p028",
+      "number": 28,
+      "selector": ".entry-content > p:nth-of-type(28)",
+      "summary": "She rejects arguments minimizing sex-based commonality and describes correspondence supporting her concerns.",
+      "wordCount": 126,
+      "contentHash": "b26588df93ecb8e797212e9269e824bc163e79b95b25fdcb30d5df5f32337792"
+    },
+    {
+      "id": "p029",
+      "number": 29,
+      "selector": ".entry-content > p:nth-of-type(29)",
+      "summary": "She objects to some inclusive terminology concerning female bodies and explains why she finds it alienating.",
+      "wordCount": 100,
+      "contentHash": "eefa2f553a92961d8dd3a8a8b6f7cc9b6d4eafc668ed1f6277dacd15955d19eb"
+    },
+    {
+      "id": "p030",
+      "number": 30,
+      "selector": ".entry-content > p:nth-of-type(30)",
+      "summary": "She introduces her fifth reason for concern.",
+      "wordCount": 18,
+      "contentHash": "5396b62fdd51e74ad7d17af1036dd3bd654326fa22405992b23488a67d9e6a67"
+    },
+    {
+      "id": "p031",
+      "number": 31,
+      "selector": ".entry-content > p:nth-of-type(31)",
+      "summary": "She publicly discloses surviving domestic abuse and sexual assault and says she consulted her daughter before doing so.",
+      "wordCount": 98,
+      "contentHash": "2928fff1c4d946d154d27f7999a5cde33b2c7ae28dfbcfdc25a5dd13d2c99d4f"
+    },
+    {
+      "id": "p032",
+      "number": 32,
+      "selector": ".entry-content > p:nth-of-type(32)",
+      "summary": "She says the disclosure is intended to express solidarity with women concerned about single-sex spaces.",
+      "wordCount": 38,
+      "contentHash": "09206535902ca71c9bc8b941c2b4e8c9a52565baf53fb82864d105c49aa5d649"
+    },
+    {
+      "id": "p033",
+      "number": 33,
+      "selector": ".entry-content > p:nth-of-type(33)",
+      "summary": "She recounts escaping a violent first marriage and describes lasting trauma responses despite present safety.",
+      "wordCount": 104,
+      "contentHash": "3d268c91b3e1485b5bec9bc80eb7f69c69bb4998216a380bbdd8cc9f5087d8b0"
+    },
+    {
+      "id": "p034",
+      "number": 34,
+      "selector": ".entry-content > p:nth-of-type(34)",
+      "summary": "She relates her experience of male violence to her empathy for trans women killed by violent men.",
+      "wordCount": 79,
+      "contentHash": "6047f80d607f588aa151b428d691139c686d85f02c1b93d5ff68316695097859"
+    },
+    {
+      "id": "p035",
+      "number": 35,
+      "selector": ".entry-content > p:nth-of-type(35)",
+      "summary": "She states that most transgender people pose no threat and discusses their vulnerability to intimate-partner and sex-industry violence.",
+      "wordCount": 83,
+      "contentHash": "81cdc04be47a7fa5a4f6a95a0dc729682ccbe3ae929d375b928231e9fb202194"
+    },
+    {
+      "id": "p036",
+      "number": 36,
+      "selector": ".entry-content > p:nth-of-type(36)",
+      "summary": "She argues that gender-identity-based access to women's facilities may be exploited by predatory men.",
+      "wordCount": 85,
+      "contentHash": "30d8719f8a5882df186659317b63089bd478c8d3fee937dd7c6fadb4e8a9186b"
+    },
+    {
+      "id": "p037",
+      "number": 37,
+      "selector": ".entry-content > p:nth-of-type(37)",
+      "summary": "She describes reading about Scottish gender-recognition reform and says it triggered memories of a sexual assault.",
+      "wordCount": 160,
+      "contentHash": "03a4329144ac8fa28228ef8060a69831225f54e3cbec9e2d479a386bc18e1661"
+    },
+    {
+      "id": "p038",
+      "number": 38,
+      "selector": ".entry-content > p:nth-of-type(38)",
+      "summary": "She recounts posting about sex on Twitter and lists the abuse and threats she says she then received.",
+      "wordCount": 87,
+      "contentHash": "ca4ea75d30b6ea87747c8718e7b8b2ce2ee1d6f30a23e43527a15474a534612f"
+    },
+    {
+      "id": "p039",
+      "number": 39,
+      "selector": ".entry-content > p:nth-of-type(39)",
+      "summary": "She acknowledges affirmations of trans rights while criticizing the social pressure to conform.",
+      "wordCount": 81,
+      "contentHash": "e8c4b0c7de2824b741ec09c8f500f5a26fc367b8336f27eb8ba81d5e76fb36f6"
+    },
+    {
+      "id": "p040",
+      "number": 40,
+      "selector": ".entry-content > p:nth-of-type(40)",
+      "summary": "She says women who contacted her feared doxxing, job loss, loss of livelihood, and violence.",
+      "wordCount": 41,
+      "contentHash": "4f02b3a7e057d63dd9847a2e8f0f7c97785f9e2edf7ee17eb7abb67f9517693b"
+    },
+    {
+      "id": "p041",
+      "number": 41,
+      "selector": ".entry-content > p:nth-of-type(41)",
+      "summary": "She states her opposition to the movement and frames it around speech, vulnerable groups, and single-sex spaces.",
+      "wordCount": 140,
+      "contentHash": "3f49a508515201f7fbd55f334c0321f2dc0fdf5437c48c3f3beeb59a96b8dd4c"
+    },
+    {
+      "id": "p042",
+      "number": 42,
+      "selector": ".entry-content > p:nth-of-type(42)",
+      "summary": "She describes cross-party gender-critical organizing and argues that use of the TERF label may increase interest in radical feminism.",
+      "wordCount": 162,
+      "contentHash": "43717e1ef5da147caa0c291f579fe04cb9865f1ea7304b0ab2ca489c79409c98"
+    },
+    {
+      "id": "p043",
+      "number": 43,
+      "selector": ".entry-content > p:nth-of-type(43)",
+      "summary": "She says she seeks neither pity nor victim status and asks readers to recognize people's complex histories.",
+      "wordCount": 93,
+      "contentHash": "2891078e5ab87a62865ad0a9e82384c83c2846507b80c11e8a80c0e005ce2424"
+    },
+    {
+      "id": "p044",
+      "number": 44,
+      "selector": ".entry-content > p:nth-of-type(44)",
+      "summary": "She closes by asking that women voicing concerns receive empathy and freedom from threats and abuse.",
+      "wordCount": 38,
+      "contentHash": "5c09abc5cbb13ce0e7e8e961167c81e1e2306cc9b35c074b658228a6c99f623e"
+    }
+  ]
+}

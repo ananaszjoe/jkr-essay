@@ -1,0 +1,131 @@
+{
+  "themes": [
+    {
+      "id": "origins-dispute",
+      "title": "Origins of the dispute",
+      "description": "How Rowling entered the public debate and the response to her early statements."
+    },
+    {
+      "id": "motivations-personal-context",
+      "title": "Motivations and personal context",
+      "description": "The professional, philanthropic and autobiographical context Rowling gives for speaking publicly."
+    },
+    {
+      "id": "youth-transition-evidence",
+      "title": "Youth transition and evidence",
+      "description": "Claims about adolescent transition, detransition, research, clinical practice and outcomes."
+    },
+    {
+      "id": "sex-women-language",
+      "title": "Sex, women and language",
+      "description": "Claims concerning misogyny, sex-based categories and language describing women."
+    },
+    {
+      "id": "violence-safeguarding-law",
+      "title": "Violence, safeguarding and law",
+      "description": "Personal and population-level violence, single-sex spaces and gender-recognition policy."
+    },
+    {
+      "id": "aftermath-stated-positions",
+      "title": "Aftermath and stated positions",
+      "description": "The response to Rowling's June 2020 statements and the positions she says she holds."
+    }
+  ],
+  "sections": [
+    {
+      "id": "forstater-involvement",
+      "themeId": "origins-dispute",
+      "title": "Forstater / Rowling's initial involvement"
+    },
+    {
+      "id": "twitter-magdalen-berns",
+      "themeId": "origins-dispute",
+      "title": "Rowling's Twitter experiences / Magdalen Berns"
+    },
+    {
+      "id": "reaction-forstater-support",
+      "themeId": "origins-dispute",
+      "title": "Reaction to Forstater support"
+    },
+    {
+      "id": "terf-gender-critical-women",
+      "themeId": "origins-dispute",
+      "title": "“TERF” and gender-critical women"
+    },
+    {
+      "id": "philanthropy-motivations",
+      "themeId": "motivations-personal-context",
+      "title": "Rowling's philanthropy and stated motivations"
+    },
+    {
+      "id": "adolescence-personal-history",
+      "themeId": "motivations-personal-context",
+      "title": "Rowling's adolescence / personal history"
+    },
+    {
+      "id": "youth-transition-detransition",
+      "themeId": "youth-transition-evidence",
+      "title": "Youth transition / detransition"
+    },
+    {
+      "id": "littman-rogd",
+      "themeId": "youth-transition-evidence",
+      "title": "Lisa Littman / ROGD"
+    },
+    {
+      "id": "suicide-tavistock",
+      "themeId": "youth-transition-evidence",
+      "title": "Suicide / Tavistock"
+    },
+    {
+      "id": "desistance-transition-outcomes",
+      "themeId": "youth-transition-evidence",
+      "title": "Desistance / transition outcomes"
+    },
+    {
+      "id": "women-misogyny-culture",
+      "themeId": "sex-women-language",
+      "title": "Women, misogyny and contemporary culture"
+    },
+    {
+      "id": "language-concerning-women",
+      "themeId": "sex-women-language",
+      "title": "Language concerning women"
+    },
+    {
+      "id": "abuse-sexual-assault-history",
+      "themeId": "violence-safeguarding-law",
+      "title": "Rowling's abuse and sexual-assault history"
+    },
+    {
+      "id": "violence-transgender-people",
+      "themeId": "violence-safeguarding-law",
+      "title": "Violence against transgender people"
+    },
+    {
+      "id": "single-sex-spaces-safeguarding",
+      "themeId": "violence-safeguarding-law",
+      "title": "Single-sex spaces / safeguarding"
+    },
+    {
+      "id": "scottish-gender-recognition-reform",
+      "themeId": "violence-safeguarding-law",
+      "title": "Scottish gender-recognition reform"
+    },
+    {
+      "id": "abuse-june-2020-statements",
+      "themeId": "aftermath-stated-positions",
+      "title": "Abuse following her June 2020 statements"
+    },
+    {
+      "id": "rowling-stated-position",
+      "themeId": "aftermath-stated-positions",
+      "title": "Rowling's stated position"
+    },
+    {
+      "id": "wider-intimidation-public-opinion",
+      "themeId": "aftermath-stated-positions",
+      "title": "Wider intimidation / public opinion claims"
+    }
+  ]
+}

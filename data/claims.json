@@ -1,0 +1,2739 @@
+[
+  {
+    "id": "claim-001",
+    "number": 1,
+    "statement": "In December 2019, Rowling tweeted support for Maya Forstater.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-002",
+    "number": 2,
+    "statement": "Maya Forstater was a tax specialist.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-003",
+    "number": 3,
+    "statement": "Forstater lost her job because of tweets deemed transphobic.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-004",
+    "number": 4,
+    "statement": "Forstater brought an employment tribunal case.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-005",
+    "number": 5,
+    "statement": "She asked the tribunal whether the belief that sex is biologically determined was legally protected.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-006",
+    "number": 6,
+    "statement": "Judge Tayler ruled that this belief was not protected.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p002"
+      ]
+    }
+  },
+  {
+    "id": "claim-007",
+    "number": 7,
+    "statement": "Rowling had become interested in transgender issues almost two years before the Forstater case.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-008",
+    "number": 8,
+    "statement": "Rowling had been following debates concerning gender identity during that period.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-009",
+    "number": 9,
+    "statement": "Rowling had met transgender people before writing the essay.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-010",
+    "number": 10,
+    "statement": "Rowling had read material by transgender people.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-011",
+    "number": 11,
+    "statement": "She had read material by gender specialists.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-012",
+    "number": 12,
+    "statement": "She had read material by intersex people.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-013",
+    "number": 13,
+    "statement": "She had read material by psychologists.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-014",
+    "number": 14,
+    "statement": "She had read material by safeguarding experts.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-015",
+    "number": 15,
+    "statement": "She had read material by social workers.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-016",
+    "number": 16,
+    "statement": "She had read material by doctors.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-017",
+    "number": 17,
+    "statement": "Her research was partly connected to writing her contemporary crime series.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-018",
+    "number": 18,
+    "statement": "Her fictional female detective is of an age where these issues would affect or interest her.",
+    "sectionId": "forstater-involvement",
+    "reference": {
+      "paragraphIds": [
+        "p003"
+      ]
+    }
+  },
+  {
+    "id": "claim-019",
+    "number": 19,
+    "statement": "Trans activists had directed accusations and threats at Rowling on Twitter before the Forstater controversy.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p004"
+      ]
+    }
+  },
+  {
+    "id": "claim-020",
+    "number": 20,
+    "statement": "The initial controversy surrounding Rowling's position began with a Twitter “like.”",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p004"
+      ]
+    }
+  },
+  {
+    "id": "claim-021",
+    "number": 21,
+    "statement": "Rowling had been screenshotting gender-related tweets/comments for later research.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p004"
+      ]
+    }
+  },
+  {
+    "id": "claim-022",
+    "number": 22,
+    "statement": "The controversial “like” was accidental.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p004"
+      ]
+    }
+  },
+  {
+    "id": "claim-023",
+    "number": 23,
+    "statement": "Rowling subsequently experienced persistent low-level harassment.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p004"
+      ]
+    }
+  },
+  {
+    "id": "claim-024",
+    "number": 24,
+    "statement": "Rowling later followed Magdalen Berns on Twitter.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-025",
+    "number": 25,
+    "statement": "Berns was a feminist.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-026",
+    "number": 26,
+    "statement": "Berns was a lesbian.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-027",
+    "number": 27,
+    "statement": "Berns had an aggressive brain tumour.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-028",
+    "number": 28,
+    "statement": "Berns was dying when Rowling followed her.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-029",
+    "number": 29,
+    "statement": "Rowling followed Berns specifically because she wanted to contact her privately.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-030",
+    "number": 30,
+    "statement": "Rowling successfully contacted Berns.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-031",
+    "number": 31,
+    "statement": "Berns believed biological sex was important.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-032",
+    "number": 32,
+    "statement": "Berns argued that lesbians should not be considered bigoted for refusing sexual/romantic relationships with trans women who have penises.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-033",
+    "number": 33,
+    "statement": "Abuse directed at Rowling increased after she followed Berns.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p005"
+      ]
+    }
+  },
+  {
+    "id": "claim-034",
+    "number": 34,
+    "statement": "Before publicly supporting Forstater, Rowling expected threats of violence.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-035",
+    "number": 35,
+    "statement": "Rowling subsequently received threats of violence.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-036",
+    "number": 36,
+    "statement": "People told Rowling that her statements were literally killing transgender people.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-037",
+    "number": 37,
+    "statement": "Rowling was called misogynistic/sexual slurs.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-038",
+    "number": 38,
+    "statement": "People burned copies of Rowling's books.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-039",
+    "number": 39,
+    "statement": "A man told Rowling that he had composted her books.",
+    "sectionId": "twitter-magdalen-berns",
+    "reference": {
+      "paragraphIds": [
+        "p006"
+      ]
+    }
+  },
+  {
+    "id": "claim-040",
+    "number": 40,
+    "statement": "Rowling received a large number of emails and letters after publicly supporting Forstater.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-041",
+    "number": 41,
+    "statement": "The overwhelming majority were positive/supportive.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-042",
+    "number": 42,
+    "statement": "Some correspondents worked professionally with gender dysphoria/transgender people.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-043",
+    "number": 43,
+    "statement": "Correspondents expressed concerns about gender-identity politics influencing politics.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-044",
+    "number": 44,
+    "statement": "They expressed concerns about its influence on medical practice.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-045",
+    "number": 45,
+    "statement": "They expressed concerns about safeguarding.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-046",
+    "number": 46,
+    "statement": "They expressed concerns about risks to young people.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-047",
+    "number": 47,
+    "statement": "They expressed concerns about risks to gay people.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-048",
+    "number": 48,
+    "statement": "They expressed concerns about erosion of women's/girls' rights.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-049",
+    "number": 49,
+    "statement": "They expressed concerns about a climate of fear surrounding the subject.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p007"
+      ]
+    }
+  },
+  {
+    "id": "claim-050",
+    "number": 50,
+    "statement": "Rowling had substantially withdrawn from Twitter before the Forstater tweet.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p008"
+      ]
+    }
+  },
+  {
+    "id": "claim-051",
+    "number": 51,
+    "statement": "One reason was concern about Twitter's effects on her mental health.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p008"
+      ]
+    }
+  },
+  {
+    "id": "claim-052",
+    "number": 52,
+    "statement": "Rowling returned to Twitter partly to promote/share a free children's book during COVID-19.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p008"
+      ]
+    }
+  },
+  {
+    "id": "claim-053",
+    "number": 53,
+    "statement": "After returning, she again received hostile responses concerning transgender issues.",
+    "sectionId": "reaction-forstater-support",
+    "reference": {
+      "paragraphIds": [
+        "p008"
+      ]
+    }
+  },
+  {
+    "id": "claim-054",
+    "number": 54,
+    "statement": "“TERF” stands for “trans-exclusionary radical feminist.”",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-055",
+    "number": 55,
+    "statement": "The term was coined by trans activists.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-056",
+    "number": 56,
+    "statement": "Many women described as TERFs have never been radical feminists.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-057",
+    "number": 57,
+    "statement": "Mothers concerned that gay children might transition because of homophobic bullying have been called TERFs.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-058",
+    "number": 58,
+    "statement": "Women objecting to Marks & Spencer's changing-room policies have been called TERFs.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-059",
+    "number": 59,
+    "statement": "Marks & Spencer permitted people identifying as women to use women's changing rooms.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-060",
+    "number": 60,
+    "statement": "Radical feminists generally include trans men within their feminist analysis on the basis of birth sex.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p009"
+      ]
+    }
+  },
+  {
+    "id": "claim-061",
+    "number": 61,
+    "statement": "Accusations of transphobia/TERFism have caused people to avoid publicly discussing gender-critical positions.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p010"
+      ]
+    }
+  },
+  {
+    "id": "claim-062",
+    "number": 62,
+    "statement": "Institutions and organisations have similarly avoided expressing such positions because of anticipated accusations of transphobia.",
+    "sectionId": "terf-gender-critical-women",
+    "reference": {
+      "paragraphIds": [
+        "p010"
+      ]
+    }
+  },
+  {
+    "id": "claim-063",
+    "number": 63,
+    "statement": "Rowling had a charitable trust focused on alleviating social deprivation in Scotland.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-064",
+    "number": 64,
+    "statement": "The trust particularly focused on women and children.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-065",
+    "number": 65,
+    "statement": "Her trust supported projects involving female prisoners.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-066",
+    "number": 66,
+    "statement": "Her trust supported survivors of domestic abuse.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-067",
+    "number": 67,
+    "statement": "Her trust supported survivors of sexual abuse.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-068",
+    "number": 68,
+    "statement": "Rowling funded medical research into multiple sclerosis.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-069",
+    "number": 69,
+    "statement": "Multiple sclerosis behaves differently in males and females.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-070",
+    "number": 70,
+    "statement": "Trans activism was seeking changes to the legal definition/status of sex.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-071",
+    "number": 71,
+    "statement": "Trans activism sought to replace sex with gender/gender identity in at least some legal contexts.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-072",
+    "number": 72,
+    "statement": "Such changes could affect causes funded by Rowling.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p013"
+      ]
+    }
+  },
+  {
+    "id": "claim-073",
+    "number": 73,
+    "statement": "Rowling was formerly a teacher.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p014"
+      ]
+    }
+  },
+  {
+    "id": "claim-074",
+    "number": 74,
+    "statement": "Rowling founded a children's charity.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p014"
+      ]
+    }
+  },
+  {
+    "id": "claim-075",
+    "number": 75,
+    "statement": "Rowling had previously publicly defended freedom of speech.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p015"
+      ]
+    }
+  },
+  {
+    "id": "claim-076",
+    "number": 76,
+    "statement": "Rowling had defended Donald Trump's freedom of speech.",
+    "sectionId": "philanthropy-motivations",
+    "reference": {
+      "paragraphIds": [
+        "p015"
+      ]
+    }
+  },
+  {
+    "id": "claim-077",
+    "number": 77,
+    "statement": "There had been a large increase in young women seeking gender transition.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-078",
+    "number": 78,
+    "statement": "The number of people detransitioning had increased.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-079",
+    "number": 79,
+    "statement": "Some detransitioners regret transitioning.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-080",
+    "number": 80,
+    "statement": "Some detransitioners underwent irreversible physical changes.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-081",
+    "number": 81,
+    "statement": "Some transition-related interventions can permanently impair/remove fertility.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-082",
+    "number": 82,
+    "statement": "Some detransitioners report that same-sex attraction contributed to their decision to transition.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-083",
+    "number": 83,
+    "statement": "Some detransitioners report that societal homophobia contributed to transitioning.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-084",
+    "number": 84,
+    "statement": "Some report that familial homophobia contributed to transitioning.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p016"
+      ]
+    }
+  },
+  {
+    "id": "claim-085",
+    "number": 85,
+    "statement": "Around 2010, most people seeking transition were male.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p017"
+      ]
+    }
+  },
+  {
+    "id": "claim-086",
+    "number": 86,
+    "statement": "By 2020, that sex ratio had reversed.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p017"
+      ]
+    }
+  },
+  {
+    "id": "claim-087",
+    "number": 87,
+    "statement": "The UK experienced a 4,400% increase in girls referred for gender-transition-related treatment.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p017"
+      ]
+    }
+  },
+  {
+    "id": "claim-088",
+    "number": 88,
+    "statement": "Autistic girls were substantially overrepresented among those referrals.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p017"
+      ]
+    }
+  },
+  {
+    "id": "claim-089",
+    "number": 89,
+    "statement": "A comparable change in adolescent transgender identification occurred in the United States.",
+    "sectionId": "youth-transition-detransition",
+    "reference": {
+      "paragraphIds": [
+        "p018"
+      ]
+    }
+  },
+  {
+    "id": "claim-090",
+    "number": 90,
+    "statement": "Lisa Littman was an American physician and researcher.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p018"
+      ]
+    }
+  },
+  {
+    "id": "claim-091",
+    "number": 91,
+    "statement": "Littman published research concerning adolescent transgender identification in 2018.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p018"
+      ]
+    }
+  },
+  {
+    "id": "claim-092",
+    "number": 92,
+    "statement": "Parents reported multiple members of friend groups identifying as transgender around the same period.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p019"
+      ]
+    }
+  },
+  {
+    "id": "claim-093",
+    "number": 93,
+    "statement": "Littman investigated social contagion as a possible explanation.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p019"
+      ]
+    }
+  },
+  {
+    "id": "claim-094",
+    "number": 94,
+    "statement": "Littman investigated peer influence as a possible factor.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p019"
+      ]
+    }
+  },
+  {
+    "id": "claim-095",
+    "number": 95,
+    "statement": "Littman identified Tumblr as a possible contributing environment.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-096",
+    "number": 96,
+    "statement": "She identified Reddit.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-097",
+    "number": 97,
+    "statement": "She identified Instagram.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-098",
+    "number": 98,
+    "statement": "She identified YouTube.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-099",
+    "number": 99,
+    "statement": "Littman proposed/used the concept “rapid-onset gender dysphoria” (ROGD).",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-100",
+    "number": 100,
+    "statement": "Littman characterized some online transgender youth communities as “insular echo chambers.”",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p020"
+      ]
+    }
+  },
+  {
+    "id": "claim-101",
+    "number": 101,
+    "statement": "Littman's paper generated substantial controversy.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-102",
+    "number": 102,
+    "statement": "Littman was accused of bias.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-103",
+    "number": 103,
+    "statement": "Littman was accused of spreading misinformation about transgender people.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-104",
+    "number": 104,
+    "statement": "Littman experienced significant personal abuse following publication.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-105",
+    "number": 105,
+    "statement": "There was an organized campaign to discredit Littman's research.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-106",
+    "number": 106,
+    "statement": "The journal removed/took offline Littman's paper.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-107",
+    "number": 107,
+    "statement": "The journal subsequently re-reviewed the paper.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-108",
+    "number": 108,
+    "statement": "The paper was subsequently republished.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-109",
+    "number": 109,
+    "statement": "Littman's career was adversely affected by the controversy.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-110",
+    "number": 110,
+    "statement": "Trans activists generally maintained that gender identity is innate.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-111",
+    "number": 111,
+    "statement": "Trans activists compared gender identity's innateness to sexual orientation.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-112",
+    "number": 112,
+    "statement": "Trans activists maintained that people could not be socially persuaded into becoming transgender.",
+    "sectionId": "littman-rogd",
+    "reference": {
+      "paragraphIds": [
+        "p021"
+      ]
+    }
+  },
+  {
+    "id": "claim-113",
+    "number": 113,
+    "statement": "Trans activists have argued that preventing a gender-dysphoric teenager from transitioning increases the likelihood of suicide.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-114",
+    "number": 114,
+    "statement": "Some activists specifically present transition as necessary to prevent suicide.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-115",
+    "number": 115,
+    "statement": "Marcus Evans was a psychiatrist.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-116",
+    "number": 116,
+    "statement": "Evans worked at the Tavistock gender clinic.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-117",
+    "number": 117,
+    "statement": "The Tavistock was an NHS gender clinic in England.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-118",
+    "number": 118,
+    "statement": "Evans resigned from the Tavistock.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-119",
+    "number": 119,
+    "statement": "Evans publicly criticized claims that children would kill themselves if prevented from transitioning.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-120",
+    "number": 120,
+    "statement": "Evans said such claims were not substantially supported by robust data/studies.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-121",
+    "number": 121,
+    "statement": "Evans said such claims did not align with cases encountered during his psychotherapy career.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-122",
+    "number": 122,
+    "statement": "Evans had worked as a psychotherapist for decades.",
+    "sectionId": "suicide-tavistock",
+    "reference": {
+      "paragraphIds": [
+        "p022"
+      ]
+    }
+  },
+  {
+    "id": "claim-123",
+    "number": 123,
+    "statement": "Rowling had severe OCD as a teenager.",
+    "sectionId": "adolescence-personal-history",
+    "reference": {
+      "paragraphIds": [
+        "p023",
+        "p024",
+        "p025"
+      ]
+    }
+  },
+  {
+    "id": "claim-124",
+    "number": 124,
+    "statement": "Rowling's father openly stated that he would have preferred a son.",
+    "sectionId": "adolescence-personal-history",
+    "reference": {
+      "paragraphIds": [
+        "p023",
+        "p024",
+        "p025"
+      ]
+    }
+  },
+  {
+    "id": "claim-125",
+    "number": 125,
+    "statement": "Rowling experienced significant ambivalence about being female when young.",
+    "sectionId": "adolescence-personal-history",
+    "reference": {
+      "paragraphIds": [
+        "p023",
+        "p024",
+        "p025"
+      ]
+    }
+  },
+  {
+    "id": "claim-126",
+    "number": 126,
+    "statement": "Rowling experienced sexualised scrutiny/judgment as a girl/young woman.",
+    "sectionId": "adolescence-personal-history",
+    "reference": {
+      "paragraphIds": [
+        "p023",
+        "p024",
+        "p025"
+      ]
+    }
+  },
+  {
+    "id": "claim-127",
+    "number": 127,
+    "statement": "Books and music were important coping mechanisms for Rowling's adolescent mental-health difficulties.",
+    "sectionId": "adolescence-personal-history",
+    "reference": {
+      "paragraphIds": [
+        "p025"
+      ]
+    }
+  },
+  {
+    "id": "claim-128",
+    "number": 128,
+    "statement": "Transition is an effective/appropriate solution for at least some people with gender dysphoria.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-129",
+    "number": 129,
+    "statement": "Studies available by 2020 had found that 60–90% of gender-dysphoric teenagers eventually ceased experiencing gender dysphoria.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-130",
+    "number": 130,
+    "statement": "Multiple studies had consistently produced results in that approximate range.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-131",
+    "number": 131,
+    "statement": "Rowling personally knew several transgender people.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-132",
+    "number": 132,
+    "statement": "Rowling knew an older transsexual woman.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-133",
+    "number": 133,
+    "statement": "That woman had previously lived as a gay man.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-134",
+    "number": 134,
+    "statement": "That woman underwent an extensive evaluation process before transitioning.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-135",
+    "number": 135,
+    "statement": "That process included psychotherapy.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-136",
+    "number": 136,
+    "statement": "That process involved staged transition.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-137",
+    "number": 137,
+    "statement": "Historical sex-reassignment pathways generally required more extensive assessment than those available in 2020.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-138",
+    "number": 138,
+    "statement": "Trans activists were campaigning to remove/reduce those assessment requirements.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-139",
+    "number": 139,
+    "statement": "By 2020, a person could obtain a Gender Recognition Certificate without undergoing sex-reassignment surgery.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-140",
+    "number": 140,
+    "statement": "A person could obtain a GRC without taking cross-sex hormones.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-141",
+    "number": 141,
+    "statement": "A male person with neither surgery nor hormone treatment could legally become female under the UK's GRC framework.",
+    "sectionId": "desistance-transition-outcomes",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-142",
+    "number": 142,
+    "statement": "Online pornography had become substantially more prevalent/accessible compared with the 1980s.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-143",
+    "number": 143,
+    "statement": "Online pornography contributes to harmful conditions experienced by girls.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-144",
+    "number": 144,
+    "statement": "Feminism had experienced a significant backlash.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-145",
+    "number": 145,
+    "statement": "Donald Trump had faced numerous sexual-assault allegations.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-146",
+    "number": 146,
+    "statement": "Trump had been recorded saying “grab them by the pussy.”",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-147",
+    "number": 147,
+    "statement": "An organized/identifiable incel movement existed.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-148",
+    "number": 148,
+    "statement": "Incel communities expressed hostility toward women who refuse them sex.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-149",
+    "number": 149,
+    "statement": "Trans activists had publicly advocated punching TERFs.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-150",
+    "number": 150,
+    "statement": "Trans activists had advocated “re-educating” TERFs.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p027"
+      ]
+    }
+  },
+  {
+    "id": "claim-151",
+    "number": 151,
+    "statement": "Some contemporary gender theories deny that femaleness resides in the sexed body.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-152",
+    "number": 152,
+    "statement": "Some advocates argue that biological women do not share meaningful/common sex-based experiences.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-153",
+    "number": 153,
+    "statement": "Some activists seek to diminish the political/legal significance of biological sex.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-154",
+    "number": 154,
+    "statement": "Some activists reject women as a coherent sex-based political class.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-155",
+    "number": 155,
+    "statement": "Rowling received hundreds of emails expressing concern about these developments.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-156",
+    "number": 156,
+    "statement": "Some trans activists maintain there is no materially relevant difference between trans women and natal women.",
+    "sectionId": "women-misogyny-culture",
+    "reference": {
+      "paragraphIds": [
+        "p028"
+      ]
+    }
+  },
+  {
+    "id": "claim-157",
+    "number": 157,
+    "statement": "Institutions/activists were using terms such as “menstruators” instead of “women” in some contexts.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-158",
+    "number": 158,
+    "statement": "Institutions/activists were using “people with vulvas” in some contexts.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-159",
+    "number": 159,
+    "statement": "These linguistic changes were intended, at least partly, to include transgender/nonbinary people.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-160",
+    "number": 160,
+    "statement": "Some women regarded such terminology as dehumanising.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-161",
+    "number": 161,
+    "statement": "Some women regarded it as demeaning.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-162",
+    "number": 162,
+    "statement": "Some women regarded it as hostile or alienating.",
+    "sectionId": "language-concerning-women",
+    "reference": {
+      "paragraphIds": [
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-163",
+    "number": 163,
+    "statement": "Rowling is a survivor of domestic abuse.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-164",
+    "number": 164,
+    "statement": "Rowling is a survivor of sexual assault.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-165",
+    "number": 165,
+    "statement": "She had not publicly disclosed those experiences before 2020.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-166",
+    "number": 166,
+    "statement": "Her daughter from her first marriage shared part of the history surrounding Rowling's abusive marriage.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-167",
+    "number": 167,
+    "statement": "Rowling consulted her daughter before publicly discussing that history.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-168",
+    "number": 168,
+    "statement": "Her daughter encouraged her to disclose it.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p031"
+      ]
+    }
+  },
+  {
+    "id": "claim-169",
+    "number": 169,
+    "statement": "Rowling's first marriage was violent.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p033"
+      ]
+    }
+  },
+  {
+    "id": "claim-170",
+    "number": 170,
+    "statement": "Rowling had difficulty escaping that marriage.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p033"
+      ]
+    }
+  },
+  {
+    "id": "claim-171",
+    "number": 171,
+    "statement": "Rowling subsequently married again.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p033"
+      ]
+    }
+  },
+  {
+    "id": "claim-172",
+    "number": 172,
+    "statement": "Rowling continued to experience trauma-related reactions associated with past violence.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p033"
+      ]
+    }
+  },
+  {
+    "id": "claim-173",
+    "number": 173,
+    "statement": "Rowling had a pronounced startle response/jumpiness.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p033"
+      ]
+    }
+  },
+  {
+    "id": "claim-174",
+    "number": 174,
+    "statement": "Rowling experienced a serious sexual assault in her twenties.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p034",
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-175",
+    "number": 175,
+    "statement": "The perpetrator was male.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p034",
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-176",
+    "number": 176,
+    "statement": "Rowling believed the perpetrator exploited her situational vulnerability.",
+    "sectionId": "abuse-sexual-assault-history",
+    "reference": {
+      "paragraphIds": [
+        "p034",
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-177",
+    "number": 177,
+    "statement": "Transgender people experience elevated vulnerability to violence.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p034",
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-178",
+    "number": 178,
+    "statement": "The majority of transgender people pose no threat to other people.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-179",
+    "number": 179,
+    "statement": "Transgender people are disproportionately vulnerable in some respects.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-180",
+    "number": 180,
+    "statement": "Transgender people are most likely to be killed by sexual/intimate partners.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-181",
+    "number": 181,
+    "statement": "Trans women working in the sex industry face particularly high risks of violence.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-182",
+    "number": 182,
+    "statement": "Trans women of colour face particularly high risks.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-183",
+    "number": 183,
+    "statement": "Male violence is an important source of lethal violence against trans women.",
+    "sectionId": "violence-transgender-people",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-184",
+    "number": 184,
+    "statement": "Allowing trans women into women's bathrooms can allow predatory non-trans men to exploit the same access policy.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-185",
+    "number": 185,
+    "statement": "Allowing trans women into women's changing rooms can create the same potential loophole.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-186",
+    "number": 186,
+    "statement": "Under some gender-identity policies, access to women's facilities requires no surgery.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-187",
+    "number": 187,
+    "statement": "Under some such policies, access requires no hormone treatment.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-188",
+    "number": 188,
+    "statement": "Self-identification policies permit male people to enter female-only spaces based principally/solely on declared gender identity.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-189",
+    "number": 189,
+    "statement": "Such policies make natal women/girls less safe.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-190",
+    "number": 190,
+    "statement": "Predatory men have exploited transgender-inclusive access rules or gender identities to access female spaces.",
+    "sectionId": "single-sex-spaces-safeguarding",
+    "reference": {
+      "paragraphIds": [
+        "p036"
+      ]
+    }
+  },
+  {
+    "id": "claim-191",
+    "number": 191,
+    "statement": "In June 2020, the Scottish government was proceeding with plans to reform gender recognition.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-192",
+    "number": 192,
+    "statement": "Those plans were controversial.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-193",
+    "number": 193,
+    "statement": "The reforms substantially reduced requirements for obtaining legal gender recognition.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-194",
+    "number": 194,
+    "statement": "The proposed system amounted to gender self-identification.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-195",
+    "number": 195,
+    "statement": "Under the proposed Scottish system, surgery would not be required.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-196",
+    "number": 196,
+    "statement": "Hormone treatment would not be required.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-197",
+    "number": 197,
+    "statement": "A medical diagnosis of gender dysphoria would not be required.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-198",
+    "number": 198,
+    "statement": "Rowling learned/read about the government's plans immediately before the Twitter incident described in the essay.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-199",
+    "number": 199,
+    "statement": "The news triggered memories of Rowling's sexual assault.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p037"
+      ]
+    }
+  },
+  {
+    "id": "claim-200",
+    "number": 200,
+    "statement": "Rowling's controversial June 2020 tweets followed that episode.",
+    "sectionId": "scottish-gender-recognition-reform",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-201",
+    "number": 201,
+    "statement": "Rowling received transphobia accusations after emphasizing biological sex.",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-202",
+    "number": 202,
+    "statement": "She was called “cunt.”",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-203",
+    "number": 203,
+    "statement": "She was called “bitch.”",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-204",
+    "number": 204,
+    "statement": "She was called “TERF.”",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-205",
+    "number": 205,
+    "statement": "People said Rowling deserved to be punched.",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-206",
+    "number": 206,
+    "statement": "Rowling received death threats/wishes.",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-207",
+    "number": 207,
+    "statement": "At least one person compared Rowling to Voldemort.",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-208",
+    "number": 208,
+    "statement": "Trans activists had repeatedly targeted Rowling on social media before this incident.",
+    "sectionId": "abuse-june-2020-statements",
+    "reference": {
+      "paragraphIds": [
+        "p038"
+      ]
+    }
+  },
+  {
+    "id": "claim-209",
+    "number": 209,
+    "statement": "Rowling believes “trans rights are human rights.”",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p039"
+      ]
+    }
+  },
+  {
+    "id": "claim-210",
+    "number": 210,
+    "statement": "Rowling believes “trans lives matter.”",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p039"
+      ]
+    }
+  },
+  {
+    "id": "claim-211",
+    "number": 211,
+    "statement": "Rowling believes transgender people deserve legal/social protection.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-212",
+    "number": 212,
+    "statement": "Rowling believes trans women should be protected from male violence.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-213",
+    "number": 213,
+    "statement": "Rowling expresses solidarity with trans women who experience domestic/sexual violence.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-214",
+    "number": 214,
+    "statement": "Rowling believes most transgender people pose no danger to others.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p035"
+      ]
+    }
+  },
+  {
+    "id": "claim-215",
+    "number": 215,
+    "statement": "Rowling accepts that transition is appropriate for some gender-dysphoric people.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-216",
+    "number": 216,
+    "statement": "Rowling does not advocate eliminating transition altogether.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p026"
+      ]
+    }
+  },
+  {
+    "id": "claim-217",
+    "number": 217,
+    "statement": "Rowling believes biological sex remains materially important.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p013",
+        "p028",
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-218",
+    "number": 218,
+    "statement": "Rowling believes “woman” should remain a biological/sex-based category.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p013",
+        "p028",
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-219",
+    "number": 219,
+    "statement": "Rowling opposes replacing sex with gender identity in at least some legal contexts.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p013",
+        "p028",
+        "p029"
+      ]
+    }
+  },
+  {
+    "id": "claim-220",
+    "number": 220,
+    "statement": "Rowling supports retaining some female-only spaces.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p036",
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-221",
+    "number": 221,
+    "statement": "Rowling believes safeguarding concerns can justify excluding trans women from some female-only spaces.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p036",
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-222",
+    "number": 222,
+    "statement": "Rowling believes contemporary trans activism can harm women and girls.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-223",
+    "number": 223,
+    "statement": "Rowling believes contemporary trans activism can harm gay children.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-224",
+    "number": 224,
+    "statement": "Rowling believes contemporary trans activism can harm gender-dysphoric teenagers.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-225",
+    "number": 225,
+    "statement": "Rowling believes some trans activism provides cover/opportunities for male sexual predators.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-226",
+    "number": 226,
+    "statement": "Rowling supports freedom to express gender-critical beliefs.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-227",
+    "number": 227,
+    "statement": "Rowling identifies herself as standing alongside some transgender gender-critical people.",
+    "sectionId": "rowling-stated-position",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-228",
+    "number": 228,
+    "statement": "Large numbers of women were afraid of trans activists.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p040"
+      ]
+    }
+  },
+  {
+    "id": "claim-229",
+    "number": 229,
+    "statement": "Women contacted Rowling reporting fear of doxxing.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p040"
+      ]
+    }
+  },
+  {
+    "id": "claim-230",
+    "number": 230,
+    "statement": "Women reported fearing loss of employment.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p040"
+      ]
+    }
+  },
+  {
+    "id": "claim-231",
+    "number": 231,
+    "statement": "Women reported fearing loss of livelihood.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p040"
+      ]
+    }
+  },
+  {
+    "id": "claim-232",
+    "number": 232,
+    "statement": "Women reported fearing violence.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p040"
+      ]
+    }
+  },
+  {
+    "id": "claim-233",
+    "number": 233,
+    "statement": "Women advocating female-only spaces had been characterized as bigots.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p032"
+      ]
+    }
+  },
+  {
+    "id": "claim-234",
+    "number": 234,
+    "statement": "Polling showed majority support among women for Rowling's/general gender-critical concerns regarding single-sex spaces.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-235",
+    "number": 235,
+    "statement": "Women without personal experience of male violence/sexual assault were disproportionately likely to disagree with those concerns.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p041"
+      ]
+    }
+  },
+  {
+    "id": "claim-236",
+    "number": 236,
+    "statement": "Gender-critical activism in Britain crossed traditional political-party lines.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-237",
+    "number": 237,
+    "statement": "Gender-critical women from different political affiliations were organizing together.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-238",
+    "number": 238,
+    "statement": "Those women shared concerns about erosion of women's existing rights.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-239",
+    "number": 239,
+    "statement": "Those women shared concerns about intimidation.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-240",
+    "number": 240,
+    "statement": "Rowling had personally spoken with multiple gender-critical women.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-241",
+    "number": 241,
+    "statement": "None of the gender-critical women Rowling had spoken with hated transgender people.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-242",
+    "number": 242,
+    "statement": "Many became involved because of concern about transgender youth.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-243",
+    "number": 243,
+    "statement": "Many were sympathetic toward transgender adults.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-244",
+    "number": 244,
+    "statement": "Some transgender adults opposed the form of trans activism Rowling criticized.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-245",
+    "number": 245,
+    "statement": "Transgender adults experienced backlash resulting from activism they did not personally endorse.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-246",
+    "number": 246,
+    "statement": "Use of “TERF” as a silencing/derogatory label contributed to increased interest in radical feminism among young women.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  },
+  {
+    "id": "claim-247",
+    "number": 247,
+    "statement": "Radical feminism had experienced increased interest among young women around this period.",
+    "sectionId": "wider-intimidation-public-opinion",
+    "reference": {
+      "paragraphIds": [
+        "p042"
+      ]
+    }
+  }
+]
