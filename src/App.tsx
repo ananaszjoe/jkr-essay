@@ -26,8 +26,6 @@ const taxonomy = taxonomyData as Taxonomy;
 const initialThemeId = taxonomy.themes[0]?.id ?? null;
 const initialSectionId = taxonomy.sections.find((section) => section.themeId === initialThemeId)?.id ?? null;
 const defaultNodeId = initialSectionId ?? initialThemeId ?? "essay";
-const initialNodeId = nodeIdFromHash() ?? defaultNodeId;
-const initialExpandedPath = expandedPathForNode(initialNodeId);
 const GLANCED_STORAGE_KEY = "jkr-exploration-glanced";
 const READ_STORAGE_KEY = "jkr-exploration-read";
 
@@ -91,15 +89,29 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
 }
 
 function App() {
-  const [expandedPath, setExpandedPath] = useState<{ themeId: string | null; sectionId: string | null }>({
-    themeId: initialExpandedPath.themeId,
-    sectionId: initialExpandedPath.sectionId
-  });
+  const [showComponents, setShowComponents] = useState(() => window.location.hash === "#components");
+
+  useEffect(() => {
+    const updateRoute = () => setShowComponents(window.location.hash === "#components");
+    window.addEventListener("hashchange", updateRoute);
+    window.addEventListener("popstate", updateRoute);
+    return () => {
+      window.removeEventListener("hashchange", updateRoute);
+      window.removeEventListener("popstate", updateRoute);
+    };
+  }, []);
+
+  return showComponents ? <ComponentsPage /> : <GraphApp />;
+}
+
+function GraphApp() {
+  const [startingNodeId] = useState(() => nodeIdFromHash() ?? defaultNodeId);
+  const [expandedPath, setExpandedPath] = useState<{ themeId: string | null; sectionId: string | null }>(() => expandedPathForNode(startingNodeId));
   const activeTheme = expandedPath.themeId;
   const activeSection = expandedPath.sectionId;
-  const [currentNodeId, setCurrentNodeId] = useState(initialNodeId);
+  const [currentNodeId, setCurrentNodeId] = useState(startingNodeId);
   const [selectedClaimId, setSelectedClaimId] = useState<string | null>(
-    claims.some((claim) => claim.id === initialNodeId) ? initialNodeId : null
+    claims.some((claim) => claim.id === startingNodeId) ? startingNodeId : null
   );
   const [query, setQuery] = useState("");
   const [showAbout, setShowAbout] = useState(false);
@@ -806,6 +818,192 @@ function ClaimPanel({
         </section>
       )}
     </aside>
+  );
+}
+
+function ComponentsPage() {
+  const verdicts: Verdict[] = [
+    "supported",
+    "mostly-supported",
+    "mixed",
+    "misleading-context",
+    "mostly-unsupported",
+    "unsupported",
+    "unverifiable"
+  ];
+
+  return (
+    <main className="components-page">
+      <header className="topbar components-topbar">
+        <div className="exploration-stats">
+          <span>glanced over: <strong>42.1%</strong></span>
+          <span>read through: <strong>18.6%</strong></span>
+        </div>
+        <div className="search-wrap">
+          <label htmlFor="component-search">Search all claims</label>
+          <input id="component-search" type="search" value="evidence" readOnly />
+          <div className="search-results" aria-label="Example matching claims">
+            {["Evidence can support a narrow attribution.", "Evidence may contextualize a numerical claim.", "Evidence can contradict the stated conclusion."].map((result, index) => (
+              <button key={result} type="button">
+                <span>{String(index + 1).padStart(3, "0")}</span>
+                {result}
+              </button>
+            ))}
+          </div>
+        </div>
+        <button className="about-button" type="button">About</button>
+      </header>
+
+      <div className="components-page__content">
+        <header className="components-intro">
+          <span className="kicker">Visual reference · #components</span>
+          <h1>Component inventory</h1>
+          <p>Static specimens for design scrutiny and future visual-regression testing.</p>
+        </header>
+
+        <ComponentSection title="Graph nodes">
+          <div className="component-grid component-grid--nodes">
+            <StaticGraphCard kind="essay" eyebrow="June 2020 essay" title="Example essay root node" meta="247 extracted claims" />
+            <StaticGraphCard kind="theme" eyebrow="Theme 01" title="Example thematic category" meta="4 sections · 38 claims" />
+            <StaticGraphCard kind="section" eyebrow="Section 01" title="Example section category" meta="12 claims · expand" />
+            <StaticGraphCard kind="claim" eyebrow="Claim 001" title="Example supported claim shown as an end leaf." meta="open details" verdict="supported" />
+          </div>
+        </ComponentSection>
+
+        <ComponentSection title="Fact-check verdicts">
+          <div className="component-row component-row--wrap">
+            {verdicts.map((verdict) => (
+              <span key={verdict} className={`verdict-chip verdict-chip--${verdict}`}>{verdictLabel(verdict)}</span>
+            ))}
+            <span className="status-pill">Pending research</span>
+          </div>
+        </ComponentSection>
+
+        <ComponentSection title="Reading progress">
+          <div className="progress-specimens">
+            {[
+              { width: 8, label: "You glanced over" },
+              { width: 35, label: "You're reading it" },
+              { width: 70, label: "You're reading it… Right?" },
+              { width: 100, label: "You've likely read it" }
+            ].map((state) => (
+              <div className="progress-specimen" key={state.label}>
+                <div className="reading-progress__bar"><span style={{ width: `${state.width}%` }} /></div>
+                <span>{state.label}</span>
+              </div>
+            ))}
+          </div>
+        </ComponentSection>
+
+        <ComponentSection title="Claim detail panel">
+          <aside className="claim-panel component-panel" aria-label="Example claim detail panel">
+            <div className="reading-progress is-visible">
+              <div className="reading-progress__bar"><span style={{ width: "64%" }} /></div>
+              <span className="reading-progress__label">You're reading it… Right?</span>
+            </div>
+            <div className="panel-heading">
+              <span>Claim 001</span>
+              <div className="panel-actions">
+                <button type="button" aria-label="Share this example"><ShareIcon /></button>
+                <button type="button" aria-label="Close example">×</button>
+              </div>
+            </div>
+            <div className="share-box">
+              <label htmlFor="component-share-url">Share this claim</label>
+              <div className="share-field">
+                <input id="component-share-url" value="https://example.test/#claim-001" readOnly />
+                <button type="button"><CopyIcon />Copy URL</button>
+              </div>
+            </div>
+            <h1>An example claim title that demonstrates the panel’s editorial hierarchy.</h1>
+            <p className="panel-section">Example theme / Example section</p>
+            <section>
+              <h2>In the essay</h2>
+              <article className="reference-card">
+                <strong>P001</strong>
+                <p>A concise example summary showing how the essay reference is presented.</p>
+              </article>
+              <a href="#components">Read the original essay ↗</a>
+            </section>
+            <section>
+              <h2>Fact-check</h2>
+              <span className="verdict-chip verdict-chip--supported">Supported</span>
+              <p>This example summary demonstrates the primary result text and its spacing.</p>
+              <p>This longer example analysis illustrates how explanatory copy flows within the panel without relying on production content.</p>
+              <div className="limitations">
+                <h3>Limitations</h3>
+                <p>An example limitation clarifies the scope of the available evidence.</p>
+              </div>
+            </section>
+            <section>
+              <h2>Sources</h2>
+              <div className="source-list">
+                <article className="source-card">
+                  <div className="source-card__heading"><span className="evidence-stance evidence-stance--supports">supports</span><span>01</span></div>
+                  <a href="#components">Example primary source ↗</a>
+                  <p className="source-byline">A. Researcher · Example Publisher · Jan 1, 2020</p>
+                  <p className="source-locator">Results, table 2</p>
+                  <p className="source-note">An example evidence note explains precisely what this source establishes.</p>
+                </article>
+              </div>
+            </section>
+          </aside>
+        </ComponentSection>
+
+        <ComponentSection title="Utility and empty states">
+          <div className="component-row component-row--utilities">
+            <div className="graph-hint"><span aria-hidden="true">↔</span>Pan · zoom · arrow keys navigate</div>
+            <button className="take-me-back" type="button">Take me back</button>
+            <div className="empty-state"><span>Pending research</span><p>Evidence, analysis and a verdict will appear here as this project develops.</p></div>
+          </div>
+        </ComponentSection>
+
+        <ComponentSection title="About dialog">
+          <section className="about-dialog component-about" aria-label="Example about dialog">
+            <button type="button" className="dialog-close" aria-label="Close example dialog">×</button>
+            <span className="kicker">About this project</span>
+            <h1>One essay. Many separable claims.</h1>
+            <p>Example explanatory copy for the project information dialog.</p>
+          </section>
+        </ComponentSection>
+      </div>
+    </main>
+  );
+}
+
+function ComponentSection({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="component-section">
+      <h2>{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+function StaticGraphCard({
+  kind,
+  eyebrow,
+  title,
+  meta,
+  verdict
+}: {
+  kind: GraphNodeData["kind"];
+  eyebrow: string;
+  title: string;
+  meta: string;
+  verdict?: Verdict;
+}) {
+  return (
+    <div className={`graph-card graph-card--${kind} ${verdict ? `graph-card--verdict-${verdict}` : ""}`}>
+      <div className="graph-card__content">
+        <span className="node-eyebrow">{eyebrow}</span>
+        <strong>{title}</strong>
+        <span className="node-footer">
+          {verdict && <span className={`verdict-chip verdict-chip--${verdict}`}>{verdictLabel(verdict)}</span>}
+          <span className="node-meta">{meta}</span>
+        </span>
+      </div>
+    </div>
   );
 }
 

@@ -340,6 +340,30 @@ button { color: inherit; }
 .about-dialog h1 { max-width: 420px; margin: 14px 0 20px; font: 600 42px/1.02 "Newsreader", serif; }
 .about-dialog p { color: #514d47; font-size: 14px; line-height: 1.7; }
 
+.components-page { width: 100%; height: 100%; overflow-y: auto; background: var(--paper); }
+.components-topbar { position: relative; }
+.components-page__content { width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding: 205px 0 80px; }
+.components-intro { margin-bottom: 48px; }
+.components-intro h1 { margin: 12px 0 8px; font: 600 48px/1 "Newsreader", serif; }
+.components-intro p { margin: 0; color: var(--muted); font-size: 13px; }
+.component-section { margin-top: 34px; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: rgba(251,250,246,.72); }
+.component-section > h2 { margin: 0 0 22px; color: #746e65; font: 500 10px "DM Mono", monospace; letter-spacing: .1em; text-transform: uppercase; }
+.component-grid { display: grid; gap: 22px; align-items: start; }
+.component-grid--nodes { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.component-grid--nodes .graph-card { max-width: 100%; }
+.component-row { display: flex; align-items: center; gap: 14px; }
+.component-row--wrap { flex-wrap: wrap; }
+.progress-specimens { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.progress-specimen { position: relative; min-height: 44px; padding-top: 4px; border: 1px solid var(--line); border-radius: 8px; background: white; overflow: hidden; }
+.progress-specimen > span { display: block; margin-top: 9px; text-align: center; color: #47547f; font: 500 9px "DM Mono", monospace; }
+.component-panel { position: relative; inset: auto; width: min(700px, 100%); height: auto; max-height: none; margin: 0 auto; overflow: visible; border: 1px solid var(--line); border-radius: 14px; animation: none; }
+.component-panel .reading-progress { position: relative; top: auto; }
+.component-row--utilities { align-items: center; flex-wrap: wrap; }
+.component-row--utilities .graph-hint,
+.component-row--utilities .take-me-back { position: relative; inset: auto; transform: none; }
+.component-row--utilities .empty-state { width: min(390px, 100%); }
+.component-about { margin: 0 auto; border: 1px solid var(--line); box-shadow: 0 16px 45px rgba(0,0,0,.12); }
+
 @media (max-width: 720px) {
   .topbar { height: 68px; gap: 10px; padding: 10px 12px; }
   .exploration-stats { left: 12px; font-size: 7px; }
@@ -372,6 +396,12 @@ button { color: inherit; }
   .claim-panel section { margin-top: 22px; padding-top: 17px; }
   .about-dialog { padding: 38px 25px 28px; }
   .about-dialog h1 { font-size: 34px; }
+  .components-page__content { width: calc(100% - 24px); padding-top: 195px; }
+  .components-intro h1 { font-size: 38px; }
+  .component-section { padding: 16px; }
+  .component-grid--nodes, .progress-specimens { grid-template-columns: 1fr; }
+  .component-panel { width: 100%; padding: 24px 18px 30px; border-radius: 14px; }
+  .component-panel .reading-progress { margin: -24px -18px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
