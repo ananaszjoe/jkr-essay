@@ -824,6 +824,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "biological sex", "gender identity"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Berns repeatedly treated biological sex as material to the definitions of male, female, and homosexuality.",
+      "analysis": "In her own videos, Berns argued that reproductive anatomy determines biological sex and defined homosexuality by attraction to the same biological sex. Contemporary profiles similarly describe her advocacy as a defense of sex-based rights. That record supports Rowling's concise characterization, while “important” remains a broad paraphrase rather than Berns's precise formulation.",
+      "evidence": [
+        {"sourceId": "source-berns-lesbian-video-2016", "stance": "supports", "locator": "Discussion of reproductive organs, sex, and homosexuality", "note": "Berns grounds her definitions of male and homosexual in biological sex."},
+        {"sourceId": "source-morning-star-berns-obituary-2019", "stance": "supports", "locator": "Paragraph describing her university and later activism", "note": "The obituary describes Berns's public defense of women's sex-based rights."}
+      ],
+      "limitations": "The word “important” is Rowling's summary; the evidence establishes the substance of Berns's position rather than that exact wording.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -835,6 +850,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["Magdalen Berns", "lesbians", "dating", "transphobia", "sexual orientation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Berns publicly rejected describing lesbians' sex-based attraction or refusal of partners with male genitalia as transphobic.",
+      "analysis": "Berns's 2016 video defines lesbians as female people attracted to the same biological sex and objects to social pressure surrounding that definition. Her 2017 response explicitly addresses whether genital preferences are transphobic and rejects the argument she is answering. Rowling's wording is a fair, if softened, summary of that publicly recorded position.",
+      "evidence": [
+        {"sourceId": "source-berns-lesbian-video-2016", "stance": "supports", "locator": "Discussion of lesbians, anatomy, and pressure over transphobia", "note": "Berns links lesbian orientation to biological sex and rejects pressure to redefine it."},
+        {"sourceId": "source-berns-preferences-video-2017", "stance": "supports", "locator": "Title, description, and argument responding to ‘Are genital preferences transphobic?’", "note": "Berns directly rejects characterizing genital-based dating preferences as transphobic."}
+      ],
+      "limitations": "The source material uses more categorical and confrontational language than Rowling's paraphrase and discusses sexual attraction more directly than romantic relationships.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -846,6 +876,21 @@
       "paragraphIds": [
         "p005"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "Magdalen Berns", "Twitter", "abuse", "criticism"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Rowling received substantial criticism after the Berns follow became public, but the available record does not measure whether abuse increased relative to the earlier baseline.",
+      "analysis": "Contemporaneous coverage says Rowling was heavily criticised after a screenshot of the follow circulated and reproduces multiple hostile responses. This establishes a wave of adverse attention associated with the follow. It does not preserve all messages, distinguish criticism from abuse consistently, or quantify the volume before and after the event, so the claimed increase cannot be fully verified.",
+      "evidence": [
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "supports", "locator": "Report and reproduced reactions dated 23–25 June 2019", "note": "The article documents significant criticism following discovery of the Berns follow."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “However, as Magdalen”", "note": "Rowling states that the level of social-media abuse increased."}
+      ],
+      "limitations": "No complete archive or before-and-after count was identified, and classifying criticism as abuse involves contextual judgment.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -857,6 +902,21 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "Maya Forstater", "threats", "expectation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she anticipated violent threats before supporting Forstater, but a prior private expectation cannot be independently verified.",
+      "analysis": "The essay records Rowling's retrospective account of what she expected when she posted the Forstater tweet. Contemporary reporting confirms that earlier Twitter controversies gave her reason to expect backlash, but it cannot establish her internal prediction before publication.",
+      "evidence": [
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this”", "note": "Rowling states that she expected threats of violence when supporting Forstater."},
+        {"sourceId": "source-pinknews-rowling-following-2019", "stance": "contextualizes", "locator": "Published 25 June 2019", "note": "Earlier public criticism provides context for why she may have anticipated another backlash."}
+      ],
+      "limitations": "Only a contemporaneous private note or corroborated statement made before the tweet could independently establish the expectation.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -868,6 +928,21 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "Maya Forstater", "threats of violence", "Twitter"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay alludes to violent threats, but the reviewed contemporaneous record documents backlash rather than identifiable threats made after the Forstater tweet.",
+      "analysis": "Major contemporaneous reports establish that the Forstater tweet prompted widespread criticism. Rowling's essay lists threats of violence among the reactions she says she expected, but it does not quote, date, or link a threat in this passage. Without preserved messages or corroborating reports, the stronger claim that she actually received such threats in this period remains unverified.",
+      "evidence": [
+        {"sourceId": "source-cbs-rowling-forstater-2019", "stance": "neutral", "locator": "Report published 19 December 2019", "note": "CBS documents widespread criticism but does not report a threat of violence."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this”", "note": "Rowling refers to expected threats of violence without identifying particular messages."}
+      ],
+      "limitations": "Deleted posts and private messages may be unavailable; failure to locate them does not establish that threats did not occur.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -879,6 +954,21 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "trans people", "harm", "Twitter reaction"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Critics publicly argued that Rowling's rhetoric put trans people at risk, but the exact claim that she was told she was literally killing people was not independently located.",
+      "analysis": "CBS records GLAAD's criticism that rhetoric implying trans people are threatening puts trans people at risk. That establishes the broader harm argument. Rowling reports a more extreme formulation—that she was told her words were literally killing trans people—but supplies no attributable message, and the reviewed contemporary coverage does not reproduce one.",
+      "evidence": [
+        {"sourceId": "source-cbs-rowling-forstater-2019", "stance": "contextualizes", "locator": "GLAAD statement in the 19 December 2019 report", "note": "The statement argues that such rhetoric puts trans people at risk, but does not use the claimed literal-killing formulation."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this”", "note": "Rowling says she expected to be told that her hate was literally killing trans people."}
+      ],
+      "limitations": "No archived post, sender, or date matching the exact allegation was identified.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -890,6 +980,21 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": ["J.K. Rowling", "misogynistic slurs", "Twitter", "abuse"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Public reporting confirms that Rowling was insulted and labelled during the backlash, but the specific misogynistic and sexual slurs cited in the essay are not preserved in the reviewed reports.",
+      "analysis": "Contemporaneous coverage records widespread personal criticism and repeated use of the label TERF after the Forstater tweet. Rowling says she expected to be called two explicitly misogynistic slurs and later in the essay reports misogynistic slurs in her timeline. The broader occurrence of personal abuse is documented, but this batch's precise slur claim rests primarily on her account.",
+      "evidence": [
+        {"sourceId": "source-cbs-rowling-forstater-2019", "stance": "contextualizes", "locator": "Coverage of widespread criticism and TERF accusations", "note": "The report confirms personal labelling but does not reproduce the two misogynistic slurs named by Rowling."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this” and later paragraph beginning “Immediately, activists”", "note": "Rowling names the slurs she anticipated and separately reports being called misogynistic slurs."}
+      ],
+      "limitations": "A complete archive of replies and direct messages was not available, so the exact wording, timing, and senders cannot be independently checked.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -901,6 +1006,21 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Harry Potter", "book burning"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "At least one reader publicly told Rowling that she had burned her Harry Potter books, and contemporary reporting preserved the exchange.",
+      "analysis": "Time reported in February 2017 that a former fan told Rowling she had burned all her Harry Potter books and reproduced Rowling's response. This predates the Forstater controversy and concerned Rowling's criticism of Donald Trump. It nevertheless supports the narrowly worded claim that people had burned copies of Rowling's books and helps explain why she later said she expected book burning as a reaction.",
+      "evidence": [
+        {"sourceId": "source-time-rowling-book-burning-2017", "stance": "supports", "locator": "Report published 1 February 2017", "note": "Time documents a reader's statement that she burned her Harry Potter books and Rowling's public reply."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this”", "note": "Rowling lists book burning among the reactions she expected."}
+      ],
+      "limitations": "The independently documented incident concerned Donald Trump, not Rowling's views on sex and gender; the report verifies the reader's public statement but not the physical act itself.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -912,6 +1032,18 @@
       "paragraphIds": [
         "p006"
       ]
+    },
+    "category": "event",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "books", "composting", "message"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that a man told her he had composted her books, but the underlying message was not identified or independently preserved.",
+      "analysis": "The essay is the only identified source for this anecdote. It provides neither the sender nor a date, link, screenshot, or quotation beyond Rowling's paraphrase. The claim may be true, but there is no independent verification path in the available record.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I mention all this”", "note": "Rowling states that an abusive man told her he had composted her books."}],
+      "limitations": "The alleged message and sender are not identified, and no corroborating archive was located.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -923,6 +1055,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "emails", "letters", "Maya Forstater", "correspondence"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling describes an avalanche of emails and letters after the Forstater controversy, but the private correspondence and its volume are not available for independent review.",
+      "analysis": "The essay directly records Rowling's account of receiving a large response after supporting Forstater. Elsewhere in the same essay she refers to hundreds of emails received over a shorter, later period, showing that she sometimes supplied an approximate count. For this particular post-Forstater correspondence, however, no count, sample, archive, or third-party audit is provided.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling describes the volume metaphorically as an avalanche of emails and letters."}],
+      "limitations": "The correspondence was private and no numerical total, representative sample, or independent confirmation is cited.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -934,6 +1078,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "correspondence", "support", "majority"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says the overwhelming majority of the messages were supportive, but neither a total count nor the correspondence is available for independent assessment.",
+      "analysis": "This is a quantitative characterization of private emails and letters. The essay supplies Rowling's firsthand account but no denominator, coding method, representative sample, or third-party review. It is therefore not possible to test either the word “majority” or the stronger qualifier “overwhelming.”",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling describes the overwhelming majority of the correspondence as positive, grateful, and supportive."}],
+      "limitations": "The underlying messages and aggregate figures have not been published.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -945,6 +1101,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "biographical",
+    "checkability": "not-verifiable",
+    "tags": ["correspondents", "gender dysphoria", "trans people", "professional experience"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says some correspondents worked with gender dysphoria and trans people, but their identities and credentials are not disclosed.",
+      "analysis": "The essay reports that some writers worked in relevant fields. Because it does not identify them, their roles, employers, or qualifications cannot be checked, and the correspondence itself cannot be authenticated. The claim remains a first-person report about anonymous private sources.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling says some correspondents worked in fields dealing with gender dysphoria and trans people."}],
+      "limitations": "No names, job descriptions, credentials, or messages are supplied.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -956,6 +1124,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "gender identity", "politics", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay attributes concern about political influence to private correspondents, but their messages are not available to verify that attribution.",
+      "analysis": "Rowling groups the views of unidentified correspondents and says they were concerned about a socio-political concept influencing politics. No letter, email, sender, or representative extract is provided, so the attribution cannot be independently evaluated.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling attributes concern about influence on politics to the people who contacted her."}],
+      "limitations": "Private, anonymous correspondence cannot be checked for wording, context, or representativeness.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -967,6 +1147,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "gender identity", "medical practice", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling attributes concern about effects on medical practice to private correspondents, whose messages are not published.",
+      "analysis": "The essay is direct evidence that Rowling made this attribution, but it does not identify a correspondent or quote a message expressing the concern. The existence, prevalence, and intended meaning of the reported concern cannot therefore be independently verified.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling includes medical practice among the areas her correspondents were said to be concerned about."}],
+      "limitations": "No underlying correspondence, sender identity, or professional context is available.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -978,6 +1170,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "safeguarding", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that correspondents raised safeguarding concerns, but no messages or attributable examples are provided.",
+      "analysis": "The essay identifies safeguarding as one subject of the private correspondence. Because the writers and messages are not disclosed, the claim cannot be checked for wording, context, frequency, or the expertise of those expressing the concern.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “What I didn't expect”", "note": "Rowling lists safeguarding among the issues said to concern her correspondents."}],
+      "limitations": "The source is Rowling's aggregate description of unpublished private correspondence.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -989,6 +1193,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "young people", "risk", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay says correspondents were worried about dangers to young people, but the private messages are unavailable for verification.",
+      "analysis": "Rowling attributes this concern to the people who contacted her. The essay does not identify a sender, reproduce an example, or state how common this topic was among the correspondence. The attribution is therefore documented but not independently established.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “They're worried”", "note": "Rowling says the correspondents were worried about dangers to young people."}],
+      "limitations": "No correspondence or representative sample is public, and “dangers” is not defined in this passage.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1000,6 +1216,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "gay people", "risk", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says correspondents expressed concern about dangers to gay people, but she provides no independently reviewable messages.",
+      "analysis": "The claim concerns the reported content of anonymous private correspondence. The essay supplies no quotation, sender, count, or description of the alleged dangers in this paragraph, preventing independent verification of the attribution.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “They're worried”", "note": "Rowling includes dangers to gay people among the reported concerns."}],
+      "limitations": "The messages are unpublished and the nature or prevalence of the concern is unspecified.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1011,6 +1239,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "women's rights", "girls' rights", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay attributes concern about erosion of women's and girls' rights to correspondents, but the underlying correspondence is not available.",
+      "analysis": "Rowling explicitly reports this theme, but gives no attributable example or evidence from which the correspondence could be independently classified. Public debate over women's and girls' rights does not by itself verify what these particular private writers said.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “They're worried”", "note": "Rowling says correspondents were concerned about erosion of women's and girls' rights."}],
+      "limitations": "No messages, sender identities, or counts by topic are supplied.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1022,6 +1262,18 @@
       "paragraphIds": [
         "p007"
       ]
+    },
+    "category": "attribution",
+    "checkability": "not-verifiable",
+    "tags": ["correspondence", "climate of fear", "concerns"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that fear surrounding the subject was correspondents' foremost concern, but the messages cannot be reviewed to test that ranking.",
+      "analysis": "This claim contains both an attribution and a comparison: Rowling says correspondents raised a climate of fear and that this concern ranked above the others. Neither element can be independently assessed without the correspondence, a sample, or a documented method of categorizing it.",
+      "evidence": [{"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “They're worried”", "note": "Rowling says that, above all, correspondents were worried about a climate of fear."}],
+      "limitations": "The private correspondence and any topic counts or classification method are unavailable.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1033,6 +1285,22 @@
       "paragraphIds": [
         "p008"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Twitter", "inactivity", "Maya Forstater"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporaneous reporting documents a six-month Twitter break during 2019 and another period of silence immediately before the Forstater tweet.",
+      "analysis": "Sky News reported that Rowling's 5 September 2019 post marked her return after a six-month Twitter break. When she posted about Forstater on 19 December, the Guardian reported that she had not tweeted since November. These independently documented gaps support the qualified claim that she had substantially, though not completely, withdrawn from the platform before the Forstater tweet.",
+      "evidence": [
+        {"sourceId": "source-sky-rowling-twitter-return-2019", "stance": "supports", "locator": "Report published 6 September 2019", "note": "Sky News describes the 5 September post as Rowling's return after a six-month break."},
+        {"sourceId": "source-guardian-rowling-forstater-2019", "stance": "supports", "locator": "Opening paragraph", "note": "The Guardian reports that Rowling broke another Twitter silence on 19 December after not tweeting since November."},
+        {"sourceId": "source-jkr-essay-2020", "stance": "supports", "locator": "Paragraph beginning “I'd stepped back”", "note": "Rowling says she had stepped back from Twitter for many months before and after supporting Forstater."}
+      ],
+      "limitations": "The evidence supports substantially reduced use, not total inactivity throughout the entire period.",
+      "updatedOn": "2026-09-04"
     }
   },
   {

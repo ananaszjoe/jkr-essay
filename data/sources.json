@@ -86,7 +86,7 @@
   {
     "id": "source-guardian-rowling-forstater-2019",
     "title": "JK Rowling in row over court ruling on transgender issues",
-    "authors": ["Alison Flood"],
+    "authors": ["Poppy Noor"],
     "publisher": "The Guardian",
     "publishedOn": "2019-12-19",
     "accessedOn": "2026-09-04",
@@ -111,6 +111,45 @@
     "publishedOn": "2019-09-13",
     "accessedOn": "2026-09-04",
     "url": "https://afterellen.com/celebrating-magdalen-berns-a-lesbian-feminist-warrior/",
+    "type": "news"
+  },
+  {
+    "id": "source-berns-lesbian-video-2016",
+    "title": "There's no such thing as a lesbian with a penis",
+    "authors": ["Magdalen Berns"],
+    "publisher": "YouTube",
+    "publishedOn": "2016-04-10",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.youtube.com/watch?v=qkcCzIc0j2s",
+    "type": "social-media"
+  },
+  {
+    "id": "source-berns-preferences-video-2017",
+    "title": "RE: ‘Are genital preferences transphobic?’ Give it up, Riley!",
+    "authors": ["Magdalen Berns"],
+    "publisher": "YouTube",
+    "publishedOn": "2017-03-30",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.youtube.com/watch?v=F_5FFGrGzJw",
+    "type": "social-media"
+  },
+  {
+    "id": "source-time-rowling-book-burning-2017",
+    "title": "J.K. Rowling Is Shutting Down Readers Who Burned All Their Harry Potter Books",
+    "authors": ["Megan McCluskey"],
+    "publisher": "Time",
+    "publishedOn": "2017-02-01",
+    "accessedOn": "2026-09-04",
+    "url": "https://time.com/4657055/j-k-rowling-twitter-harry-potter-book-burning/",
+    "type": "news"
+  },
+  {
+    "id": "source-sky-rowling-twitter-return-2019",
+    "title": "JK Rowling's cryptic tweet sparks rumours of new Harry Potter film",
+    "publisher": "Sky News",
+    "publishedOn": "2019-09-06",
+    "accessedOn": "2026-09-04",
+    "url": "https://news.sky.com/story/jk-rowlings-cryptic-tweet-sparks-rumours-of-new-harry-potter-film-11803667",
     "type": "news"
   }
 ]
