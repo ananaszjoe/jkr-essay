@@ -1808,6 +1808,22 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "legal",
+    "checkability": "partly-checkable",
+    "tags": ["trans activism", "Gender Recognition Act", "legal sex", "legal gender", "gender identity"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "misleading-context",
+      "summary": "Campaigners sought self-declared legal gender recognition, but the documented proposals did not replace sex with gender identity throughout the law.",
+      "analysis": "Stonewall advocated a demedicalized, self-determination process for legal gender recognition, so campaigners did seek to make a person's declared gender determinative in the specific context of obtaining a Gender Recognition Certificate. But both the UK and Scottish reform proposals concerned an existing legal-recognition mechanism. The UK consultation expressly proposed no Equality Act 2010 amendments, while Scotland described changing how a certificate is obtained. Characterizing this as replacing sex with gender identity is therefore defensible only in a narrow recognition context and misleading if read as a general replacement across law.",
+      "evidence": [
+        {"sourceId": "source-stonewall-gra-statement-2020", "stance": "supports", "locator": "Statement supporting a demedicalized self-determination system", "note": "Stonewall confirms that campaigners wanted self-declaration to determine access to legal gender recognition."},
+        {"sourceId": "source-uk-gra-consultation-2018", "stance": "contextualizes", "locator": "Consultation scope", "note": "The UK proposal addressed the recognition process and explicitly excluded amendments to the Equality Act 2010."},
+        {"sourceId": "source-scotland-gra-consultation-2019", "stance": "contextualizes", "locator": "Ministerial Foreword and proposal summary", "note": "Scotland framed its draft bill as reforming how an existing Gender Recognition Certificate is obtained."}
+      ],
+      "limitations": "The phrase “trans activism” groups diverse organizations and proposals together, and “replace sex” has no single settled legal meaning.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1819,6 +1835,22 @@
       "paragraphIds": [
         "p013"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["legal reform", "Volant Charitable Trust", "women's services", "multiple sclerosis", "hypothetical impact"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay identifies plausible areas of overlap, but it does not establish a concrete effect on Rowling's funded causes.",
+      "analysis": "Rowling funded women-focused services and sex-sensitive MS research, while proposed Gender Recognition Act reforms concerned legal gender recognition. That creates a conceivable policy connection for some women-only services. Yet the official reform documents did not propose changing the Equality Act's single-sex exceptions, and legal recognition reform has no demonstrated bearing on whether medical researchers may analyze sex differences. The modal claim that the changes “could affect” these causes is too broad and hypothetical to verify without a specific legal provision and a defined outcome.",
+      "evidence": [
+        {"sourceId": "source-volant-what-we-fund", "stance": "supports", "locator": "Women project areas", "note": "The trust funds services in areas where questions about sex and gender policy can arise."},
+        {"sourceId": "source-uk-gra-consultation-2018", "stance": "contextualizes", "locator": "Consultation scope", "note": "The government said the proposed GRA changes would not amend the Equality Act 2010."},
+        {"sourceId": "source-ms-sex-bias-review-2022", "stance": "contextualizes", "locator": "Review of sex differences in MS", "note": "Sex remains a clinically relevant research variable independent of legal gender-recognition procedures."}
+      ],
+      "limitations": "A narrower claim tied to a specific service, statutory clause, or operational policy could be assessed; this generalized counterfactual cannot.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1830,6 +1862,18 @@
       "paragraphIds": [
         "p014"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "teaching", "French", "English", "biography"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling taught English in Portugal and trained and taught as a French teacher in Scotland.",
+      "analysis": "Rowling's official biography records both teaching English in Portugal and teaching French in Scotland. This directly supports the claim that she was formerly a teacher.",
+      "evidence": [{"sourceId": "source-rowling-my-story", "stance": "supports", "locator": "Biography paragraphs describing Portugal and Edinburgh", "note": "Rowling identifies teaching as her longest employment outside writing and specifies the subjects and countries."}],
+      "limitations": "The source is Rowling's official autobiographical account rather than an independent employment record.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1841,6 +1885,21 @@
       "paragraphIds": [
         "p014"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Lumos", "Children's High Level Group", "charity", "founder"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling co-founded the Children's High Level Group, which became the children's charity Lumos.",
+      "analysis": "Lumos's institutional history says Rowling originated the idea and co-founded the Children's High Level Group with Baroness Emma Nicholson in 2005; that organization later became Lumos. Her official biography also identifies her as Lumos's founder and president. The substance of the claim is correct, with the nuance that the predecessor organization was co-founded.",
+      "evidence": [
+        {"sourceId": "source-lumos-our-story", "stance": "supports", "locator": "Founding history", "note": "Lumos documents Rowling's original idea and her co-founding of the organization that became Lumos."},
+        {"sourceId": "source-rowling-my-story", "stance": "supports", "locator": "Charitable work biography", "note": "Rowling's official biography calls her Lumos's founder and president."}
+      ],
+      "limitations": "“Founded” compresses the history: Rowling co-founded the Children's High Level Group with Baroness Emma Nicholson before it became Lumos.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1852,6 +1911,18 @@
       "paragraphIds": [
         "p015"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "freedom of speech", "PEN America", "censorship", "2016"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling publicly defended freedom of expression in a prominent 2016 PEN America speech.",
+      "analysis": "At PEN America's 2016 literary gala, Rowling argued against removing an opponent's freedoms merely because their speech caused offense and warned about intolerance of alternative viewpoints. The speech was public and widely reported four years before the essay.",
+      "evidence": [{"sourceId": "source-guardian-rowling-trump-speech-2016", "stance": "supports", "locator": "Report of PEN America gala speech", "note": "The report reproduces and contextualizes Rowling's explicit defense of speech and opposition to censorship."}],
+      "limitations": "This verifies a prominent prior instance; it is not an exhaustive survey of all her public speech positions.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1863,6 +1934,18 @@
       "paragraphIds": [
         "p015"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["J.K. Rowling", "Donald Trump", "freedom of speech", "travel ban", "PEN America"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling opposed barring Trump from the UK and explicitly defended his freedom to speak despite condemning his views.",
+      "analysis": "In her 2016 PEN America speech, Rowling called Trump's statements objectionable, offensive, and bigoted while arguing that he should remain free to enter the UK and speak. She said his freedom to speak protected her freedom to criticize him. That is a direct public defense of Trump's speech rights, not an endorsement of his views.",
+      "evidence": [{"sourceId": "source-guardian-rowling-trump-speech-2016", "stance": "supports", "locator": "Report and video of PEN America gala speech", "note": "Rowling explicitly links Trump's freedom to speak with her own freedom to call him a bigot."}],
+      "limitations": "She defended a civil-liberties principle and opposed a proposed travel ban; she did not defend the truth or merit of Trump's statements.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1874,6 +1957,18 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "checkable",
+    "tags": ["GIDS", "adolescent girls", "referrals", "gender identity services", "United Kingdom"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "UK referrals rose sharply, especially among adolescent girls, but referral for gender-identity support is not the same as starting transition.",
+      "analysis": "Government figures available before the essay reported 2,590 referrals to the NHS Gender Identity Development Service in 2018/19, nearly three quarters female and mostly adolescent, with the total still rising. This firmly supports a large increase in female adolescents presenting to specialist services. The extracted wording overstates what the data measure: those referred were children and young people seeking assessment or support, not necessarily “young women” seeking or receiving medical transition.",
+      "evidence": [{"sourceId": "source-uk-gids-referrals-2019", "stance": "supports", "locator": "2018/19 GIDS referral figures", "note": "The government reported 2,590 referrals, nearly three quarters female and mostly adolescent, and described a continuing increase."}],
+      "limitations": "Referral data do not establish how many patients socially or medically transitioned, and “female” here records sex assigned at birth rather than current identity.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1885,6 +1980,21 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "partly-checkable",
+    "tags": ["detransition", "prevalence", "trend", "data quality", "longitudinal evidence"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Detransition was documented, but available evidence cannot establish that its number had increased by June 2020.",
+      "analysis": "The claim is about change over time, which requires consistent definitions, denominators, and repeated measurement. Detransition research instead uses divergent definitions—temporary cessation, identity change, treatment discontinuation, or reversal—and often has incomplete follow-up. A later systematic review found wide variation across observational studies and emphasized methodological heterogeneity and insufficient long-term data. It confirms that detransition occurs, but not a reliable temporal increase by the essay's date.",
+      "evidence": [
+        {"sourceId": "source-detransition-prevalence-review-2025", "stance": "contextualizes", "locator": "Systematic review of 15 observational studies", "note": "The review found variable estimates and substantial differences in definitions, methods, and follow-up, preventing a clean time trend."},
+        {"sourceId": "source-detransition-healthcare-2022", "stance": "contextualizes", "locator": "Introduction and limitations", "note": "The study describes detransition as infrequent and sometimes temporary, with estimates varying because of definitions and sampling."}
+      ],
+      "limitations": "Later evidence can clarify the evidentiary gap but cannot retroactively supply a reliable population trend as of June 2020.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1896,6 +2006,18 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": ["detransition", "regret", "qualitative research", "gender-affirming care"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Qualitative research documents that some detransitioners regret prior transition-related interventions, while many do not.",
+      "analysis": "A 2022 qualitative study of 28 Canadian adults who stopped, shifted, or reversed a transition found divergent views: six of the 27 participants who had received hormones or surgery expressed regret and felt medical transition had been the wrong path, while 18 reported no regret or positive feelings. This directly establishes the limited existential claim that some detransitioners experience regret, without implying that regret defines detransition.",
+      "evidence": [{"sourceId": "source-detransition-healthcare-2022", "stance": "supports", "locator": "Results on perspectives toward past interventions", "note": "Six participants reported regret, while a majority expressed no regret or positive feelings."}],
+      "limitations": "The purposive qualitative sample is small and nonrepresentative; it establishes existence, not prevalence. Detransition may occur for many reasons and does not itself imply regret.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1907,6 +2029,21 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": ["detransition", "irreversible effects", "hormones", "surgery", "gender-affirming care"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Some people who later detransition have undergone surgeries or hormone-related changes that cannot be fully reversed.",
+      "analysis": "Research on detransition includes people who previously received surgeries such as mastectomy, hysterectomy, orchiectomy, or genital surgery, as well as hormones that can produce lasting physical changes. A clinical review specifically describes detransitioners coping with irreversible effects of hormones and surgery. The claim says only that this occurred for some people and is supported; it should not be generalized to all detransitioners, many of whom did not receive medical interventions.",
+      "evidence": [
+        {"sourceId": "source-detransition-healthcare-2022", "stance": "supports", "locator": "Study population and descriptions of prior medical or surgical interventions", "note": "The study includes adults seeking to discontinue or reverse prior hormones or surgeries and documents diverse outcomes."},
+        {"sourceId": "source-transition-regret-review-2023", "stance": "supports", "locator": "Clinical discussion of irreversible effects", "note": "The review describes some detransitioners managing dysphoria and distress related to irreversible effects of hormones and surgery."}
+      ],
+      "limitations": "The permanence and reversibility of effects vary by intervention, duration, dose, and individual; the claim does not quantify how often this occurs.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1918,6 +2055,21 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": ["fertility", "gender-affirming treatment", "hormones", "gonadectomy", "fertility preservation"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Some surgeries permanently remove reproductive capacity, while hormone treatment can impair fertility with less certain reversibility.",
+      "analysis": "Gender-affirming surgeries that remove the testes or ovaries eliminate the body's ability to produce sperm or eggs and therefore cause permanent sterility absent previously preserved gametes. Hormone therapy and puberty suppression can also affect reproductive function, which is why the Endocrine Society recommends fertility-preservation counselling before either begins. The permanence of hormone-related impairment is less predictable than the effect of gonad removal, but the claim only states that some interventions can have a permanent effect.",
+      "evidence": [
+        {"sourceId": "source-endocrine-society-gender-guideline-2017", "stance": "supports", "locator": "Recommendations 1.5 and 2.4", "note": "The guideline requires fertility-preservation counselling before puberty suppression or hormones and describes sex-hormone treatment as partly irreversible."},
+        {"sourceId": "source-guys-fertility-trans-women", "stance": "supports", "locator": "Eligibility after bilateral gonad removal", "note": "The NHS trust states that bilateral removal of the gonads results in permanent sterility."}
+      ],
+      "limitations": "Fertility effects depend on the intervention. Gonad-removing surgery is definitive; recovery after hormones varies, and infertility should not be assumed in every hormone user.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1929,6 +2081,18 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["detransition", "same-sex attraction", "sexual orientation", "self-report", "internalized homophobia"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Some detransitioners report that difficulty accepting their same-sex attraction influenced their transition, not that attraction itself mechanically caused it.",
+      "analysis": "A survey of 100 people who medically or surgically transitioned and later detransitioned found that 23% spontaneously described homophobia or difficulty accepting themselves as lesbian, gay, or bisexual as instrumental to their gender dysphoria, transition, and detransition. Participant accounts included believing transition would make same-sex attraction feel normal or less shameful. This supports the existence of such reports, but the more precise factor was distress or conflict around sexual orientation rather than same-sex attraction alone.",
+      "evidence": [{"sourceId": "source-littman-detransition-survey-2021", "stance": "supports", "locator": "Results on internalized homophobia and sexual orientation", "note": "Twenty-three participants supplied first-person accounts linking difficulty accepting an LGB orientation with their desire to transition."}],
+      "limitations": "The convenience sample was recruited online, was not population-representative, and cannot establish how common this pathway is or independently prove participants' retrospective causal interpretations.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1940,6 +2104,18 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["detransition", "societal homophobia", "sexual orientation", "self-report", "social pressure"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Published first-person survey responses include reports that social stigma around being lesbian or gay influenced transition.",
+      "analysis": "The same detransitioner survey records participants describing social expectations and stigma as part of their decision. One reported pressure from society that framed them as wrong for being a lesbian; others described transition as making same-sex attraction appear more socially acceptable. These accounts verify the narrow claim that some people report this influence. They do not establish that societal homophobia is a general or independently demonstrated cause of transition.",
+      "evidence": [{"sourceId": "source-littman-detransition-survey-2021", "stance": "supports", "locator": "Open-text responses on social influence and internalized homophobia", "note": "The study publishes participant reports connecting social stigma around same-sex attraction with transition decisions."}],
+      "limitations": "Retrospective self-reports establish that the accounts exist, not causal prevalence. The study's recruitment and coding have important selection and interpretation limits.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1951,6 +2127,18 @@
       "paragraphIds": [
         "p016"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": ["detransition", "familial homophobia", "sexual orientation", "self-report", "family"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Reports about homophobia influencing transition exist, but the reviewed evidence does not isolate homophobia within families as the source.",
+      "analysis": "Published detransitioner research documents first-person accounts linking transition with internalized homophobia, difficulty accepting same-sex attraction, and broader social pressure. However, the available study does not separately report that familial homophobia—as distinct from personal distress or societal stigma—contributed to participants' original transition decisions. Family pressure is documented more clearly as a reason some people detransition. Without a cited account or study specific to the original transition decision, this narrower claim cannot be verified.",
+      "evidence": [{"sourceId": "source-littman-detransition-survey-2021", "stance": "contextualizes", "locator": "Results on homophobia, social influence, and family pressure", "note": "The study supports homophobia-related reports generally but does not substantiate the claim's family-specific attribution."}],
+      "limitations": "An individual testimony could establish that someone made such a report, but it would not show frequency or independent causation.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1962,6 +2150,21 @@
       "paragraphIds": [
         "p017"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "partly-checkable",
+    "tags": ["GIDS", "sex ratio", "referrals", "assigned male at birth", "2010"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Around 2009–10, boys slightly outnumbered girls in the UK youth referral data, but the claim is too broad if applied to everyone seeking transition.",
+      "analysis": "The historical GIDS series used in contemporary reporting records 40 girls referred in 2009, while peer-reviewed analysis confirms that specialist-service referrals historically favored those assigned male before shifting toward an assigned-female majority among adolescents. This supports the stated direction for UK young people around 2010. “Most people seeking transition” is broader than the evidence, which covers referrals of children and adolescents to one national specialist service and does not itself show treatment intent or uptake.",
+      "evidence": [
+        {"sourceId": "source-degraaf-gids-sex-ratio-2018", "stance": "supports", "locator": "Retrospective review of GIDS referrals, 2009–2016", "note": "The study documents the historical shift from male-favoring referrals toward female-favoring adolescent referrals."},
+        {"sourceId": "source-guardian-nhs-fertility-2018", "stance": "contextualizes", "locator": "Report of the 2009/10 baseline and later referral increase", "note": "Contemporary reporting gives the baseline sex breakdown underlying the percentage claim."}
+      ],
+      "limitations": "The evidence is about referrals, not all transgender people or all people seeking social, legal, hormonal, or surgical transition.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1973,6 +2176,21 @@
       "paragraphIds": [
         "p017"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "checkable",
+    "tags": ["GIDS", "sex ratio", "referrals", "assigned female at birth", "2020"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "By the years immediately preceding the essay, girls formed a clear majority of UK youth gender-service referrals.",
+      "analysis": "GIDS data show 1,806 referrals of young people assigned female at birth versus 713 assigned male in 2017/18. Government figures for 2018/19 similarly said nearly three quarters of referrals were female and mostly adolescent. This is a clear reversal from the modest male majority around 2009/10. The result applies to youth specialist-service referrals, not necessarily every person seeking transition in the UK.",
+      "evidence": [
+        {"sourceId": "source-gids-sex-referrals-2022-foi", "stance": "supports", "locator": "2017/18 referral table", "note": "The NHS disclosure reports 1,806 AFAB referrals and 713 AMAB referrals."},
+        {"sourceId": "source-uk-gids-referrals-2019", "stance": "supports", "locator": "2018/19 GIDS referral figures", "note": "The government reported that nearly three quarters of referrals were female and mostly adolescent."}
+      ],
+      "limitations": "Referral composition is not equivalent to population prevalence, diagnosis, or receipt of medical treatment.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1984,6 +2202,22 @@
       "paragraphIds": [
         "p017"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "checkable",
+    "tags": ["GIDS", "girls", "referrals", "4400 percent", "United Kingdom"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Female GIDS referrals rose from about 40 to 1,806—roughly 4,400%—but these were referrals for assessment, not confirmed treatment recipients.",
+      "analysis": "The commonly cited calculation compares 40 girls referred in 2009/10 with 1,806 young people assigned female at birth in 2017/18. The increase is (1,806 − 40) / 40 × 100 = 4,415%, conventionally rounded to 4,400%. The numerical claim is therefore substantially accurate for this NHS series. Its wording is imprecise: GIDS referrals could lead to psychosocial assessment or support and did not mean every referred child requested or received transition-related medical treatment.",
+      "evidence": [
+        {"sourceId": "source-gids-sex-referrals-2022-foi", "stance": "supports", "locator": "2017/18 referral table", "note": "The NHS disclosure confirms the endpoint of 1,806 AFAB referrals."},
+        {"sourceId": "source-guardian-nhs-fertility-2018", "stance": "supports", "locator": "Reported 4,400% increase prompting a government inquiry", "note": "The contemporary report records the percentage and its referral context."},
+        {"sourceId": "source-degraaf-gids-sex-ratio-2018", "stance": "contextualizes", "locator": "Methods and results", "note": "The peer-reviewed study confirms faster growth among birth-assigned female referrals and a female-favoring adolescent ratio."}
+      ],
+      "limitations": "The percentage is highly sensitive to the small baseline and covers one specialist referral series; it does not measure diagnoses, treatment starts, or outcomes.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -1995,6 +2229,21 @@
       "paragraphIds": [
         "p017"
       ]
+    },
+    "category": "medical",
+    "checkability": "partly-checkable",
+    "tags": ["autism", "autistic traits", "girls", "GIDS", "co-occurrence"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Autism and autistic traits were overrepresented among gender-clinic referrals, including girls, though girl-specific prevalence was not firmly quantified.",
+      "analysis": "A UK GIDS study of 166 referred young people found elevated autistic features: 54.2% scored above the normal range on a screening measure, and the authors found no sex difference in autistic features. Other GIDS work reported diagnosed or suspected autism at rates well above general-population estimates. This supports overrepresentation among referred girls as part of the overall clinical population. However, screening scores are not diagnoses, autism is often underdiagnosed in girls, and the evidence does not support the undefined intensifier “substantially” with a single precise female-only rate.",
+      "evidence": [
+        {"sourceId": "source-skagerberg-autistic-features-2015", "stance": "supports", "locator": "Abstract and Social Responsiveness Scale results", "note": "More than half of the referred sample screened above the normal range, with no difference between natal females and males."},
+        {"sourceId": "source-gids-service-specification-2016", "stance": "supports", "locator": "Evidence summary on autism spectrum conditions", "note": "The NHS specification reports a higher prevalence of autism spectrum conditions among clinically referred gender-dysphoric adolescents than in the general population."}
+      ],
+      "limitations": "Referral samples cannot determine causation, and estimates differ depending on whether studies count diagnoses, suspected diagnoses, or screening traits.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2006,6 +2255,21 @@
       "paragraphIds": [
         "p018"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": ["United States", "adolescents", "transgender identification", "clinic referrals", "demographic change"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "US clinics reported rising adolescent demand and female-assigned majorities, but the evidence available by 2020 did not establish a comparable nationwide change in identification.",
+      "analysis": "A Northern California pediatric clinic documented a significant rise in referrals from 2015 to 2018 and found that 62% of patients identified on the masculine spectrum, broadly resembling the UK referral pattern. Separately, a large 2017 CDC survey found that 1.8% of high-school students in participating jurisdictions identified as transgender. But the CDC measure was newly piloted and could not disaggregate transgender respondents by sex assigned at birth, so it provided no national time trend or sex-ratio reversal. Regional clinical demand and population identification are different measures; calling the US change “comparable” overstates what the contemporaneous data establish.",
+      "evidence": [
+        {"sourceId": "source-handler-us-clinic-referrals-2019", "stance": "supports", "locator": "Results", "note": "The California clinic recorded significantly increasing pediatric referrals and a 62% masculine-spectrum majority."},
+        {"sourceId": "source-cdc-transgender-students-2019", "stance": "contextualizes", "locator": "2017 Youth Risk Behavior Survey results and limitations", "note": "The CDC estimated transgender identification in participating jurisdictions but lacked a prior trend and could not disaggregate by sex assigned at birth."}
+      ],
+      "limitations": "One integrated health system cannot establish a nationwide demographic shift, and referrals, treatment requests, and self-identification should not be conflated.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2017,6 +2281,21 @@
       "paragraphIds": [
         "p018"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["Lisa Littman", "physician", "researcher", "United States", "Brown University"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman is a US-based physician and public-health researcher with an MD and MPH.",
+      "analysis": "Littman's 2020 academic CV records a US medical degree, residencies in obstetrics and gynecology and preventive medicine, board certifications, a Rhode Island medical license, research publications, and an academic appointment at Brown University's School of Public Health. Her professional biography likewise describes her as a physician and researcher. These records support the essay's characterization of her as an American physician and researcher.",
+      "evidence": [
+        {"sourceId": "source-littman-cv-2020", "stance": "supports", "locator": "Academic appointments, education, certification, licensure, and publications", "note": "The CV documents Littman's US medical training, licensure, academic research role, and publications."},
+        {"sourceId": "source-littman-about", "stance": "supports", "locator": "Professional biography", "note": "Littman describes herself as a physician and researcher and lists her US education and academic appointments."}
+      ],
+      "limitations": "The sources establish a US-based professional career; they do not explicitly state citizenship or nationality.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2028,6 +2307,21 @@
       "paragraphIds": [
         "p018"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": ["Lisa Littman", "2018", "ROGD", "parent survey", "PLOS ONE"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman published a 2018 PLOS ONE study based on parents' reports about adolescents and young adults perceived to have rapidly developed gender dysphoria.",
+      "analysis": "PLOS ONE records that Lisa Littman's article was published on August 16, 2018. It concerned parent-reported transgender identification and gender dysphoria among adolescents and young adults. The wording “research concerning adolescent transgender identification” is accurate, but readers should not infer that Littman directly studied the young people: her participants were parents recruited through selected websites, and they reported their perceptions of their children.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Title, publication record, abstract, and methods", "note": "The journal records the 2018 publication and describes a survey completed by parents about adolescents and young adults."},
+        {"sourceId": "source-plos-littman-correction-2019", "stance": "contextualizes", "locator": "Correction notice", "note": "The correction documents the revised framing and title applied after editorial reassessment."}
+      ],
+      "limitations": "The study measured selected parents' observations, not adolescents' self-reports, clinical records, incidence, or causation.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2039,6 +2333,20 @@
       "paragraphIds": [
         "p019"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["friend groups", "parent reports", "clustering", "transgender identification"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Parents in Littman's selected sample reported contemporaneous transgender identification among multiple members of pre-existing friend groups.",
+      "analysis": "The paper explicitly reports parents' descriptions of friend-group clustering. Among the friendship groups described, 36.8% were reported to have a majority of members become transgender-identified, and 86.7% of parents reported increased social-media use, a friend group with one or more similarly timed identifications, or both. The claim is carefully phrased as a report and is supported on that basis. The survey did not independently contact the young people or their friends, verify the timing, or compare the observations with an unselected control group.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Abstract results and results on friend-group dynamics", "note": "The paper reports parent-described clustering and gives the 36.8% and 86.7% figures."}
+      ],
+      "limitations": "These are retrospective reports from a self-selected parent sample recruited specifically for perceived rapid onset; they do not establish prevalence or contagion.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2050,6 +2358,22 @@
       "paragraphIds": [
         "p019"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["social contagion", "hypothesis", "ROGD", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman explicitly examined social influence or “social contagion” as a hypothesis, but her study did not demonstrate that it occurred.",
+      "analysis": "The article discusses social contagion as a developmental-psychology concept and identifies social influences as an emerging hypothesis to be tested. Littman likewise said in her 2019 interview that the reported pattern obliged her to consider social contagion as a potential factor. This supports the claim about what she investigated. It does not support upgrading the hypothesis into a causal finding: the corrected article calls the work descriptive and exploratory and says the proposed ROGD category had not been clinically validated.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Social and peer influences; purpose; conclusion", "note": "The article expressly develops social influence and contagion as possible explanations and labels them hypotheses."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Discussion of how the research question arose", "note": "Littman says she considered social contagion as a potential factor."},
+        {"sourceId": "source-plos-littman-correction-2019", "stance": "contextualizes", "locator": "Correction and revised framing", "note": "The correction emphasizes that the study generated hypotheses rather than validating a diagnosis or causal mechanism."}
+      ],
+      "limitations": "A parent-only, cross-sectional survey cannot distinguish influence from homophily, shared context, increased disclosure, or other explanations.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2061,6 +2385,21 @@
       "paragraphIds": [
         "p019"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["peer influence", "hypothesis", "friend groups", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Peer influence was one of the possible factors Littman explicitly considered and discussed.",
+      "analysis": "Littman's paper contains a section on social and peer influences, defines peer contagion, and proposes further research into social influence. In the later interview quoted by Rowling, Littman directly names peer influences as a potential factor. The attribution is therefore accurate. As with social contagion, however, the research design could not test direction or causality and did not include reports from the adolescents, their peers, clinicians, or independent observers.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Social and peer influences; conclusion", "note": "The paper explicitly considers peer influence and calls for research capable of evaluating it."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Discussion of social contagion and peer influence", "note": "Littman directly describes peer influence as a potential factor she considered."}
+      ],
+      "limitations": "Investigating a possible factor is not evidence that the factor caused or spread transgender identification.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2072,6 +2411,21 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["Tumblr", "social media", "ROGD", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman named Tumblr in both the paper and interview as an online environment potentially relevant to her social-influence hypothesis.",
+      "analysis": "The study discusses parents' reports of heavy Tumblr use and says 61.7% of respondents who answered the influence question selected Tumblr as influential in their child's transgender identification. Littman's 2019 interview also names Tumblr among venues where teens could encounter a particular transition narrative. This supports the attribution, but the percentage records parents' beliefs rather than a measured platform effect.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Introduction and reported sources of influence", "note": "The paper names Tumblr and reports that 61.7% of responding parents perceived it as influential."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Answer on the social-media environment", "note": "Littman includes Tumblr in her list of relevant online venues."}
+      ],
+      "limitations": "The study did not obtain platform-use data from adolescents or test whether Tumblr exposure preceded or caused gender dysphoria.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2083,6 +2437,21 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["Reddit", "social media", "ROGD", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman explicitly named Reddit in her paper and interview as relevant to the proposed online-influence mechanism.",
+      "analysis": "The paper presents Reddit and Tumblr posts as examples of online advice that Littman considered relevant to her hypothesis. In the 2019 interview, she also lists Reddit among sites where teenagers could immerse themselves in a transition-related narrative. The narrow attribution is accurate. Reddit was not separately reported as one of the leading quantified parent-selected influences, and neither source demonstrates a causal Reddit effect.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Social and peer influences; Figure 1", "note": "The article names Reddit and reproduces examples of advice from Reddit and Tumblr."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Answer on the social-media environment", "note": "Littman expressly lists Reddit among the venues she evaluated."}
+      ],
+      "limitations": "Being named as a potentially relevant environment does not show that Reddit caused or contributed to any participant's identification.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2094,6 +2463,21 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["Instagram", "social media", "ROGD", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman named Instagram in her interview, while the paper mentions it only within parents' qualitative descriptions.",
+      "analysis": "In the March 2019 interview, Littman explicitly includes Instagram in a list of sites she evaluated when considering the social-media environment. The revised paper also records qualitative parent responses mentioning Instagram posts or conversations, but it does not present Instagram as a separately quantified influence. Thus, the minimal claim that she “identified Instagram” is supported; a stronger claim that her study found Instagram to contribute to ROGD would not be.",
+      "evidence": [
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Answer on the social-media environment", "note": "Littman directly lists Instagram alongside Tumblr, Reddit, and YouTube."},
+        {"sourceId": "source-littman-rogd-2018", "stance": "contextualizes", "locator": "Qualitative parent responses", "note": "Instagram appears in reported parent observations but not as a separately quantified platform effect."}
+      ],
+      "limitations": "The attribution rests chiefly on an interview statement; the study did not measure Instagram exposure or causation.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2105,6 +2489,21 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["YouTube", "transition videos", "social media", "ROGD"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman explicitly identified YouTube transition videos as a possible influence reported by parents.",
+      "analysis": "The study names “binge-watching” YouTube transition videos in parent accounts and reports YouTube transition videos as the most frequently selected perceived influence, at 63.6% among respondents to that question. Littman's interview also lists YouTube as a relevant venue. This supports the attribution, while the study's design means the number reflects parent perception rather than verified viewing histories or a causal effect.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Introduction and reported sources of influence", "note": "The article names YouTube transition videos and reports a 63.6% parent-perceived influence figure."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Answer on the social-media environment", "note": "Littman explicitly lists YouTube."}
+      ],
+      "limitations": "No adolescent viewing data or comparison group established whether YouTube affected gender identification.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2116,6 +2515,22 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["rapid-onset gender dysphoria", "ROGD", "hypothesis", "terminology"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman introduced and used “rapid-onset gender dysphoria” in the study, explicitly as a proposed and unvalidated descriptive category.",
+      "analysis": "The 2018 article used the term ROGD for an apparent presentation reported by parents. Following editorial reassessment, PLOS ONE republished it under a title centered on parent reports and the revised article says ROGD had not been clinically validated. PLOS nevertheless retained the study as a hypothesis-generating contribution. The claim accurately states that Littman proposed or used the concept, provided that this is not mistaken for recognition as a formal diagnosis or proof of a distinct condition.",
+      "evidence": [
+        {"sourceId": "source-littman-rogd-2018", "stance": "supports", "locator": "Title, purpose, and conclusion", "note": "The article uses ROGD and describes it as a possible new subcategory that had not been clinically validated."},
+        {"sourceId": "source-plos-littman-correction-2019", "stance": "contextualizes", "locator": "Correction notice and revised title", "note": "The correction records changes intended to clarify the work's scope and conclusions."},
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Article title and interview introduction", "note": "The contemporaneous interview identifies Littman with coining the term and discussing the hypothesis."}
+      ],
+      "limitations": "ROGD was not established by this study as a diagnosis, verified syndrome, incidence pattern, or causal pathway.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -2127,6 +2542,21 @@
       "paragraphIds": [
         "p020"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": ["insular echo chambers", "online communities", "social media", "Lisa Littman"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The quoted phrase is accurately attributable to Littman in a March 2019 interview.",
+      "analysis": "In an interview published by Quillette on March 19, 2019, Littman said that, regarding transgender identification, youth had created “particularly insular echo chambers.” She then described the content she believed was being reinforced and said the environment seemed conducive to peer-contagion mechanisms. Rowling's wording accurately conveys that statement. The quote is Littman's interpretation of the social-media material she evaluated; it is not a finding that the survey independently tested or established.",
+      "evidence": [
+        {"sourceId": "source-littman-quillette-interview-2019", "stance": "supports", "locator": "Answer on the social-media environment", "note": "The interview contains the quoted phrase and Littman's accompanying explanation."},
+        {"sourceId": "source-littman-rogd-2018", "stance": "contextualizes", "locator": "Social and peer influences and study limitations", "note": "The paper discusses possible online influence but does not use the quoted phrase or directly test an echo-chamber mechanism."}
+      ],
+      "limitations": "This verdict verifies the attribution, not the empirical truth of the characterization; the interview is commentary, and the underlying parent survey cannot establish that online communities were insular or causally influential.",
+      "updatedOn": "2026-09-04"
     }
   },
   {

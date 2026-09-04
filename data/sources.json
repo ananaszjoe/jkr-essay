@@ -271,5 +271,227 @@
     "accessedOn": "2026-09-04",
     "url": "https://www.stonewall.org.uk/news/stonewall-statement-gender-recognition-act-reform",
     "type": "primary-document"
+  },
+  {
+    "id": "source-scotland-gra-consultation-2019",
+    "title": "Gender Recognition Reform (Scotland) Bill: consultation",
+    "authors": ["Scottish Government Justice Directorate"],
+    "publisher": "Scottish Government",
+    "publishedOn": "2019-12-17",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.gov.scot/publications/gender-recognition-reform-scotland-bill-consultation-scottish-government/",
+    "type": "government-data"
+  },
+  {
+    "id": "source-rowling-my-story",
+    "title": "My Story",
+    "authors": ["J.K. Rowling"],
+    "publisher": "J.K. Rowling",
+    "accessedOn": "2026-09-04",
+    "url": "https://stories.jkrowling.com/my-story/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-lumos-our-story",
+    "title": "Our story",
+    "publisher": "Lumos Foundation",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.wearelumos.org/who-we-are/our-story/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-guardian-rowling-trump-speech-2016",
+    "title": "JK Rowling defends Donald Trump's right to be 'offensive and bigoted'",
+    "authors": ["Alison Flood"],
+    "publisher": "The Guardian",
+    "publishedOn": "2016-05-17",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.theguardian.com/books/2016/may/17/jk-rowling-defends-donald-trumps-right-to-be-offensive-pen-america",
+    "type": "news"
+  },
+  {
+    "id": "source-uk-gids-referrals-2019",
+    "title": "Government set to begin next phase of gender transition research",
+    "authors": ["Government Equalities Office"],
+    "publisher": "GOV.UK",
+    "publishedOn": "2019-07-08",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.gov.uk/government/news/government-set-to-begin-next-phase-of-gender-transition-research",
+    "type": "government-data"
+  },
+  {
+    "id": "source-detransition-prevalence-review-2025",
+    "title": "Prevalence of detransition in persons seeking gender-affirming hormonal treatments: a systematic review",
+    "authors": ["Eva Feigerlova"],
+    "publisher": "The Journal of Sexual Medicine",
+    "publishedOn": "2024-12-27",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1093/jsxmed/qdae186",
+    "type": "research"
+  },
+  {
+    "id": "source-detransition-healthcare-2022",
+    "title": "Health Care Experiences of Patients Discontinuing or Reversing Prior Gender-Affirming Treatments",
+    "authors": ["Kinnon R. MacKinnon", "Hannah Kia", "Travis Salway", "Florence Ashley", "Ashley Lacombe-Duncan", "Alex Abramovich", "Gabriel Enxuga", "Lori E. Ross"],
+    "publisher": "JAMA Network Open",
+    "publishedOn": "2022-07-25",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2022.24717",
+    "type": "research"
+  },
+  {
+    "id": "source-transition-regret-review-2023",
+    "title": "Transition Regret and Detransition: Meanings and Uncertainties",
+    "authors": ["Stephen C. J. Jorgensen"],
+    "publisher": "Archives of Sexual Behavior",
+    "publishedOn": "2023-06-02",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1007/s10508-023-02626-2",
+    "type": "research"
+  },
+  {
+    "id": "source-endocrine-society-gender-guideline-2017",
+    "title": "Endocrine Treatment of Gender-Dysphoric/Gender-Incongruent Persons: An Endocrine Society Clinical Practice Guideline",
+    "authors": ["Wylie C. Hembree", "Peggy T. Cohen-Kettenis", "Louis Gooren", "Sabine E. Hannema", "Walter J. Meyer", "M. Hassan Murad", "Stephen M. Rosenthal", "Joshua D. Safer", "Vin Tangpricha", "Guy G. T'Sjoen"],
+    "publisher": "The Journal of Clinical Endocrinology & Metabolism",
+    "publishedOn": "2017-09-13",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.endocrine.org/clinical-practice-guidelines/gender-dysphoria-gender-incongruence",
+    "type": "research"
+  },
+  {
+    "id": "source-guys-fertility-trans-women",
+    "title": "Fertility preservation for trans women and non-binary people",
+    "publisher": "Guy's and St Thomas' NHS Foundation Trust",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.guysandstthomas.nhs.uk/health-information/fertility-preservation-for-trans-women-and-non-binary-people",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-littman-detransition-survey-2021",
+    "title": "Individuals Treated for Gender Dysphoria with Medical and/or Surgical Transition Who Subsequently Detransitioned: A Survey of 100 Detransitioners",
+    "authors": ["Lisa Littman"],
+    "publisher": "Archives of Sexual Behavior",
+    "publishedOn": "2021-10-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1007/s10508-021-02163-w",
+    "type": "research"
+  },
+  {
+    "id": "source-degraaf-gids-sex-ratio-2018",
+    "title": "Sex ratio in children and adolescents referred to the Gender Identity Development Service in the UK (2009–2016)",
+    "authors": ["Nastasja M. de Graaf", "Guido Giovanardi", "Claudia Zitz", "Polly Carmichael"],
+    "publisher": "Archives of Sexual Behavior",
+    "publishedOn": "2018-03-29",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1007/s10508-018-1204-9",
+    "type": "research"
+  },
+  {
+    "id": "source-guardian-nhs-fertility-2018",
+    "title": "NHS sued for failure to help transgender patients with fertility",
+    "authors": ["Jamie Doward"],
+    "publisher": "The Guardian",
+    "publishedOn": "2018-09-22",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.theguardian.com/society/2018/sep/22/nhs-taken-to-court-over-fertility-services-for-transgender-patients",
+    "type": "news"
+  },
+  {
+    "id": "source-gids-sex-referrals-2022-foi",
+    "title": "GIDS Patients without Capacity to Consent to Puberty Blockers",
+    "authors": ["Tavistock and Portman NHS Foundation Trust"],
+    "publisher": "Tavistock and Portman NHS Foundation Trust",
+    "publishedOn": "2022-02-22",
+    "accessedOn": "2026-09-04",
+    "url": "https://tavistockandportman.nhs.uk/wp-content/uploads/2023/10/FOI_21-22261_GIDS_PtsWithoutCapacityToConsentToPubertyBlockers.pdf",
+    "type": "government-data"
+  },
+  {
+    "id": "source-skagerberg-autistic-features-2015",
+    "title": "Brief Report: Autistic Features in Children and Adolescents with Gender Dysphoria",
+    "authors": ["Elin Skagerberg", "Domenico Di Ceglie", "Polly Carmichael"],
+    "publisher": "Journal of Autism and Developmental Disorders",
+    "publishedOn": "2015-03-13",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1007/s10803-015-2413-x",
+    "type": "research"
+  },
+  {
+    "id": "source-gids-service-specification-2016",
+    "title": "Gender Identity Development Service for Children and Adolescents: Service Specification",
+    "authors": ["NHS England"],
+    "publisher": "NHS England",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.engage.england.nhs.uk/consultation/clinical-commissioning-wave8/user_uploads/gids-serv-spec-upd.pdf",
+    "type": "government-data"
+  },
+  {
+    "id": "source-handler-us-clinic-referrals-2019",
+    "title": "Trends in Referrals to a Pediatric Transgender Clinic",
+    "authors": ["Ted Handler", "J. Carlo Hojilla", "Reshma Varghese", "Whitney Wellenstein", "Derek D. Satre", "Eve Zaritsky"],
+    "publisher": "Pediatrics",
+    "publishedOn": "2019-10-16",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1542/peds.2019-1368",
+    "type": "research"
+  },
+  {
+    "id": "source-cdc-transgender-students-2019",
+    "title": "Transgender Identity and Experiences of Violence Victimization, Substance Use, Suicide Risk, and Sexual Risk Behaviors Among High School Students — 19 States and Large Urban School Districts, 2017",
+    "authors": ["Michelle M. Johns", "Richard Lowry", "Jack Andrzejewski", "Lisa C. Barrios", "Zewditu Demissie", "Timothy McManus", "Catherine N. Rasberry", "Leah Robin", "J. Michael Underwood"],
+    "publisher": "CDC Morbidity and Mortality Weekly Report",
+    "publishedOn": "2019-01-25",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.cdc.gov/mmwr/volumes/68/wr/mm6803a3.htm",
+    "type": "government-data"
+  },
+  {
+    "id": "source-littman-cv-2020",
+    "title": "Curriculum Vitae: Lisa Littman, MD, MPH, FACOG",
+    "authors": ["Lisa Littman"],
+    "publisher": "Brown University",
+    "accessedOn": "2026-09-04",
+    "url": "https://vivo.brown.edu/docs/l/llittman_cv.pdf",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-littman-about",
+    "title": "About Dr. Lisa Littman",
+    "authors": ["Lisa Littman"],
+    "publisher": "Littman Research",
+    "accessedOn": "2026-09-04",
+    "url": "https://littmanresearch.com/about/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-littman-rogd-2018",
+    "title": "Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dysphoria",
+    "authors": ["Lisa Littman"],
+    "publisher": "PLOS ONE",
+    "publishedOn": "2018-08-16",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1371/journal.pone.0202330",
+    "type": "research"
+  },
+  {
+    "id": "source-plos-littman-correction-2019",
+    "title": "Correction: Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dysphoria",
+    "authors": ["Lisa Littman"],
+    "publisher": "PLOS ONE",
+    "publishedOn": "2019-03-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://doi.org/10.1371/journal.pone.0214157",
+    "type": "research"
+  },
+  {
+    "id": "source-littman-quillette-interview-2019",
+    "title": "An Interview With Lisa Littman, Who Coined the Term ‘Rapid Onset Gender Dysphoria’",
+    "authors": ["Jonathan Kay", "Lisa Littman"],
+    "publisher": "Quillette",
+    "publishedOn": "2019-03-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://quillette.com/2019/03/19/an-interview-with-lisa-littman-who-coined-the-term-rapid-onset-gender-dysphoria/",
+    "type": "interview"
   }
 ]
