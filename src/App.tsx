@@ -16,7 +16,7 @@ import {
 import claimsData from "../data/claims.json";
 import essayData from "../data/essay-index.json";
 import taxonomyData from "../data/taxonomy.json";
-import type { Claim, EssayIndex, Taxonomy } from "./data/types";
+import type { Claim, EssayIndex, Taxonomy, Verdict } from "./data/types";
 
 const claims = claimsData as Claim[];
 const essayIndex = essayData as EssayIndex;
@@ -29,6 +29,7 @@ type GraphNodeData = {
   eyebrow: string;
   title: string;
   meta?: string;
+  verdict?: Verdict;
   active?: boolean;
   selected?: boolean;
   ancestor?: boolean;
@@ -45,7 +46,16 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
     <>
       <span className="node-eyebrow">{data.eyebrow}</span>
       <strong>{data.title}</strong>
-      {data.meta && <span className="node-meta">{data.meta}</span>}
+      {(data.meta || data.verdict) && (
+        <span className="node-footer">
+          {data.verdict && (
+            <span className={`verdict-chip verdict-chip--${data.verdict}`}>
+              {verdictLabel(data.verdict)}
+            </span>
+          )}
+          {data.meta && <span className="node-meta">{data.meta}</span>}
+        </span>
+      )}
     </>
   );
 
@@ -317,6 +327,7 @@ function App() {
             eyebrow: `Claim ${String(claim.number).padStart(3, "0")}`,
             title: claim.statement,
             meta: selectedClaimId === claim.id ? "details open" : "open details",
+            verdict: claim.factCheck?.verdict,
             active: selectedClaimId === claim.id,
             ...selectionFor(claim.id),
             onOpen: () => openClaim(claim)
@@ -615,6 +626,18 @@ function pathForNode(nodeId: string): string[] {
   if (section) return ["essay", section.themeId, section.id];
   if (taxonomy.themes.some((theme) => theme.id === nodeId)) return ["essay", nodeId];
   return [];
+}
+
+function verdictLabel(verdict: Verdict): string {
+  return {
+    supported: "Supported",
+    "mostly-supported": "Mostly supported",
+    mixed: "Mixed",
+    "mostly-unsupported": "Mostly false",
+    unsupported: "False",
+    "misleading-context": "Misleading context",
+    unverifiable: "Unverifiable"
+  }[verdict];
 }
 
 function makeEdge(id: string, source: string, target: string, kind: "theme" | "section" | "claim", highlighted = false): Edge {

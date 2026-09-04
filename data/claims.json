@@ -8,6 +8,36 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [
+      "Maya Forstater",
+      "Twitter",
+      "December 2019"
+    ],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling posted a tweet supporting Maya Forstater on 19 December 2019.",
+      "analysis": "A post from Rowling's @jk_rowling account dated 19 December 2019 used the hashtags #IStandWithMaya and #ThisIsNotADrill while objecting to women being forced out of their jobs for saying that sex is real. Contemporaneous CBS News coverage reproduced the post and described it as support for Forstater. This directly supports the claim.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-forstater-tweet-2019",
+          "stance": "supports",
+          "locator": "Post 1207646162813100033",
+          "quote": "#IStandWithMaya #ThisIsNotADrill",
+          "note": "The hashtags and surrounding text explicitly express support for Forstater; the post is dated 19 December 2019."
+        },
+        {
+          "sourceId": "source-cbs-rowling-forstater-2019",
+          "stance": "supports",
+          "locator": "Published 19 December 2019; paragraphs 1–3",
+          "note": "Contemporaneous reporting identifies Rowling's post as support for Forstater and reproduces the post with its date."
+        }
+      ],
+      "limitations": "The X post may not be directly accessible without authentication in every browser; its stable post ID, embedded copies, and contemporaneous reporting provide corroboration.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -19,6 +49,30 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": ["Maya Forstater", "tax", "profession"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Official tribunal records describe Forstater's work as focused on public policy, tax and business.",
+      "analysis": "The 2019 Employment Tribunal judgment describes Forstater as a researcher and writer on public policy, tax and business. The later merits judgment documents substantial tax-policy work for CGD. Calling her a tax specialist is a fair, concise description of that professional record.",
+      "evidence": [
+        {
+          "sourceId": "source-forstater-et-2019",
+          "stance": "supports",
+          "locator": "Paragraphs 21–22",
+          "note": "The judgment describes Forstater as a researcher and writer working on public policy, tax and business."
+        },
+        {
+          "sourceId": "source-forstater-et-merits-2022",
+          "stance": "supports",
+          "locator": "Paragraphs 52 and 60–62",
+          "note": "The merits judgment records her tax and illicit-flows work and proposed international-tax projects."
+        }
+      ],
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -30,6 +84,25 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "causal",
+    "checkability": "checkable",
+    "tags": ["Maya Forstater", "CGD", "employment", "Twitter"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "misleading-context",
+      "summary": "Forstater's visiting fellowship was not renewed after objections to her gender-critical tweets and beliefs, but describing this simply as losing a job over tweets omits important distinctions.",
+      "analysis": "CGD colleagues complained that some of Forstater's tweets were transphobic, and the 2022 tribunal found that opposition arising from her substantive belief influenced the refusal to renew her visiting fellowship. It ultimately held that refusing an employment contract and declining to renew the fellowship were direct belief discrimination. However, she was not dismissed from a continuing post: fixed arrangements expired, the fellowship was not renewed, and the tribunal found that a possible consultancy offer had not been withdrawn. The final ruling also distinguished her protected belief and its reasonable expression from potentially objectionable conduct.",
+      "evidence": [
+        {
+          "sourceId": "source-forstater-et-merits-2022",
+          "stance": "contextualizes",
+          "locator": "Judgment paragraphs 1, 102–105, 153, 210, 216, 222 and 309–311",
+          "note": "The judgment connects complaints about the tweets and her belief to the non-renewal, while distinguishing the fellowship, employment-contract decision, and remaining consultancy offer."
+        }
+      ],
+      "limitations": "The phrase “lost her job” is colloquial and can encompass non-renewal, but it obscures the different contractual relationships examined by the tribunal.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -41,6 +114,24 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": ["Maya Forstater", "Employment Tribunal"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Forstater filed discrimination claims in the Employment Tribunal in March 2019.",
+      "analysis": "The tribunal's procedural history records that Forstater submitted a claim form and brought belief- and sex-discrimination complaints against CGD Europe. This directly supports the claim.",
+      "evidence": [
+        {
+          "sourceId": "source-forstater-et-2019",
+          "stance": "supports",
+          "locator": "Paragraphs 4–5",
+          "note": "The official judgment records the claim form and the discrimination complaints brought in the Employment Tribunal."
+        }
+      ],
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -52,6 +143,24 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": ["Maya Forstater", "Equality Act 2010", "philosophical belief"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "A preliminary issue was whether Forstater's gender-critical belief qualified as a protected philosophical belief under the Equality Act 2010.",
+      "analysis": "Forstater's pleaded belief stated that sex is a material reality, should not be conflated with gender identity, and is biologically immutable. The tribunal was expressly asked whether this amounted to a philosophical belief protected by section 10 of the Equality Act 2010. Rowling's wording is a reasonable compression of the legal question.",
+      "evidence": [
+        {
+          "sourceId": "source-forstater-et-2019",
+          "stance": "supports",
+          "locator": "Paragraph 5.1 and paragraph 67 of the re-amended particulars quoted there",
+          "note": "The official judgment states the preliminary issue and reproduces the pleaded belief."
+        }
+      ],
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -63,6 +172,31 @@
       "paragraphIds": [
         "p002"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": ["Judge Tayler", "Equality Act 2010", "appeal"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Judge Tayler ruled in December 2019 that Forstater's specific belief was not protected, although that ruling was reversed on appeal in 2021.",
+      "analysis": "The 2019 preliminary judgment expressly held that the specific belief identified by the tribunal was not a protected philosophical belief under the Equality Act 2010. Rowling accurately described that ruling as it stood when her essay was published. The Employment Appeal Tribunal later held that the belief was protected and remitted the case, so the 2019 ruling is not the current legal position.",
+      "evidence": [
+        {
+          "sourceId": "source-forstater-et-2019",
+          "stance": "supports",
+          "locator": "Judgment heading and paragraphs 77–94",
+          "note": "Judge Tayler's judgment held that the specific belief did not qualify for protection."
+        },
+        {
+          "sourceId": "source-forstater-eat-2021",
+          "stance": "contextualizes",
+          "locator": "Employment Appeal Tribunal judgment, 10 June 2021",
+          "note": "The appeal reversed the original conclusion and held that the gender-critical belief was protected."
+        }
+      ],
+      "limitations": "This verdict confirms Rowling's historical description of the 2019 decision, not the correctness or continuing authority of that decision.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -74,6 +208,25 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "personal account", "gender identity"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says her interest pre-dated the Forstater case by almost two years, but the onset of a private interest cannot be independently established.",
+      "analysis": "The essay is direct evidence that Rowling made this autobiographical statement in June 2020. It does not independently prove when her private interest began, and no public record can establish the precise onset of an internal interest. The claim should therefore be presented as Rowling's account rather than as independently verified fact.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "supports",
+          "locator": "Paragraph beginning “My interest in trans issues”",
+          "note": "Rowling gives a first-person account placing the start of her interest almost two years before Forstater's case."
+        }
+      ],
+      "limitations": "The timing concerns Rowling's private state of mind and is not independently verifiable.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -85,6 +238,25 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "personal account", "gender identity debate"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that she closely followed gender-identity debates, but the breadth and continuity of that private activity cannot be independently verified.",
+      "analysis": "The essay establishes that Rowling made this first-person claim. Public social-media activity may corroborate some engagement, but it cannot demonstrate how closely or continuously she followed the debate throughout the stated period. The underlying activity remains primarily self-reported.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "supports",
+          "locator": "Paragraph beginning “My interest in trans issues”",
+          "note": "Rowling states that she followed the debate around gender identity closely."
+        }
+      ],
+      "limitations": "No complete external record of private reading, observation, or attention is available.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -96,6 +268,25 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "transgender people", "personal account"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling states that she had met transgender people, but the private encounters are not independently documented in evidence available for this check.",
+      "analysis": "The essay provides Rowling's first-person testimony that she had met transgender people. Because the claim concerns unspecified private encounters and identifies no people, dates, or independently checkable circumstances, it cannot be verified beyond her own account.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "supports",
+          "locator": "Paragraph beginning “My interest in trans issues”",
+          "note": "The essay contains Rowling's first-person statement that she had met transgender people."
+        }
+      ],
+      "limitations": "No independently identifiable encounters are specified; respecting the privacy of unnamed individuals also limits verification.",
+      "updatedOn": "2026-09-04"
     }
   },
   {
@@ -107,6 +298,25 @@
       "paragraphIds": [
         "p003"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": ["J.K. Rowling", "reading", "transgender authors"],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she read books, blogs and articles by transgender people, but she did not identify the material in this passage.",
+      "analysis": "The essay establishes that Rowling made the first-person statement. Because it supplies no titles, authors, reading records, or other details that could be checked, the underlying reading activity cannot be independently verified from the cited passage.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "supports",
+          "locator": "Paragraph beginning “My interest in trans issues”",
+          "note": "Rowling states that she read books, blogs and articles by transgender people."
+        }
+      ],
+      "limitations": "The source material is not identified, so neither its authorship nor Rowling's reading of it can be independently checked.",
+      "updatedOn": "2026-09-04"
     }
   },
   {

@@ -157,6 +157,25 @@ button { color: inherit; }
   font-weight: 600;
 }
 .node-meta { color: var(--muted); font-size: 9px; }
+.node-footer { width: 100%; display: flex; align-items: center; gap: 7px; min-width: 0; }
+.node-footer .node-meta { margin-left: auto; white-space: nowrap; }
+.verdict-chip {
+  flex: none;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  font: 500 8px "DM Mono", monospace;
+  letter-spacing: .04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.verdict-chip--supported,
+.verdict-chip--mostly-supported { color: #155b38; border-color: #9fcdb4; background: #dcefe4; }
+.verdict-chip--unverifiable { color: white; border-color: var(--ink); background: var(--ink); }
+.verdict-chip--unsupported,
+.verdict-chip--mostly-unsupported { color: #8e2020; border-color: #dfaaaa; background: #f5dddd; }
+.verdict-chip--mixed,
+.verdict-chip--misleading-context { color: #684c0c; border-color: #d7be75; background: #f3e7bd; }
 .graph-card--essay { width: 330px; color: white; border: 0; background: var(--ink); }
 .graph-card--essay .graph-card__content { height: 126px; }
 .graph-card--essay .node-eyebrow, .graph-card--essay .node-meta { color: #cfc9be; }

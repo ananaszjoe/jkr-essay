@@ -1,0 +1,66 @@
+[
+  {
+    "id": "source-jkr-forstater-tweet-2019",
+    "title": "Post supporting Maya Forstater",
+    "authors": [
+      "J.K. Rowling"
+    ],
+    "publisher": "Twitter",
+    "publishedOn": "2019-12-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://x.com/jk_rowling/status/1207646162813100033",
+    "type": "social-media"
+  },
+  {
+    "id": "source-cbs-rowling-forstater-2019",
+    "title": "J.K. Rowling facing backlash after supporting researcher who lost her job over transphobic tweets",
+    "authors": [
+      "Sophie Lewis"
+    ],
+    "publisher": "CBS News",
+    "publishedOn": "2019-12-19",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.cbsnews.com/news/jk-rowling-maya-forstater-backlash-support-researcher-fired-over-transphobic-tweets-2019-12-19/",
+    "type": "news"
+  },
+  {
+    "id": "source-forstater-et-2019",
+    "title": "Maya Forstater v CGD Europe, Centre for Global Development and Masood Ahmed — Judgment",
+    "authors": ["Employment Judge Tayler"],
+    "publisher": "HM Courts & Tribunals Service",
+    "publishedOn": "2019-12-18",
+    "accessedOn": "2026-09-04",
+    "url": "https://assets.publishing.service.gov.uk/media/5e15e7f8e5274a06b555b8b0/Maya_Forstater__vs_CGD_Europe__Centre_for_Global_Development_and_Masood_Ahmed_-_Judgment.pdf",
+    "type": "court-decision"
+  },
+  {
+    "id": "source-forstater-eat-2021",
+    "title": "Maya Forstater v CGD Europe and Others: UKEAT/0105/20/JOJ",
+    "authors": ["Mr Justice Choudhury", "C. Edwards", "M. V. McArthur"],
+    "publisher": "Employment Appeal Tribunal",
+    "publishedOn": "2021-06-10",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.gov.uk/employment-appeal-tribunal-decisions/maya-forstater-v-cgd-europe-and-others-ukeat-slash-0105-slash-20-slash-joj",
+    "type": "court-decision"
+  },
+  {
+    "id": "source-forstater-et-merits-2022",
+    "title": "Maya Forstater v CGD Europe and Others — Merits Judgment",
+    "authors": ["Employment Judge Glennie", "G. Carpenter", "R. Miller"],
+    "publisher": "HM Courts & Tribunals Service",
+    "publishedOn": "2022-07-06",
+    "accessedOn": "2026-09-04",
+    "url": "https://assets.publishing.service.gov.uk/media/62c57e5ce90e07748814bc8d/Ms_M_Forstater__vs_Cgd_Europe_and_Others.pdf",
+    "type": "court-decision"
+  },
+  {
+    "id": "source-jkr-essay-2020",
+    "title": "J.K. Rowling Writes about Her Reasons for Speaking out on Sex and Gender Issues",
+    "authors": ["J.K. Rowling"],
+    "publisher": "J.K. Rowling",
+    "publishedOn": "2020-06-10",
+    "accessedOn": "2026-09-04",
+    "url": "https://www.jkrowling.com/opinions/j-k-rowling-writes-about-her-reasons-for-speaking-out-on-sex-and-gender-issues/",
+    "type": "original-essay"
+  }
+]
