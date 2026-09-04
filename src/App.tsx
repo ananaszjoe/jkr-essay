@@ -25,7 +25,7 @@ const initialThemeId = taxonomy.themes[0]?.id ?? null;
 const initialSectionId = taxonomy.sections.find((section) => section.themeId === initialThemeId)?.id ?? null;
 
 type GraphNodeData = {
-  kind: "essay" | "theme" | "section" | "claim" | "factcheck";
+  kind: "essay" | "theme" | "section" | "claim";
   eyebrow: string;
   title: string;
   meta?: string;
@@ -66,7 +66,7 @@ function GraphCard({ data }: NodeProps<GraphNode>) {
       ) : (
         <div className="graph-card__content">{content}</div>
       )}
-      {data.kind !== "factcheck" && (
+      {data.kind !== "claim" && (
         <Handle type="source" position={Position.Right} />
       )}
     </div>
@@ -84,6 +84,7 @@ function App() {
   const [selectedClaimId, setSelectedClaimId] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [showAbout, setShowAbout] = useState(false);
+  const [showTakeMeBack, setShowTakeMeBack] = useState(false);
   const flowRef = useRef<ReactFlowInstance<GraphNode, Edge> | null>(null);
 
   const sections = useMemo(() => taxonomy.sections.map((section) => ({
@@ -128,8 +129,7 @@ function App() {
       return;
     }
 
-    const claimId = nodeId.endsWith("-factcheck") ? nodeId.slice(0, -"-factcheck".length) : nodeId;
-    const claim = claims.find((candidate) => candidate.id === claimId);
+    const claim = claims.find((candidate) => candidate.id === nodeId);
     if (!claim) return;
     const claimSection = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
     if (!claimSection) return;
@@ -168,13 +168,11 @@ function App() {
     if (theme) return taxonomy.sections.filter((section) => section.themeId === theme.id).map((section) => section.id);
     const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
     if (section) return claims.filter((claim) => claim.sectionId === section.id).map((claim) => claim.id);
-    if (claims.some((claim) => claim.id === nodeId)) return [`${nodeId}-factcheck`];
     return [];
   }, []);
 
   const parentForNode = useCallback((nodeId: string): string | null => {
     if (nodeId === "essay") return null;
-    if (nodeId.endsWith("-factcheck")) return nodeId.slice(0, -"-factcheck".length);
     const claim = claims.find((candidate) => candidate.id === nodeId);
     if (claim) return claim.sectionId;
     const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
@@ -303,7 +301,7 @@ function App() {
     if (expandedSection) {
       const sectionNode = nextNodes.find((node) => node.id === expandedSection.id);
       const sectionY = sectionNode?.position.y ?? 0;
-      const claimSpacing = 112;
+      const claimSpacing = 144;
       const claimStartY = sectionY - ((expandedSection.claims.length - 1) * claimSpacing) / 2;
 
       expandedSection.claims.forEach((claim, index) => {
@@ -313,7 +311,7 @@ function App() {
           type: "graphCard",
           position: { x: 1110, y },
           width: 310,
-          height: 86,
+          height: 116,
           data: {
             kind: "claim",
             eyebrow: `Claim ${String(claim.number).padStart(3, "0")}`,
@@ -328,51 +326,131 @@ function App() {
       });
     }
 
-    if (selectedClaim) {
-      const claimNode = nextNodes.find((node) => node.id === selectedClaim.id);
-      const baseY = claimNode?.position.y ?? 0;
-      const paragraphLabel = selectedClaim.reference.paragraphIds.join(", ").toUpperCase();
-      const evidenceCount = selectedClaim.factCheck?.evidence?.length ?? 0;
-      const factCheckNodeId = `${selectedClaim.id}-factcheck`;
-      nextNodes.push({
-        id: factCheckNodeId,
-        type: "graphCard",
-        position: { x: 1510, y: baseY },
-        width: 280,
-        height: 86,
-        data: {
-          kind: "factcheck",
-          eyebrow: "Fact-check record",
-          title: selectedClaim.factCheck?.verdict ?? "Pending assessment",
-          meta: `${paragraphLabel} · ${evidenceCount ? `${evidenceCount} evidence items` : "no evidence yet"}`,
-          ...selectionFor(factCheckNodeId),
-          onOpen: () => selectNode(factCheckNodeId)
-        }
-      });
-      nextEdges.push(makeEdge(`${selectedClaim.id}-${factCheckNodeId}`, selectedClaim.id, factCheckNodeId, "detail", pathIsHighlighted(selectedClaim.id, factCheckNodeId)));
-    }
-
     return { nodes: nextNodes, edges: nextEdges };
   }, [activeSection, activeTheme, currentNodeId, openClaim, openSection, openTheme, sections, selectNode, selectedClaim, selectedClaimId]);
 
-  useEffect(() => {
+  const focusCurrentNode = useCallback(() => {
     if (!flowRef.current) return;
     const node = nodes.find((candidate) => candidate.id === currentNodeId);
     if (!node) return;
-    const view = {
+    const preferredView = {
       essay: { offset: 200, zoom: 0.72 },
       theme: { offset: 250, zoom: 0.76 },
       section: { offset: 280, zoom: 0.68 },
-      claim: { offset: 320, zoom: 0.8 },
-      factcheck: { offset: -100, zoom: 0.8 }
+      claim: { offset: 0, zoom: 0.8 }
     }[node.data.kind];
-    window.setTimeout(() => {
-      flowRef.current?.setCenter(node.position.x + view.offset, node.position.y + (node.height ?? 86) / 2, {
-        zoom: view.zoom,
+
+    setShowTakeMeBack(false);
+    const frame = window.requestAnimationFrame(() => {
+      const panel = document.querySelector<HTMLElement>(".claim-panel");
+      const canvas = document.querySelector<HTMLElement>(".graph-shell");
+      const nodeWidth = node.width ?? 280;
+      const nodeHeight = node.height ?? 86;
+      let centerX = node.position.x + nodeWidth / 2 + preferredView.offset;
+      let centerY = node.position.y + nodeHeight / 2;
+      let zoom = preferredView.zoom;
+
+      if (panel && canvas && selectedClaimId) {
+        const panelBounds = panel.getBoundingClientRect();
+        const canvasBounds = canvas.getBoundingClientRect();
+        const panelIsBottomSheet = panelBounds.width >= canvasBounds.width * 0.9;
+        const visibleWidth = panelIsBottomSheet ? canvasBounds.width : canvasBounds.width - panelBounds.width;
+        const visibleHeight = panelIsBottomSheet ? canvasBounds.height - panelBounds.height : canvasBounds.height;
+        const maximumFittingZoom = Math.min(
+          (visibleWidth - 48) / nodeWidth,
+          (visibleHeight - 48) / nodeHeight
+        );
+
+        zoom = Math.max(0.35, Math.min(preferredView.zoom, maximumFittingZoom));
+        centerX = node.position.x + nodeWidth / 2;
+        centerY = node.position.y + nodeHeight / 2;
+
+        if (panelIsBottomSheet) {
+          centerY += panelBounds.height / (2 * zoom);
+        } else {
+          centerX += panelBounds.width / (2 * zoom);
+        }
+      }
+
+      const flow = flowRef.current;
+      void flow?.setCenter(centerX, centerY, {
+        zoom,
         duration: 350
+      }).then(() => {
+        if (node.data.kind !== "claim") return;
+        window.requestAnimationFrame(() => {
+          const selectedNode = document.querySelector<HTMLElement>(".graph-card.is-selected");
+          const selectedWrapper = selectedNode?.closest<HTMLElement>(".react-flow__node");
+          const currentCanvas = document.querySelector<HTMLElement>(".graph-shell");
+          if (!selectedNode || !currentCanvas || selectedWrapper?.dataset.id !== node.id) return;
+
+          const nodeBounds = selectedNode.getBoundingClientRect();
+          const canvasBounds = currentCanvas.getBoundingClientRect();
+          const panelBounds = document.querySelector<HTMLElement>(".claim-panel")?.getBoundingClientRect();
+          let visibleRight = canvasBounds.right;
+          let visibleBottom = canvasBounds.bottom;
+
+          if (panelBounds) {
+            const panelIsBottomSheet = panelBounds.width >= canvasBounds.width * 0.9;
+            if (panelIsBottomSheet) visibleBottom = Math.min(visibleBottom, panelBounds.top);
+            else visibleRight = Math.min(visibleRight, panelBounds.left);
+          }
+
+          const desiredX = (canvasBounds.left + visibleRight) / 2;
+          const desiredY = (canvasBounds.top + visibleBottom) / 2;
+          const actualX = nodeBounds.left + nodeBounds.width / 2;
+          const actualY = nodeBounds.top + nodeBounds.height / 2;
+          const viewport = flow.getViewport();
+          const deltaX = desiredX - actualX;
+          const deltaY = desiredY - actualY;
+
+          if (Math.abs(deltaX) > 1 || Math.abs(deltaY) > 1) {
+            void flow.setViewport({
+              x: viewport.x + deltaX,
+              y: viewport.y + deltaY,
+              zoom: viewport.zoom
+            }, { duration: 150 });
+          }
+        });
       });
-    }, 30);
-  }, [currentNodeId, nodes]);
+    });
+
+    return frame;
+  }, [currentNodeId, nodes, selectedClaimId]);
+
+  useEffect(() => {
+    const frame = focusCurrentNode();
+    return () => {
+      if (frame !== undefined) window.cancelAnimationFrame(frame);
+    };
+  }, [focusCurrentNode]);
+
+  const updateSelectedNodeVisibility = useCallback(() => {
+    const selectedNode = document.querySelector<HTMLElement>(".graph-card.is-selected");
+    const canvas = document.querySelector<HTMLElement>(".graph-shell");
+    if (!selectedNode || !canvas) {
+      setShowTakeMeBack(false);
+      return;
+    }
+
+    const nodeBounds = selectedNode.getBoundingClientRect();
+    const canvasBounds = canvas.getBoundingClientRect();
+    const panelBounds = document.querySelector<HTMLElement>(".claim-panel")?.getBoundingClientRect();
+    let visibleRight = canvasBounds.right;
+    let visibleBottom = canvasBounds.bottom;
+
+    if (panelBounds) {
+      const panelIsBottomSheet = panelBounds.width >= canvasBounds.width * 0.9;
+      if (panelIsBottomSheet) visibleBottom = Math.min(visibleBottom, panelBounds.top);
+      else visibleRight = Math.min(visibleRight, panelBounds.left);
+    }
+
+    const isVisible = nodeBounds.right > canvasBounds.left
+      && nodeBounds.left < visibleRight
+      && nodeBounds.bottom > canvasBounds.top
+      && nodeBounds.top < visibleBottom;
+    setShowTakeMeBack(!isVisible);
+  }, []);
 
   return (
     <main className="app-shell">
@@ -418,6 +496,12 @@ function App() {
           panOnScroll
           zoomOnPinch
           zoomOnDoubleClick={false}
+          onMove={(event) => {
+            if (event) updateSelectedNodeVisibility();
+          }}
+          onMoveEnd={(event) => {
+            if (event) updateSelectedNodeVisibility();
+          }}
           proOptions={{ hideAttribution: true }}
         >
           <Background variant={BackgroundVariant.Dots} gap={22} size={1.2} color="#c9c4b8" />
@@ -435,6 +519,16 @@ function App() {
           <span aria-hidden="true">↔</span>
           Pan · zoom · arrow keys navigate
         </div>
+
+        {showTakeMeBack && (
+          <button
+            className={`take-me-back ${selectedClaim ? "has-panel" : ""}`}
+            type="button"
+            onClick={focusCurrentNode}
+          >
+            Take me back
+          </button>
+        )}
       </section>
 
       {selectedClaim && (
@@ -511,11 +605,10 @@ function AboutDialog({ onClose }: { onClose: () => void }) {
 
 function pathForNode(nodeId: string): string[] {
   if (nodeId === "essay") return ["essay"];
-  const factCheckClaimId = nodeId.endsWith("-factcheck") ? nodeId.slice(0, -"-factcheck".length) : null;
-  const claim = claims.find((candidate) => candidate.id === (factCheckClaimId ?? nodeId));
+  const claim = claims.find((candidate) => candidate.id === nodeId);
   if (claim) {
     const section = taxonomy.sections.find((candidate) => candidate.id === claim.sectionId);
-    return ["essay", section?.themeId, section?.id, claim.id, factCheckClaimId ? nodeId : undefined]
+    return ["essay", section?.themeId, section?.id, claim.id]
       .filter((id): id is string => Boolean(id));
   }
   const section = taxonomy.sections.find((candidate) => candidate.id === nodeId);
@@ -524,8 +617,8 @@ function pathForNode(nodeId: string): string[] {
   return [];
 }
 
-function makeEdge(id: string, source: string, target: string, kind: "theme" | "section" | "claim" | "detail", highlighted = false): Edge {
-  const defaultColor = kind === "detail" ? "#3457d5" : kind === "claim" ? "#89765f" : kind === "section" ? "#8879ae" : "#b6aa98";
+function makeEdge(id: string, source: string, target: string, kind: "theme" | "section" | "claim", highlighted = false): Edge {
+  const defaultColor = kind === "claim" ? "#89765f" : kind === "section" ? "#8879ae" : "#b6aa98";
   const color = highlighted ? "#3457d5" : defaultColor;
   return {
     id,
@@ -535,7 +628,7 @@ function makeEdge(id: string, source: string, target: string, kind: "theme" | "s
     animated: highlighted,
     className: highlighted ? "path-edge is-highlighted" : "path-edge",
     zIndex: highlighted ? 10 : 0,
-    style: { stroke: color, strokeWidth: highlighted ? 3 : kind === "detail" ? 1.8 : 1.2 },
+    style: { stroke: color, strokeWidth: highlighted ? 3 : 1.2 },
     markerEnd: { type: MarkerType.ArrowClosed, color, width: 14, height: 14 }
   };
 }

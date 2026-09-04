@@ -163,8 +163,8 @@ button { color: inherit; }
 .graph-card--essay strong { font: 600 19px/1.12 "Newsreader", serif; }
 .graph-card--theme { border-left: 4px solid #5d4c87; background: #f5f0ff; }
 .graph-card--section { border-left: 4px solid #9b8870; }
-.graph-card--claim { width: 310px; border-left: 4px solid var(--blue); }
-.graph-card--factcheck { width: 280px; background: #e9efff; border-color: #9aafea; }
+.graph-card--claim { width: 310px; height: 116px; border-left: 4px solid var(--blue); }
+.graph-card--claim button { height: 100%; padding-block: 12px; }
 .react-flow__handle { width: 7px; height: 7px; border: 1px solid var(--paper); background: #8b8174; }
 .graph-card--claim .react-flow__handle { background: var(--blue); }
 
@@ -186,13 +186,33 @@ button { color: inherit; }
   pointer-events: none;
 }
 
+.take-me-back {
+  position: absolute;
+  z-index: 12;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 11px 17px;
+  border: 1px solid var(--blue);
+  border-radius: 100px;
+  color: white;
+  background: var(--blue);
+  box-shadow: 0 8px 28px rgba(52,87,213,.28);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+.take-me-back:hover { background: #2948bd; }
+.take-me-back:focus-visible { outline: 3px solid rgba(52,87,213,.28); outline-offset: 3px; }
+.take-me-back.has-panel { left: calc((100% - clamp(430px, 48vw, 620px)) / 2); }
+
 .claim-panel {
   position: fixed;
   z-index: 15;
   top: 76px;
   right: 0;
   bottom: 0;
-  width: min(390px, 92vw);
+  width: clamp(430px, 48vw, 620px);
   overflow-y: auto;
   padding: 24px 26px 40px;
   border-left: 1px solid var(--line);
@@ -232,11 +252,13 @@ button { color: inherit; }
   .graph-shell { inset: 68px 0 0; }
   .react-flow__minimap { width: 90px; height: 68px; }
   .graph-hint { bottom: 12px; white-space: nowrap; }
+  .take-me-back.has-panel { top: calc((100% - 66vh) / 2); left: 50%; }
   .claim-panel {
     top: auto;
     left: 0;
     width: 100%;
-    max-height: 54vh;
+    height: 66vh;
+    max-height: 66vh;
     padding: 13px 18px 30px;
     border-top: 1px solid var(--line);
     border-left: 0;
