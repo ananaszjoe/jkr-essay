@@ -493,5 +493,176 @@
     "accessedOn": "2026-09-04",
     "url": "https://quillette.com/2019/03/19/an-interview-with-lisa-littman-who-coined-the-term-rapid-onset-gender-dysphoria/",
     "type": "interview"
+  },
+  {
+    "id": "source-brown-littman-statements-2019",
+    "title": "Updated: Brown statements on gender dysphoria study",
+    "publisher": "Brown University",
+    "publishedOn": "2019-03-19",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.brown.edu/news/2019-03-19/gender",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-plos-editor-littman-2019",
+    "title": "Correcting the scientific record on gender incongruence – and an apology",
+    "authors": ["Joerg Heber"],
+    "publisher": "PLOS",
+    "publishedOn": "2019-03-19",
+    "accessedOn": "2026-09-05",
+    "url": "https://everyone.plos.org/2019/03/19/correcting-the-scientific-record-and-an-apology/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-ama-born-that-way-2016",
+    "title": "Transgender Rights as Human Rights",
+    "authors": ["Laura K. Kuper", "Caroline Basen-Engquist", "Debra F. Katz"],
+    "publisher": "AMA Journal of Ethics",
+    "publishedOn": "2016-11-01",
+    "accessedOn": "2026-09-05",
+    "url": "https://journalofethics.ama-assn.org/article/transgender-rights-human-rights/2016-11",
+    "type": "research"
+  },
+  {
+    "id": "source-trevor-survey-2020",
+    "title": "2020 National Survey on LGBTQ Youth Mental Health",
+    "publisher": "The Trevor Project",
+    "publishedOn": "2020-07-15",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.thetrevorproject.org/survey-2020/",
+    "type": "research"
+  },
+  {
+    "id": "source-evans-quillette-2020",
+    "title": "Why I Resigned from Tavistock: Trans-Identified Children Need Therapy, Not Just ‘Affirmation’ and Drugs",
+    "authors": ["Marcus Evans"],
+    "publisher": "Quillette",
+    "publishedOn": "2020-01-17",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.researchgate.net/publication/338885615_Why_I_Resigned_from_Tavistock_Trans-Identified_Children_Need_Therapy_Not_Just_%27Affirmation%27_and_Dr",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-guardian-evans-resignation-2019",
+    "title": "Governor of Tavistock Foundation quits over damning report into gender identity clinic",
+    "authors": ["Jamie Doward"],
+    "publisher": "The Guardian",
+    "publishedOn": "2019-02-23",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.theguardian.com/society/2019/feb/23/child-transgender-service-governor-quits-chaos",
+    "type": "news"
+  },
+  {
+    "id": "source-casc-marcus-evans-bio",
+    "title": "Marcus Evans — Speaker biography",
+    "publisher": "Confer",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.casc.ltd/speakers/marcusevans",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-steensma-desistance-2013",
+    "title": "Factors associated with desistence and persistence of childhood gender dysphoria: a quantitative follow-up study",
+    "authors": ["Thomas D. Steensma", "Jenifer K. McGuire", "Baudewijntje P. C. Kreukels", "Anneke J. Beekman", "Peggy T. Cohen-Kettenis"],
+    "publisher": "Journal of the American Academy of Child & Adolescent Psychiatry",
+    "publishedOn": "2013-05-03",
+    "accessedOn": "2026-09-05",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23702447/",
+    "type": "research"
+  },
+  {
+    "id": "source-ristori-steensma-review-2016",
+    "title": "Gender dysphoria in childhood",
+    "authors": ["Jiska Ristori", "Thomas D. Steensma"],
+    "publisher": "International Review of Psychiatry",
+    "publishedOn": "2016-01-12",
+    "accessedOn": "2026-09-05",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26754056/",
+    "type": "research"
+  },
+  {
+    "id": "source-wpath-soc7-2012",
+    "title": "Standards of Care for the Health of Transsexual, Transgender, and Gender-Nonconforming People, Version 7",
+    "publisher": "World Professional Association for Transgender Health",
+    "publishedOn": "2012-09-01",
+    "accessedOn": "2026-09-05",
+    "url": "https://wpath.org/media/cms/Documents/SOC%20v7/SOC%20V7_English.pdf",
+    "type": "clinical-guidance"
+  },
+  {
+    "id": "source-uk-gender-recognition-act-2004",
+    "title": "Gender Recognition Act 2004",
+    "publisher": "The National Archives",
+    "publishedOn": "2004-07-01",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.legislation.gov.uk/ukpga/2004/7/contents",
+    "type": "legislation"
+  },
+  {
+    "id": "source-bbfc-young-people-pornography-2020",
+    "title": "Young people, Pornography and Age-verification",
+    "publisher": "British Board of Film Classification",
+    "publishedOn": "2020-01-24",
+    "accessedOn": "2026-09-05",
+    "url": "https://revealingreality.co.uk/wp-content/uploads/2021/07/BBFC-Young-people-and-pornography-Final-report-2401.pdf",
+    "type": "research"
+  },
+  {
+    "id": "source-peter-valkenburg-porn-review-2016",
+    "title": "Adolescents and Pornography: A Review of 20 Years of Research",
+    "authors": ["Jochen Peter", "Patti M. Valkenburg"],
+    "publisher": "The Journal of Sex Research",
+    "publishedOn": "2016-03-31",
+    "accessedOn": "2026-09-05",
+    "url": "https://doi.org/10.1080/00224499.2016.1143441",
+    "type": "research"
+  },
+  {
+    "id": "source-abc-trump-accusers-2020",
+    "title": "List of Trump's accusers and their allegations of sexual misconduct",
+    "publisher": "ABC News",
+    "publishedOn": "2020-09-17",
+    "accessedOn": "2026-09-05",
+    "url": "https://abcnews.com/Politics/list-trumps-accusers-allegations-sexual-misconduct/story?id=51956410",
+    "type": "news"
+  },
+  {
+    "id": "source-wapo-access-hollywood-2016",
+    "title": "Trump recorded having extremely lewd conversation about women in 2005",
+    "authors": ["David A. Fahrenthold"],
+    "publisher": "The Washington Post",
+    "publishedOn": "2016-10-07",
+    "accessedOn": "2026-09-05",
+    "url": "https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html",
+    "type": "news"
+  },
+  {
+    "id": "source-tomkinson-incel-rhetoric-2020",
+    "title": "Stacys, Beckys, and Chads: the construction of femininity and hegemonic masculinity within incel rhetoric",
+    "authors": ["Sian Tomkinson", "Tauel Harper", "Katie Attwell"],
+    "publisher": "Psychology & Sexuality",
+    "publishedOn": "2020-08-18",
+    "accessedOn": "2026-09-05",
+    "url": "https://doi.org/10.1080/19419899.2020.1806915",
+    "type": "research"
+  },
+  {
+    "id": "source-uk-parliament-terf-evidence-2020",
+    "title": "Written evidence submitted to the Hate Crime and Public Order (Scotland) Bill inquiry",
+    "publisher": "UK Parliament",
+    "publishedOn": "2020-11-24",
+    "accessedOn": "2026-09-05",
+    "url": "https://committees.parliament.uk/writtenevidence/22311/html/",
+    "type": "primary-document"
+  },
+  {
+    "id": "source-jones-punch-terf-2018",
+    "title": "Jenny Jones: We need a civil debate on gender and trans issues",
+    "authors": ["Jenny Jones"],
+    "publisher": "Left Foot Forward",
+    "publishedOn": "2018-10-25",
+    "accessedOn": "2026-09-05",
+    "url": "https://leftfootforward.org/2018/10/jenny-jones-we-need-a-civil-debate-on-gender-and-trans-issues/",
+    "type": "primary-document"
   }
 ]

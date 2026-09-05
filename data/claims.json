@@ -2568,6 +2568,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "The paper prompted substantial public and academic controversy.",
+      "analysis": "PLOS described strong criticism, debate and extensive correspondence; Brown recorded wide attention and methodological concerns.",
+      "evidence": [
+        {
+          "sourceId": "source-plos-editor-littman-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 101."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2579,6 +2596,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Contemporaneous accounts explicitly record accusations of biased methods.",
+      "analysis": "Quillette recorded the accusation; PLOS independently found framing and methodological problems requiring correction.",
+      "evidence": [
+        {
+          "sourceId": "source-littman-quillette-interview-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 102."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2590,6 +2624,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Littman was publicly accused of spreading misconceptions about transgender people.",
+      "analysis": "The contemporaneous interview introduction records that accusation. This verdict verifies its existence, not its correctness.",
+      "evidence": [
+        {
+          "sourceId": "source-littman-quillette-interview-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 103."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2601,6 +2652,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "biographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Intense criticism is documented, but significant personal abuse of Littman is not independently established.",
+      "analysis": "PLOS records debate and correspondence about the article, not the scale or content of abuse directed at Littman personally.",
+      "evidence": [
+        {
+          "sourceId": "source-plos-editor-littman-2019",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 104."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2612,6 +2680,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "event",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The record shows collective criticism, not a proven organized campaign to discredit Littman.",
+      "analysis": "PLOS received many communications and conducted a post-publication review after substantive concerns; no organizer or coordination is identified.",
+      "evidence": [
+        {
+          "sourceId": "source-plos-editor-littman-2019",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 105."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2623,6 +2708,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unsupported",
+      "summary": "PLOS did not take the paper offline; Brown removed a news story about it.",
+      "analysis": "Brown explicitly said the journal article remained available during review. PLOS later replaced the version of record while preserving the original.",
+      "evidence": [
+        {
+          "sourceId": "source-brown-littman-statements-2019",
+          "stance": "contradicts",
+          "note": "Primary evidence used for Claim 106."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2634,6 +2736,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "PLOS ONE conducted a formal post-publication re-review.",
+      "analysis": "The review involved two academic editors, a statistics reviewer and a clinician-academic and identified corrections needed for publication criteria.",
+      "evidence": [
+        {
+          "sourceId": "source-plos-littman-correction-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 107."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2645,6 +2764,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "PLOS ONE republished a revised version on 19 March 2019.",
+      "analysis": "The title, abstract and several sections changed, and the original was retained with the correction.",
+      "evidence": [
+        {
+          "sourceId": "source-plos-littman-correction-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 108."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2656,6 +2792,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "biographical",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The controversy affected publicity, but an adverse career effect is not established.",
+      "analysis": "Brown removed its news story while supporting Littman's research; her 2020 CV shows continuing appointments. No defined career loss is documented.",
+      "evidence": [
+        {
+          "sourceId": "source-brown-littman-statements-2019",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 109."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2667,6 +2820,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "A prominent “born this way” argument treated gender identity as innate, but “generally” is unquantified.",
+      "analysis": "An AMA ethics discussion says many LGBT advocates grouped gender identity with sexual orientation as innate or immutable, while noting evidence of fluidity.",
+      "evidence": [
+        {
+          "sourceId": "source-ama-born-that-way-2016",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 110."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2678,6 +2848,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Gender identity and sexual orientation were paired in “born this way” arguments.",
+      "analysis": "The contemporaneous AMA discussion explicitly describes this paired innate-or-immutable framing, but not its prevalence among all activists.",
+      "evidence": [
+        {
+          "sourceId": "source-ama-born-that-way-2016",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 111."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2689,6 +2876,23 @@
       "paragraphIds": [
         "p021"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Non-choice arguments were common, but the absolute claim that nobody could be socially influenced is not established.",
+      "analysis": "Born-this-way framing does not settle whether context affects interpretation, expression or disclosure; Rowling names no representative evidence for the absolute.",
+      "evidence": [
+        {
+          "sourceId": "source-ama-born-that-way-2016",
+          "stance": "contextualizes",
+          "note": "Primary evidence used for Claim 112."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2700,6 +2904,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "attribution",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "A “transition or suicide” argument was publicly recognizable, but Rowling overgeneralizes it.",
+      "analysis": "Advocacy research documented elevated suicidality and protective associations with affirmation, but did not prove withholding medical transition causes suicide.",
+      "evidence": [
+        {
+          "sourceId": "source-trevor-survey-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 113."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2711,6 +2932,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "attribution",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Some advocates and families framed transition or affirmation as life-saving, not as a proven individual necessity.",
+      "analysis": "Evans's article directly responds to this rhetoric; the available risk evidence was observational and did not establish necessity or sufficiency.",
+      "evidence": [
+        {
+          "sourceId": "source-evans-quillette-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 114."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2722,6 +2960,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unsupported",
+      "summary": "Marcus Evans was a psychoanalyst and consultant psychotherapist, not a psychiatrist.",
+      "analysis": "His biography lists mental-health nursing, psychoanalysis and psychotherapy roles; no medical qualification or psychiatrist post is identified.",
+      "evidence": [
+        {
+          "sourceId": "source-casc-marcus-evans-bio",
+          "stance": "contradicts",
+          "note": "Primary evidence used for Claim 115."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2733,6 +2988,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unsupported",
+      "summary": "Evans worked at the Tavistock Trust, but not at its child gender clinic, GIDS.",
+      "analysis": "His roles were elsewhere in the Trust and on its board. Reporting identifies him as a governor challenging GIDS, not a GIDS clinician.",
+      "evidence": [
+        {
+          "sourceId": "source-casc-marcus-evans-bio",
+          "stance": "contradicts",
+          "note": "Primary evidence used for Claim 116."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2744,6 +3016,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "historical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "The Tavistock Trust ran England's nationally commissioned youth gender service, but the Trust itself was broader than a gender clinic.",
+      "analysis": "NHS England identifies GIDS as the specialist child-and-adolescent service operated by the Tavistock and Portman NHS Foundation Trust.",
+      "evidence": [
+        {
+          "sourceId": "source-gids-service-specification-2016",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 117."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2755,6 +3044,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "Evans resigned as a governor of the Tavistock and Portman NHS Foundation Trust in 2019.",
+      "analysis": "Reporting confirms the resignation over concerns about GIDS. He did not resign from a GIDS clinical post.",
+      "evidence": [
+        {
+          "sourceId": "source-guardian-evans-resignation-2019",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 118."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2766,6 +3072,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Evans publicly criticized claims that children would die by suicide unless allowed to transition.",
+      "analysis": "His January 2020 article directly describes and rejects that life-or-death framing.",
+      "evidence": [
+        {
+          "sourceId": "source-evans-quillette-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 119."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2777,6 +3100,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Rowling accurately quotes Evans saying the claims did not align substantially with robust data or studies.",
+      "analysis": "That wording appears in his January 2020 article and represents his assessment of evidence then available.",
+      "evidence": [
+        {
+          "sourceId": "source-evans-quillette-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 120."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2788,6 +3128,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "attribution",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Evans wrote that the claims did not match cases encountered over decades as a psychotherapist.",
+      "analysis": "The quoted clause is present in his article. Clinical experience, however, cannot estimate population-level effects.",
+      "evidence": [
+        {
+          "sourceId": "source-evans-quillette-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 121."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2799,6 +3156,23 @@
       "paragraphIds": [
         "p022"
       ]
+    },
+    "category": "biographical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Evans had decades of psychotherapy and mental-health experience by 2020.",
+      "analysis": "His biography records more than 45 years in mental health and senior Tavistock psychotherapy roles.",
+      "evidence": [
+        {
+          "sourceId": "source-casc-marcus-evans-bio",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 122."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2812,6 +3186,23 @@
         "p024",
         "p025"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reported severe OCD in adolescence, but this private medical history cannot be independently verified.",
+      "analysis": "The essay is direct evidence of her self-report; no clinical or contemporaneous independent documentation is public.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 123."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2825,6 +3216,23 @@
         "p024",
         "p025"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports that her father openly preferred a son; the private exchange is not independently verifiable.",
+      "analysis": "No public recording or corroborating witness is identified. Unverifiable does not mean false.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 124."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2838,6 +3246,23 @@
         "p024",
         "p025"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling describes ambivalence about being a woman, an internal experience that cannot be independently checked.",
+      "analysis": "She says she felt mentally sexless and ambivalent about womanhood; only she can directly attest to that experience.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 125."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2851,6 +3276,23 @@
         "p024",
         "p025"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports sexualized scrutiny and judgment, but gives no independently checkable incident.",
+      "analysis": "This is a first-person characterization of her youth rather than a specified event with external records.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 126."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2862,6 +3304,23 @@
       "paragraphIds": [
         "p025"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says books and music helped her through mental-health difficulties; that coping history is private.",
+      "analysis": "The essay verifies what she publicly said, not the causal effect on her health.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 127."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2873,6 +3332,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "medical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "By 2020, established guidelines recommended individualized transition interventions for appropriately assessed patients.",
+      "analysis": "The Endocrine Society and WPATH described social, hormonal and surgical options with age- and intervention-specific criteria.",
+      "evidence": [
+        {
+          "sourceId": "source-endocrine-society-gender-guideline-2017",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 128."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2884,6 +3360,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unsupported",
+      "summary": "The 60–90% range came from studies of children referred before puberty, not gender-dysphoric teenagers.",
+      "analysis": "A key study followed adolescents referred in childhood before age 12; reviews addressed childhood diagnoses resolving by adolescence, not teenage-onset dysphoria.",
+      "evidence": [
+        {
+          "sourceId": "source-steensma-desistance-2013",
+          "stance": "contradicts",
+          "note": "Primary evidence used for Claim 129."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2895,6 +3388,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "quantitative",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "misleading-context",
+      "summary": "Several childhood-clinic studies found majority desistance, but not consistently for the population Rowling names.",
+      "analysis": "Studies differed in thresholds, follow-up and definitions and sampled prepubertal referrals. Similar ranges do not make them evidence about adolescent presenters.",
+      "evidence": [
+        {
+          "sourceId": "source-ristori-steensma-review-2016",
+          "stance": "contextualizes",
+          "note": "Primary evidence used for Claim 130."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2906,6 +3416,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says she had met several transgender people, but private acquaintances cannot be independently enumerated.",
+      "analysis": "The unnamed relationships provide no external verification path and should not be inferred.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 131."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2917,6 +3444,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports knowing an older trans woman; the unnamed relationship is private.",
+      "analysis": "No independently identifiable person or corroboration is provided.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 132."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2928,6 +3472,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling says that woman had lived as a gay man, but the unnamed person's history cannot be checked.",
+      "analysis": "The essay is the sole available source for this retelling.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 133."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2939,6 +3500,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling characterizes the woman's evaluation as long and rigorous without checkable details.",
+      "analysis": "No dates, provider, jurisdiction or records are supplied; the terms are also evaluative.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 134."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2950,6 +3528,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "The essay says the woman's process included psychotherapy, but this private treatment history cannot be verified.",
+      "analysis": "The sole evidence is Rowling's account of another person's confidential care.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 135."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2961,6 +3556,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "autobiographical",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "Rowling reports a staged transformation, but supplies no defined stages or checkable history.",
+      "analysis": "The phrase appears only in her description of an unnamed acquaintance.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 136."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2972,6 +3584,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "historical",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Some older protocols imposed more psychotherapy and real-life-experience requirements, but 2020 pathways still required assessment.",
+      "analysis": "WPATH version 7 relaxed some universal requirements while retaining treatment-specific criteria. One unnamed older case cannot represent all pathways.",
+      "evidence": [
+        {
+          "sourceId": "source-wpath-soc7-2012",
+          "stance": "contextualizes",
+          "note": "Primary evidence used for Claim 137."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2983,6 +3612,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "generalization",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "misleading-context",
+      "summary": "Campaigners sought to reduce medical evidence for legal recognition, not necessarily clinical assessment for treatment.",
+      "analysis": "Stonewall advocated a demedicalized GRC process; government materials explicitly distinguish legal transition from medical pathways.",
+      "evidence": [
+        {
+          "sourceId": "source-stonewall-gra-statement-2020",
+          "stance": "contextualizes",
+          "note": "Primary evidence used for Claim 138."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -2994,6 +3640,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "UK law did not require sex-reassignment surgery for a Gender Recognition Certificate.",
+      "analysis": "The Act required diagnosis, evidence, two years living in the acquired gender and permanent intention, but surgery itself was not mandatory.",
+      "evidence": [
+        {
+          "sourceId": "source-uk-gender-recognition-act-2004",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 139."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3005,6 +3668,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Taking cross-sex hormones was not a condition for a UK GRC.",
+      "analysis": "The statutory test did not mandate hormones; applicants reported treatment received, planned or not planned.",
+      "evidence": [
+        {
+          "sourceId": "source-uk-gender-recognition-act-2004",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 140."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3016,6 +3696,23 @@
       "paragraphIds": [
         "p026"
       ]
+    },
+    "category": "legal",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "A person registered male could be legally recognized as female without surgery or hormones, subject to requirements and exceptions.",
+      "analysis": "A full GRC changed gender for most legal purposes, but diagnosis, evidence, two years living in-role and a statutory declaration were required.",
+      "evidence": [
+        {
+          "sourceId": "source-uk-gender-recognition-act-2004",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 141."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3027,6 +3724,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "historical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Internet pornography was vastly more accessible by 2020 than in the 1980s.",
+      "analysis": "BBFC's 2020 research described pornography as readily accessible to UK children across devices and platforms, an environment absent before the public web.",
+      "evidence": [
+        {
+          "sourceId": "source-bbfc-young-people-pornography-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 142."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3038,6 +3752,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "causal",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mixed",
+      "summary": "Research linked adolescent pornography use with some harmful outcomes, but broad causation was not established.",
+      "analysis": "A 20-year review found associations with attitudes and behavior while emphasizing selection effects and limited causal designs; effects varied by content and context.",
+      "evidence": [
+        {
+          "sourceId": "source-peter-valkenburg-porn-review-2016",
+          "stance": "contextualizes",
+          "note": "Primary evidence used for Claim 143."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3049,6 +3780,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "generalization",
+    "checkability": "not-verifiable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "“A significant backlash against feminism” is an interpretive judgment without a defined measure, place or period.",
+      "analysis": "No indicator such as opinion, policy, violence or representation is specified, so the umbrella claim is not stably testable.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 144."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3060,6 +3808,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "By June 2020, numerous women had publicly accused Donald Trump of sexual assault or other misconduct.",
+      "analysis": "A contemporaneous compilation identified at least 18 accusers. Trump denied the allegations; the claim concerns their existence, not proof of each.",
+      "evidence": [
+        {
+          "sourceId": "source-abc-trump-accusers-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 145."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3071,6 +3836,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "event",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "A 2005 recording published in 2016 captured Trump using that exact phrase.",
+      "analysis": "The Access Hollywood recording and transcript contain “Grab ’em by the pussy.” Trump later apologized for the remarks as locker-room talk.",
+      "evidence": [
+        {
+          "sourceId": "source-wapo-access-hollywood-2016",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 146."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3082,6 +3864,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "historical",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "A recognizable network of online incel communities and ideology existed by 2020.",
+      "analysis": "Peer-reviewed work analyzed incel forums as a distinct subculture with recurring terminology and beliefs. “Movement” may overstate organization.",
+      "evidence": [
+        {
+          "sourceId": "source-tomkinson-incel-rhetoric-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 147."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3093,6 +3892,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "generalization",
+    "checkability": "checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "supported",
+      "summary": "Hostility toward women over sexual access was documented in major incel communities.",
+      "analysis": "The 2020 analysis found rhetoric blaming women and feminism and depicting women's control of sexual access as unfair; this does not describe every individual.",
+      "evidence": [
+        {
+          "sourceId": "source-tomkinson-incel-rhetoric-2020",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 148."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3104,6 +3920,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "attribution",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "mostly-supported",
+      "summary": "The slogan “Punch a TERF” was publicly used and amplified before June 2020 in trans-rights contexts.",
+      "analysis": "Public use is documented, though the identities, intent and representativeness of users are not established for a defined activist population.",
+      "evidence": [
+        {
+          "sourceId": "source-jones-punch-terf-2018",
+          "stance": "supports",
+          "note": "Primary evidence used for Claim 149."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
@@ -3115,6 +3948,23 @@
       "paragraphIds": [
         "p027"
       ]
+    },
+    "category": "attribution",
+    "checkability": "partly-checkable",
+    "tags": [],
+    "factCheck": {
+      "status": "reviewed",
+      "verdict": "unverifiable",
+      "summary": "No reliable pre-June-2020 source was found for a trans activist advocating “re-educating” TERFs.",
+      "analysis": "Rowling provides no speaker, event or link. Searches locate repetitions of her wording, while records of other slogans do not document re-education.",
+      "evidence": [
+        {
+          "sourceId": "source-jkr-essay-2020",
+          "stance": "neutral",
+          "note": "Primary evidence used for Claim 150."
+        }
+      ],
+      "updatedOn": "2026-09-05"
     }
   },
   {
